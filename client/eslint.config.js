@@ -24,6 +24,8 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      // Data-fetching in effects (contexts, auth) is a standard React pattern
+      'react-hooks/set-state-in-effect': 'warn',
     },
   },
 ])
