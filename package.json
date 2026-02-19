@@ -1,0 +1,16 @@
+{
+  "name": "dispohub",
+  "private": true,
+  "workspaces": ["server", "client", "electron"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "dev:electron": "npm run dev --workspace=electron",
+    "electron:dev": "concurrently \"npm run dev:server\" \"npm run dev:client\" \"sleep 3 && npm run dev:electron\"",
+    "seed": "npm run seed --workspace=server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
