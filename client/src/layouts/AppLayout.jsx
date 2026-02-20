@@ -1,9 +1,26 @@
 import { useState, useRef, useEffect } from 'react';
-import { NavLink, Outlet, useNavigate } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
 import { Avatar, SearchBar } from '../components/common';
 import CalculatorDock from '../components/calculators/CalculatorDock';
+
+const MOBILE_BREAKPOINT = 768;
+
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== 'undefined' && window.innerWidth < MOBILE_BREAKPOINT
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
+    const handler = (e) => setIsMobile(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
+
+  return isMobile;
+}
 
 /* ============================================================
    NAV CONFIG PER ROLE
@@ -60,9 +77,29 @@ function getNavForRole(role) {
    SIDEBAR
    ============================================================ */
 
-function Sidebar({ navItems }) {
+function Sidebar({ navItems, isOpen, onClose, isMobile }) {
+  const location = useLocation();
+
+  // Close sidebar on route change (mobile only)
+  useEffect(() => {
+    if (isMobile) onClose();
+  }, [location.pathname]); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <>
+      {/* Overlay */}
+      {isMobile && isOpen && (
+        <div
+          onClick={onClose}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.5)',
+            zIndex: 89,
+          }}
+        />
+      )}
+
       <aside
         style={{
           position: 'fixed',
@@ -75,6 +112,8 @@ function Sidebar({ navItems }) {
           display: 'flex',
           flexDirection: 'column',
           zIndex: 90,
+          transform: isMobile && !isOpen ? 'translateX(-100%)' : 'translateX(0)',
+          transition: 'transform 0.25s ease',
         }}
       >
         {/* Logo */}
@@ -108,6 +147,24 @@ function Sidebar({ navItems }) {
           <span style={{ fontWeight: 700, fontSize: '1.0625rem', letterSpacing: '-0.01em' }}>
             DispoHub
           </span>
+          {isMobile && (
+            <button
+              onClick={onClose}
+              aria-label="Close sidebar"
+              style={{
+                marginLeft: 'auto',
+                background: 'none',
+                border: 'none',
+                color: 'var(--text-secondary)',
+                fontSize: '1.25rem',
+                padding: '0.25rem',
+                lineHeight: 1,
+                cursor: 'pointer',
+              }}
+            >
+              ✕
+            </button>
+          )}
         </div>
 
         {/* Nav links */}
@@ -151,7 +208,6 @@ function Sidebar({ navItems }) {
           DispoHub v0.1.0
         </div>
       </aside>
-
     </>
   );
 }
@@ -160,7 +216,7 @@ function Sidebar({ navItems }) {
    TOPBAR
    ============================================================ */
 
-function Topbar({ onToggleCalc }) {
+function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
   const { user, logout } = useAuth();
   const { unreadCount } = useNotifications();
   const navigate = useNavigate();
@@ -184,20 +240,43 @@ function Topbar({ onToggleCalc }) {
       style={{
         position: 'fixed',
         top: 0,
-        left: 'var(--sidebar-width)',
+        left: isMobile ? 0 : 'var(--sidebar-width)',
         right: 0,
         height: 'var(--topbar-height)',
         background: 'var(--bg-secondary)',
         borderBottom: '1px solid var(--border-color)',
         display: 'flex',
         alignItems: 'center',
-        padding: '0 1.25rem',
-        gap: '1rem',
+        padding: isMobile ? '0 0.75rem' : '0 1.25rem',
+        gap: isMobile ? '0.5rem' : '1rem',
         zIndex: 80,
       }}
     >
+      {/* Hamburger (mobile only) */}
+      {isMobile && (
+        <button
+          onClick={onToggleSidebar}
+          aria-label="Open menu"
+          style={{
+            background: 'none',
+            border: 'none',
+            color: 'var(--text-secondary)',
+            padding: '0.375rem',
+            lineHeight: 1,
+            cursor: 'pointer',
+            flexShrink: 0,
+          }}
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      )}
+
       {/* Search */}
-      <div style={{ flex: 1, maxWidth: '480px' }}>
+      <div style={{ flex: 1, maxWidth: isMobile ? 'none' : '480px', minWidth: 0 }}>
         <SearchBar
           value={search}
           onChange={setSearch}
@@ -206,7 +285,7 @@ function Topbar({ onToggleCalc }) {
       </div>
 
       {/* Spacer */}
-      <div style={{ flex: 1 }} />
+      {!isMobile && <div style={{ flex: 1 }} />}
 
       {/* Calculator icon */}
       <button
@@ -304,19 +383,21 @@ function Topbar({ onToggleCalc }) {
           }}
         >
           <Avatar src={user?.avatar} name={user?.name || user?.email || 'User'} size="sm" />
-          <span
-            style={{
-              fontSize: '0.8125rem',
-              fontWeight: 500,
-              color: 'var(--text-primary)',
-              maxWidth: '120px',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              whiteSpace: 'nowrap',
-            }}
-          >
-            {user?.name || user?.email || 'User'}
-          </span>
+          {!isMobile && (
+            <span
+              style={{
+                fontSize: '0.8125rem',
+                fontWeight: 500,
+                color: 'var(--text-primary)',
+                maxWidth: '120px',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {user?.name || user?.email || 'User'}
+            </span>
+          )}
           <svg
             width="12"
             height="12"
@@ -436,20 +517,31 @@ function DropdownItem({ label, onClick, danger = false }) {
 export default function AppLayout() {
   const { user } = useAuth();
   const [calcOpen, setCalcOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const isMobile = useIsMobile();
   const navItems = getNavForRole(user?.role);
 
   return (
     <div style={{ minHeight: '100vh' }}>
-      <Sidebar navItems={navItems} />
+      <Sidebar
+        navItems={navItems}
+        isOpen={sidebarOpen}
+        onClose={() => setSidebarOpen(false)}
+        isMobile={isMobile}
+      />
 
-      <Topbar onToggleCalc={() => setCalcOpen((p) => !p)} />
+      <Topbar
+        onToggleCalc={() => setCalcOpen((p) => !p)}
+        onToggleSidebar={() => setSidebarOpen((p) => !p)}
+        isMobile={isMobile}
+      />
 
       {/* Main content */}
       <main
         style={{
-          marginLeft: 'var(--sidebar-width)',
+          marginLeft: isMobile ? 0 : 'var(--sidebar-width)',
           marginTop: 'var(--topbar-height)',
-          padding: '1.5rem',
+          padding: isMobile ? '1rem' : '1.5rem',
           minHeight: 'calc(100vh - var(--topbar-height))',
         }}
       >
