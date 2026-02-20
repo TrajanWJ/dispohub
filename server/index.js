@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+import db from './db/db.js';
+import { seed } from './db/seed.js';
 import authRoutes from './routes/auth.js';
 import dealRoutes from './routes/deals.js';
 import userRoutes from './routes/users.js';
@@ -12,6 +14,11 @@ import notificationRoutes from './routes/notifications.js';
 import adminRoutes from './routes/admin.js';
 import ratingRoutes from './routes/ratings.js';
 import educationRoutes from './routes/education.js';
+
+// Auto-seed if database is empty (first deploy, fresh /tmp on Vercel, etc.)
+if (!db.data.users || db.data.users.length === 0) {
+  await seed();
+}
 
 const app = express();
 const PORT = 3001;

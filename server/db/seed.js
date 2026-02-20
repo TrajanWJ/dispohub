@@ -6,6 +6,8 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
+import { fileURLToPath } from 'url';
+import { resolve } from 'path';
 import bcrypt from 'bcryptjs';
 import db from './db.js';
 import { PLATFORM_FEE_PERCENT, SUBSCRIPTION_TIERS } from '../config/constants.js';
@@ -174,7 +176,7 @@ const OFFER_MESSAGES = [
 // Main seed function
 // ---------------------------------------------------------------------------
 
-async function seed() {
+export async function seed() {
   console.log('\n  DispoHub Database Seeder');
   console.log('  =======================\n');
 
@@ -822,7 +824,10 @@ async function seed() {
   console.log('');
 }
 
-seed().catch(err => {
-  console.error('Seed failed:', err);
-  process.exit(1);
-});
+// Auto-run when executed directly (node db/seed.js)
+if (process.argv[1] && resolve(fileURLToPath(import.meta.url)) === resolve(process.argv[1])) {
+  seed().catch(err => {
+    console.error('Seed failed:', err);
+    process.exit(1);
+  });
+}
