@@ -3,6 +3,7 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
 import { Avatar, SearchBar } from '../components/common';
+import CalculatorDock from '../components/calculators/CalculatorDock';
 
 /* ============================================================
    NAV CONFIG PER ROLE
@@ -59,24 +60,9 @@ function getNavForRole(role) {
    SIDEBAR
    ============================================================ */
 
-function Sidebar({ navItems, collapsed, onClose }) {
+function Sidebar({ navItems }) {
   return (
     <>
-      {/* Mobile overlay */}
-      {!collapsed && (
-        <div
-          onClick={onClose}
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(0,0,0,0.5)',
-            zIndex: 89,
-            display: 'none',
-          }}
-          className="sidebar-overlay"
-        />
-      )}
-
       <aside
         style={{
           position: 'fixed',
@@ -89,8 +75,6 @@ function Sidebar({ navItems, collapsed, onClose }) {
           display: 'flex',
           flexDirection: 'column',
           zIndex: 90,
-          transform: collapsed ? 'translateX(-100%)' : 'translateX(0)',
-          transition: 'transform 0.25s ease',
         }}
       >
         {/* Logo */}
@@ -132,7 +116,6 @@ function Sidebar({ navItems, collapsed, onClose }) {
             <NavLink
               key={item.path}
               to={item.path}
-              onClick={onClose}
               style={({ isActive }) => ({
                 display: 'flex',
                 alignItems: 'center',
@@ -169,14 +152,6 @@ function Sidebar({ navItems, collapsed, onClose }) {
         </div>
       </aside>
 
-      {/* Responsive styles */}
-      <style>{`
-        @media (max-width: 768px) {
-          .sidebar-overlay {
-            display: block !important;
-          }
-        }
-      `}</style>
     </>
   );
 }
@@ -185,7 +160,7 @@ function Sidebar({ navItems, collapsed, onClose }) {
    TOPBAR
    ============================================================ */
 
-function Topbar({ onToggleSidebar, onToggleCalc }) {
+function Topbar({ onToggleCalc }) {
   const { user, logout } = useAuth();
   const { unreadCount } = useNotifications();
   const navigate = useNavigate();
@@ -221,23 +196,6 @@ function Topbar({ onToggleSidebar, onToggleCalc }) {
         zIndex: 80,
       }}
     >
-      {/* Hamburger (mobile) */}
-      <button
-        onClick={onToggleSidebar}
-        style={{
-          display: 'none',
-          background: 'none',
-          border: 'none',
-          color: 'var(--text-primary)',
-          fontSize: '1.25rem',
-          cursor: 'pointer',
-          padding: '0.25rem',
-        }}
-        className="hamburger-btn"
-      >
-        {'\u2630'}
-      </button>
-
       {/* Search */}
       <div style={{ flex: 1, maxWidth: '480px' }}>
         <SearchBar
@@ -435,13 +393,7 @@ function Topbar({ onToggleSidebar, onToggleCalc }) {
         )}
       </div>
 
-      {/* Responsive + dropdown animation */}
       <style>{`
-        @media (max-width: 768px) {
-          .hamburger-btn {
-            display: flex !important;
-          }
-        }
         @keyframes dropdownIn {
           from { opacity: 0; transform: translateY(-4px); }
           to { opacity: 1; transform: translateY(0); }
@@ -483,111 +435,29 @@ function DropdownItem({ label, onClick, danger = false }) {
 
 export default function AppLayout() {
   const { user } = useAuth();
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [calcOpen, setCalcOpen] = useState(false);
   const navItems = getNavForRole(user?.role);
 
-  // Collapse sidebar by default on small screens
-  useEffect(() => {
-    const checkWidth = () => {
-      setSidebarCollapsed(window.innerWidth <= 768);
-    };
-    checkWidth();
-    window.addEventListener('resize', checkWidth);
-    return () => window.removeEventListener('resize', checkWidth);
-  }, []);
-
   return (
     <div style={{ minHeight: '100vh' }}>
-      <Sidebar
-        navItems={navItems}
-        collapsed={sidebarCollapsed}
-        onClose={() => setSidebarCollapsed(true)}
-      />
+      <Sidebar navItems={navItems} />
 
-      <Topbar
-        onToggleSidebar={() => setSidebarCollapsed((p) => !p)}
-        onToggleCalc={() => setCalcOpen((p) => !p)}
-      />
+      <Topbar onToggleCalc={() => setCalcOpen((p) => !p)} />
 
       {/* Main content */}
       <main
         style={{
-          marginLeft: sidebarCollapsed ? 0 : 'var(--sidebar-width)',
+          marginLeft: 'var(--sidebar-width)',
           marginTop: 'var(--topbar-height)',
           padding: '1.5rem',
           minHeight: 'calc(100vh - var(--topbar-height))',
-          transition: 'margin-left 0.25s ease',
         }}
       >
         <Outlet />
       </main>
 
-      {/* Calculator dock placeholder */}
-      {calcOpen && (
-        <div
-          style={{
-            position: 'fixed',
-            bottom: '1rem',
-            right: '1rem',
-            width: '360px',
-            maxHeight: '480px',
-            background: 'var(--bg-card)',
-            border: '1px solid var(--border-color)',
-            borderRadius: 'var(--border-radius-xl)',
-            boxShadow: 'var(--shadow-lg)',
-            zIndex: 95,
-            overflow: 'hidden',
-          }}
-        >
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              padding: '0.75rem 1rem',
-              borderBottom: '1px solid var(--border-color)',
-            }}
-          >
-            <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>Calculator</span>
-            <button
-              onClick={() => setCalcOpen(false)}
-              style={{
-                background: 'none',
-                border: 'none',
-                color: 'var(--text-muted)',
-                cursor: 'pointer',
-                fontSize: '1rem',
-                lineHeight: 1,
-              }}
-            >
-              &#x2715;
-            </button>
-          </div>
-          <div
-            style={{
-              padding: '2rem 1rem',
-              textAlign: 'center',
-              color: 'var(--text-muted)',
-              fontSize: '0.875rem',
-            }}
-          >
-            Calculator dock coming soon
-          </div>
-        </div>
-      )}
-
-      {/* Responsive overrides */}
-      <style>{`
-        @media (max-width: 768px) {
-          header {
-            left: 0 !important;
-          }
-          main {
-            margin-left: 0 !important;
-          }
-        }
-      `}</style>
+      {/* Calculator dock */}
+      <CalculatorDock isOpen={calcOpen} onClose={() => setCalcOpen(false)} />
     </div>
   );
 }
