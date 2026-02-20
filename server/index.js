@@ -44,8 +44,11 @@ app.use('/api/ratings', ratingRoutes);
 // Admin only routes (auth + role guard handled internally)
 app.use('/api/admin', adminRoutes);
 
-app.listen(PORT, () => {
-  console.log(`DispoHub API running on http://localhost:${PORT}`);
-});
+// Only listen when running locally (not on Vercel serverless)
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`DispoHub API running on http://localhost:${PORT}`);
+  });
+}
 
 export default app;
