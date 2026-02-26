@@ -21,7 +21,7 @@ if (!db.data.users || db.data.users.length === 0) {
 }
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 4000;
 
 app.use(cors());
 app.use(express.json());
@@ -51,10 +51,19 @@ app.use('/api/ratings', ratingRoutes);
 // Admin only routes (auth + role guard handled internally)
 app.use('/api/admin', adminRoutes);
 
+// Error handler
+app.use((err, req, res, next) => {
+  console.error('[Server Error]', err);
+  res.status(500).json({ error: 'Internal server error' });
+});
+
 // Only listen when running locally (not on Vercel serverless)
 if (!process.env.VERCEL) {
   app.listen(PORT, () => {
-    console.log(`DispoHub API running on http://localhost:${PORT}`);
+    console.log('--------------------------------------------');
+    console.log(`🚀 DispoHub API running on port ${PORT}`);
+    console.log(`🔗 Local: http://localhost:${PORT}`);
+    console.log('--------------------------------------------');
   });
 }
 

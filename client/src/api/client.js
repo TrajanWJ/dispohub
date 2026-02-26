@@ -10,7 +10,7 @@ api.interceptors.request.use((config) => {
     config.headers.Authorization = `Bearer ${token}`;
   }
   const devUserId = localStorage.getItem('dispohub_dev_user_id');
-  if (devUserId) {
+  if (!token && devUserId) {
     config.headers['x-dev-user-id'] = devUserId;
   }
   return config;
@@ -20,9 +20,21 @@ api.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response?.status === 401) {
-      localStorage.removeItem('dispohub_token');
-      localStorage.removeItem('dispohub_dev_user_id');
-      window.location.href = '/dev-login';
+      const url = error.config?.url || '';
+      const isAuthRequest = [
+        '/auth/login',
+        '/auth/register',
+        '/auth/dev-switch',
+        '/auth/dev-users',
+      ].some((path) => url.includes(path));
+
+      if (!isAuthRequest) {
+        localStorage.removeItem('dispohub_token');
+        localStorage.removeItem('dispohub_dev_user_id');
+        if (window.location.pathname !== '/dev-login') {
+          window.location.href = '/dev-login';
+        }
+      }
     }
     return Promise.reject(error);
   }

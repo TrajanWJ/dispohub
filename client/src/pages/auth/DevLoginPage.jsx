@@ -13,10 +13,10 @@ const FEATURED = [
     name: 'Marcus Johnson',
     company: 'Johnson Wholesale Properties',
     stars: 4.7,
-    accent: '#6c5ce7',       // purple
-    accentBg: 'rgba(108, 92, 231, 0.12)',
+    accent: '#ffffff',       // purple
+    accentBg: 'rgba(255, 255, 255, 0.12)',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#6c5ce7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
         <polyline points="9 22 9 12 15 12 15 22" />
       </svg>
@@ -27,10 +27,10 @@ const FEATURED = [
     name: 'Sarah Chen',
     company: 'Clearwater Holdings',
     stars: 4.9,
-    accent: '#00d68f',       // green
-    accentBg: 'rgba(0, 214, 143, 0.12)',
+    accent: '#34d399',       // green
+    accentBg: 'rgba(52, 211, 153, 0.12)',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00d68f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#34d399" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="12" y1="1" x2="12" y2="23" />
         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
       </svg>
@@ -41,10 +41,10 @@ const FEATURED = [
     name: 'Alex Rivera',
     company: 'Platform Admin',
     stars: null,
-    accent: '#3498db',       // blue
-    accentBg: 'rgba(52, 152, 219, 0.12)',
+    accent: '#60a5fa',       // blue
+    accentBg: 'rgba(96, 165, 250, 0.12)',
     icon: (
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3498db" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
@@ -63,16 +63,16 @@ function Stars({ score }) {
   for (let i = 0; i < 5; i++) {
     if (i < full) {
       stars.push(
-        <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="#ffaa00" stroke="#ffaa00" strokeWidth="1">
+        <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="#fbbf24" stroke="#fbbf24" strokeWidth="1">
           <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
         </svg>
       );
     } else if (i === full && half) {
       stars.push(
-        <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffaa00" strokeWidth="1">
+        <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" strokeWidth="1">
           <defs>
             <linearGradient id="halfStar">
-              <stop offset="50%" stopColor="#ffaa00" />
+              <stop offset="50%" stopColor="#fbbf24" />
               <stop offset="50%" stopColor="transparent" />
             </linearGradient>
           </defs>
@@ -102,9 +102,9 @@ function Stars({ score }) {
 /* ------------------------------------------------------------------ */
 
 const ROLE_COLORS = {
-  wholesaler: { bg: 'rgba(108, 92, 231, 0.15)', text: '#a29bfe' },
-  investor: { bg: 'rgba(0, 214, 143, 0.15)', text: '#55efc4' },
-  admin: { bg: 'rgba(52, 152, 219, 0.15)', text: '#74b9ff' },
+  wholesaler: { bg: 'rgba(255, 255, 255, 0.15)', text: 'var(--text-secondary)' },
+  investor: { bg: 'rgba(52, 211, 153, 0.15)', text: 'var(--accent-success)' },
+  admin: { bg: 'rgba(96, 165, 250, 0.15)', text: 'var(--accent-info)' },
 };
 
 function RoleBadge({ role }) {
@@ -180,7 +180,7 @@ const s = {
   badge: {
     display: 'inline-block',
     padding: '0.25rem 0.75rem',
-    background: 'rgba(108, 92, 231, 0.15)',
+    background: 'rgba(255, 255, 255, 0.15)',
     borderRadius: '9999px',
     fontSize: '0.75rem',
     fontWeight: '600',
@@ -393,8 +393,8 @@ export default function DevLoginPage() {
       {error && (
         <div
           style={{
-            background: 'rgba(255, 71, 87, 0.1)',
-            border: '1px solid rgba(255, 71, 87, 0.3)',
+            background: 'rgba(248, 113, 113, 0.1)',
+            border: '1px solid rgba(248, 113, 113, 0.3)',
             borderRadius: 'var(--border-radius)',
             padding: '0.75rem 1rem',
             color: 'var(--accent-danger)',
@@ -521,8 +521,8 @@ export default function DevLoginPage() {
                           width="11"
                           height="11"
                           viewBox="0 0 24 24"
-                          fill="#ffaa00"
-                          stroke="#ffaa00"
+                          fill="#fbbf24"
+                          stroke="#fbbf24"
                           strokeWidth="1"
                           style={{ verticalAlign: '-1px', marginLeft: '2px' }}
                         >

@@ -20,11 +20,11 @@ const STATUS_TABS = [
 const PIPELINE_STEPS = ['escrow_funded', 'under_review', 'closing', 'completed'];
 
 const STATUS_COLORS = {
-  escrow_funded: { bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)', label: 'Escrow Funded' },
-  under_review: { bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)', label: 'Under Review' },
-  closing: { bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)', label: 'Closing' },
-  completed: { bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)', label: 'Completed' },
-  disputed: { bg: 'rgba(255,71,87,0.15)', color: 'var(--accent-danger)', label: 'Disputed' },
+  escrow_funded: { bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)', label: 'Escrow Funded' },
+  under_review: { bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)', label: 'Under Review' },
+  closing: { bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)', label: 'Closing' },
+  completed: { bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)', label: 'Completed' },
+  disputed: { bg: 'rgba(248,113,113,0.15)', color: 'var(--accent-danger)', label: 'Disputed' },
   cancelled: { bg: 'var(--bg-tertiary)', color: 'var(--text-muted)', label: 'Cancelled' },
 };
 
@@ -179,7 +179,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -360,10 +360,10 @@ export default function TransactionsPage() {
   };
 
   const statCards = [
-    { label: 'Total Invested', value: fmt(totalInvested), icon: '\u{1F4B0}', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-    { label: 'Active Transactions', value: activeTxns, icon: '\u{1F504}', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)' },
-    { label: 'Completed', value: completedTxns, icon: '\u2713', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-    { label: 'In Progress', value: inProgressTxns, icon: '\u{23F3}', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)' },
+    { label: 'Total Invested', value: fmt(totalInvested), icon: '\u{1F4B0}', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
+    { label: 'Active Transactions', value: activeTxns, icon: '\u{1F504}', bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)' },
+    { label: 'Completed', value: completedTxns, icon: '\u2713', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
+    { label: 'In Progress', value: inProgressTxns, icon: '\u{23F3}', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)' },
   ];
 
   if (loading) {

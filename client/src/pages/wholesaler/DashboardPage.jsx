@@ -214,7 +214,7 @@ const styles = {
     animation: 'spin 0.8s linear infinite',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '1rem 1.25rem',
@@ -255,10 +255,10 @@ function timeAgo(dateStr) {
 }
 
 const ACTIVITY_ICONS = {
-  offer: { symbol: '\u{1F4E9}', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)' },
-  accepted: { symbol: '\u2713', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-  deal: { symbol: '\u{1F3E0}', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)' },
-  transaction: { symbol: '\u{1F4B0}', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)' },
+  offer: { symbol: '\u{1F4E9}', bg: 'rgba(255, 255, 255,0.15)', color: 'var(--accent-primary)' },
+  accepted: { symbol: '\u2713', bg: 'rgba(52, 211, 153,0.15)', color: 'var(--accent-success)' },
+  deal: { symbol: '\u{1F3E0}', bg: 'rgba(96, 165, 250,0.15)', color: 'var(--accent-info)' },
+  transaction: { symbol: '\u{1F4B0}', bg: 'rgba(251, 191, 36,0.15)', color: 'var(--accent-warning)' },
   default: { symbol: '\u25CF', bg: 'var(--bg-tertiary)', color: 'var(--text-secondary)' },
 };
 
@@ -361,28 +361,28 @@ export default function DashboardPage() {
       label: 'Active Listings',
       value: stats.activeListings,
       icon: '\u{1F3E0}',
-      bg: 'rgba(108,92,231,0.15)',
+      bg: 'rgba(255, 255, 255,0.15)',
       color: 'var(--accent-primary)',
     },
     {
       label: 'Pending Offers',
       value: stats.pendingOffers,
       icon: '\u{1F4E9}',
-      bg: 'rgba(255,170,0,0.15)',
+      bg: 'rgba(251, 191, 36,0.15)',
       color: 'var(--accent-warning)',
     },
     {
       label: 'Total Earned',
       value: formatCurrency(stats.totalEarned),
       icon: '\u{1F4B0}',
-      bg: 'rgba(0,214,143,0.15)',
+      bg: 'rgba(52, 211, 153,0.15)',
       color: 'var(--accent-success)',
     },
     {
       label: 'Reputation Score',
       value: Number(stats.reputation).toFixed(1),
       icon: '\u2B50',
-      bg: 'rgba(255,170,0,0.15)',
+      bg: 'rgba(251, 191, 36,0.15)',
       color: 'var(--accent-warning)',
     },
   ];

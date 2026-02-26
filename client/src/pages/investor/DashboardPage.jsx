@@ -22,19 +22,19 @@ function timeAgo(d) {
 }
 
 const ACTIVITY_ICONS = {
-  match: { symbol: '\u{1F3AF}', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)' },
-  offer: { symbol: '\u{1F4E9}', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)' },
-  accepted: { symbol: '\u2713', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-  saved: { symbol: '\u{1F516}', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)' },
-  transaction: { symbol: '\u{1F4B0}', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
+  match: { symbol: '\u{1F3AF}', bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)' },
+  offer: { symbol: '\u{1F4E9}', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)' },
+  accepted: { symbol: '\u2713', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
+  saved: { symbol: '\u{1F516}', bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)' },
+  transaction: { symbol: '\u{1F4B0}', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
   default: { symbol: '\u25CF', bg: 'var(--bg-tertiary)', color: 'var(--text-secondary)' },
 };
 
 const PROPERTY_GRADIENTS = {
-  SFH: 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)',
-  'Multi-Family': 'linear-gradient(135deg, #00d68f 0%, #00b894 100%)',
-  Commercial: 'linear-gradient(135deg, #3498db 0%, #74b9ff 100%)',
-  Land: 'linear-gradient(135deg, #ffaa00 0%, #fdcb6e 100%)',
+  SFH: 'rgba(255, 255, 255, 0.08)',
+  'Multi-Family': 'rgba(255, 255, 255, 0.08)',
+  Commercial: 'rgba(255, 255, 255, 0.08)',
+  Land: 'rgba(255, 255, 255, 0.08)',
   default: 'linear-gradient(135deg, #636e72 0%, #b2bec3 100%)',
 };
 
@@ -111,7 +111,7 @@ const s = {
   },
   matchReasons: { display: 'flex', flexWrap: 'wrap', gap: '0.25rem', marginTop: '0.4rem' },
   reasonTag: {
-    background: 'rgba(108,92,231,0.12)', color: 'var(--accent-primary)',
+    background: 'rgba(255,255,255,0.12)', color: 'var(--accent-primary)',
     padding: '0.1rem 0.4rem', borderRadius: 8, fontSize: '0.65rem', fontWeight: 500,
   },
 
@@ -134,7 +134,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 320 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.5rem',
   },
@@ -263,14 +263,14 @@ export default function DashboardPage() {
   };
 
   const statCards = [
-    { label: 'Matched Deals Today', value: stats.matchedToday, icon: '\u{1F3AF}', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)' },
-    { label: 'Active Offers', value: stats.activeOffers, icon: '\u{1F4E9}', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)' },
-    { label: 'Deals Purchased', value: stats.dealsPurchased, icon: '\u{1F3E0}', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
+    { label: 'Matched Deals Today', value: stats.matchedToday, icon: '\u{1F3AF}', bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)' },
+    { label: 'Active Offers', value: stats.activeOffers, icon: '\u{1F4E9}', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)' },
+    { label: 'Deals Purchased', value: stats.dealsPurchased, icon: '\u{1F3E0}', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
     {
       label: 'Subscription Tier',
       value: <Badge variant={tierVariant(stats.tier)}>{tierLabel(stats.tier)}</Badge>,
       icon: '\u2B50',
-      bg: 'rgba(255,170,0,0.15)',
+      bg: 'rgba(251,191,36,0.15)',
       color: 'var(--accent-warning)',
     },
   ];

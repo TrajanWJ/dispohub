@@ -124,7 +124,7 @@ const s = {
     display: 'flex', alignItems: 'center', gap: '0.5rem',
     fontSize: '0.85rem', color: 'var(--accent-primary)', cursor: 'pointer',
     padding: '0.4rem 0.65rem', borderRadius: 'var(--border-radius)',
-    background: 'rgba(108,92,231,0.1)', border: '1px solid var(--accent-primary)',
+    background: 'rgba(255,255,255,0.1)', border: '1px solid var(--accent-primary)',
     transition: 'var(--transition)', fontWeight: 500,
   },
 
@@ -140,7 +140,7 @@ const s = {
     display: 'flex', alignItems: 'center', gap: '0.6rem',
     fontSize: '0.85rem', color: 'var(--accent-primary)', cursor: 'pointer',
     padding: '0.55rem 0.85rem', borderRadius: 'var(--border-radius)',
-    background: 'rgba(108,92,231,0.1)', border: '1px solid var(--accent-primary)',
+    background: 'rgba(255,255,255,0.1)', border: '1px solid var(--accent-primary)',
     transition: 'var(--transition)', fontWeight: 500,
   },
 
@@ -151,7 +151,7 @@ const s = {
   },
   chip: {
     display: 'inline-flex', alignItems: 'center', gap: '0.35rem',
-    background: 'rgba(108,92,231,0.12)', color: 'var(--accent-primary)',
+    background: 'rgba(255,255,255,0.12)', color: 'var(--accent-primary)',
     padding: '0.2rem 0.6rem', borderRadius: 16, fontSize: '0.78rem', fontWeight: 500,
   },
   chipRemove: {
@@ -193,7 +193,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },

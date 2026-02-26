@@ -21,7 +21,7 @@ const CALCULATORS = [
     title: 'After Repair Value',
     desc: 'Estimate property value after renovations using comparable sales data',
     icon: '\uD83C\uDFE0',
-    gradient: 'linear-gradient(135deg, #6c5ce7, #a78bfa)',
+    gradient: 'rgba(255, 255, 255, 0.08)',
     fields: [
       { name: 'subjectSqft', label: 'Subject Property Sq Ft', placeholder: '1800', type: 'number' },
     ],
@@ -40,7 +40,7 @@ const CALCULATORS = [
     title: 'Return on Investment',
     desc: 'Calculate total return on your real estate investment',
     icon: '\uD83D\uDCC8',
-    gradient: 'linear-gradient(135deg, #00d68f, #00b894)',
+    gradient: 'rgba(255, 255, 255, 0.08)',
     fields: [
       { name: 'purchasePrice', label: 'Purchase Price', placeholder: '150000', type: 'number' },
       { name: 'rehabCost', label: 'Rehab Cost', placeholder: '35000', type: 'number' },
@@ -59,7 +59,7 @@ const CALCULATORS = [
     title: 'Cash-on-Cash Return',
     desc: 'Measure annual cash return relative to cash invested',
     icon: '\uD83D\uDCB5',
-    gradient: 'linear-gradient(135deg, #3498db, #74b9ff)',
+    gradient: 'rgba(255, 255, 255, 0.08)',
     fields: [
       { name: 'annualCashFlow', label: 'Annual Pre-Tax Cash Flow', placeholder: '12000', type: 'number' },
       { name: 'totalCashInvested', label: 'Total Cash Invested', placeholder: '50000', type: 'number' },
@@ -106,7 +106,7 @@ const CALCULATORS = [
     title: 'Maximum Allowable Offer',
     desc: 'Calculate your max offer using the 70% rule',
     icon: '\uD83C\uDFAF',
-    gradient: 'linear-gradient(135deg, #6c5ce7, #fd79a8)',
+    gradient: 'rgba(255, 255, 255, 0.08)',
     fields: [
       { name: 'arv', label: 'After Repair Value', placeholder: '250000', type: 'number' },
       { name: 'rehabCost', label: 'Estimated Rehab Costs', placeholder: '35000', type: 'number' },
@@ -139,7 +139,7 @@ const CALCULATORS = [
     title: 'Rental Property Analysis',
     desc: 'Analyze rental cash flow, cap rate, and returns',
     icon: '\uD83C\uDFE1',
-    gradient: 'linear-gradient(135deg, #a29bfe, #6c5ce7)',
+    gradient: 'rgba(255, 255, 255, 0.08)',
     fields: [
       { name: 'monthlyRent', label: 'Monthly Rent', placeholder: '1800', type: 'number' },
       { name: 'vacancy', label: 'Vacancy Rate (%)', placeholder: '8', type: 'number' },

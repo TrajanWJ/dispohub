@@ -131,7 +131,7 @@ const styles = {
   },
   roleCardActive: {
     borderColor: 'var(--accent-primary)',
-    background: 'rgba(108, 92, 231, 0.1)',
+    background: 'rgba(255, 255, 255, 0.1)',
   },
   roleIcon: {
     fontSize: '1.75rem',
@@ -167,8 +167,8 @@ const styles = {
     cursor: 'not-allowed',
   },
   error: {
-    background: 'rgba(255, 71, 87, 0.1)',
-    border: '1px solid rgba(255, 71, 87, 0.3)',
+    background: 'rgba(248, 113, 113, 0.1)',
+    border: '1px solid rgba(248, 113, 113, 0.3)',
     borderRadius: 'var(--border-radius)',
     padding: '0.75rem 1rem',
     color: 'var(--accent-danger)',

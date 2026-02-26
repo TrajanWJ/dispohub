@@ -20,11 +20,11 @@ function fmtDateTime(d) {
 
 const STATUS_CONFIG = {
   draft: { label: 'Draft', bg: 'rgba(95,99,104,0.15)', color: 'var(--text-secondary)' },
-  sent: { label: 'Sent', bg: 'rgba(52,152,219,0.12)', color: 'var(--accent-info)' },
-  signed_by_one: { label: 'Partially Signed', bg: 'rgba(255,170,0,0.12)', color: 'var(--accent-warning)' },
-  fully_signed: { label: 'Fully Signed', bg: 'rgba(0,214,143,0.12)', color: 'var(--accent-success)' },
-  expired: { label: 'Expired', bg: 'rgba(255,71,87,0.12)', color: 'var(--accent-danger)' },
-  cancelled: { label: 'Cancelled', bg: 'rgba(255,71,87,0.12)', color: 'var(--accent-danger)' },
+  sent: { label: 'Sent', bg: 'rgba(96, 165, 250,0.12)', color: 'var(--accent-info)' },
+  signed_by_one: { label: 'Partially Signed', bg: 'rgba(251, 191, 36,0.12)', color: 'var(--accent-warning)' },
+  fully_signed: { label: 'Fully Signed', bg: 'rgba(52, 211, 153,0.12)', color: 'var(--accent-success)' },
+  expired: { label: 'Expired', bg: 'rgba(248, 113, 113,0.12)', color: 'var(--accent-danger)' },
+  cancelled: { label: 'Cancelled', bg: 'rgba(248, 113, 113,0.12)', color: 'var(--accent-danger)' },
 };
 
 // ─── Styles ───────────────────────────────────────────────────────
@@ -61,7 +61,7 @@ const s = {
     animation: 'spin 0.8s linear infinite',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248, 113, 113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -140,8 +140,8 @@ const s = {
   },
   signedNotice: {
     display: 'flex', alignItems: 'center', gap: 6,
-    padding: '0.7rem 1.25rem', background: 'rgba(0,214,143,0.08)',
-    border: '1px solid rgba(0,214,143,0.2)', borderRadius: 'var(--border-radius)',
+    padding: '0.7rem 1.25rem', background: 'rgba(52, 211, 153,0.08)',
+    border: '1px solid rgba(52, 211, 153,0.2)', borderRadius: 'var(--border-radius)',
     color: 'var(--accent-success)', fontSize: '0.85rem', fontWeight: 600,
   },
 };

@@ -4,8 +4,14 @@ import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
 import { Avatar, SearchBar } from '../components/common';
 import CalculatorDock from '../components/calculators/CalculatorDock';
+import {
+  LayoutDashboard, Home, Plus, ArrowLeftRight, FileText, Wallet,
+  Calculator, User, Search, Target, Bookmark, Mail, Star, Settings,
+  Users, TrendingUp, AlertTriangle, ShieldCheck, Menu, X, Bell, ChevronDown,
+} from 'lucide-react';
 
 const MOBILE_BREAKPOINT = 768;
+const ICON_PROPS = { size: 18, strokeWidth: 1.5 };
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(
@@ -27,37 +33,37 @@ function useIsMobile() {
    ============================================================ */
 
 const wholesalerNav = [
-  { label: 'Dashboard', path: '/dashboard', icon: '\uD83D\uDCCA' },
-  { label: 'My Deals', path: '/wholesaler/deals', icon: '\uD83C\uDFE0' },
-  { label: 'Create Deal', path: '/wholesaler/deals/new', icon: '\u2795' },
-  { label: 'Transactions', path: '/wholesaler/transactions', icon: '\uD83D\uDCB1' },
-  { label: 'Contracts', path: '/wholesaler/contracts', icon: '\uD83D\uDCDD' },
-  { label: 'Earnings', path: '/wholesaler/earnings', icon: '\uD83D\uDCB0' },
-  { label: 'Calculators', path: '/calculators', icon: '\uD83E\uDDEE' },
-  { label: 'Profile', path: '/profile', icon: '\uD83D\uDC64' },
+  { label: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard {...ICON_PROPS} /> },
+  { label: 'My Deals', path: '/wholesaler/deals', icon: <Home {...ICON_PROPS} /> },
+  { label: 'Create Deal', path: '/wholesaler/deals/new', icon: <Plus {...ICON_PROPS} /> },
+  { label: 'Transactions', path: '/wholesaler/transactions', icon: <ArrowLeftRight {...ICON_PROPS} /> },
+  { label: 'Contracts', path: '/wholesaler/contracts', icon: <FileText {...ICON_PROPS} /> },
+  { label: 'Earnings', path: '/wholesaler/earnings', icon: <Wallet {...ICON_PROPS} /> },
+  { label: 'Calculators', path: '/calculators', icon: <Calculator {...ICON_PROPS} /> },
+  { label: 'Profile', path: '/profile', icon: <User {...ICON_PROPS} /> },
 ];
 
 const investorNav = [
-  { label: 'Dashboard', path: '/dashboard', icon: '\uD83D\uDCCA' },
-  { label: 'Browse Deals', path: '/investor/browse', icon: '\uD83D\uDD0D' },
-  { label: 'My Matches', path: '/investor/matches', icon: '\uD83C\uDFAF' },
-  { label: 'Saved Deals', path: '/investor/saved', icon: '\uD83D\uDD16' },
-  { label: 'My Offers', path: '/investor/offers', icon: '\uD83D\uDCE9' },
-  { label: 'Transactions', path: '/investor/transactions', icon: '\uD83D\uDCB1' },
-  { label: 'Subscription', path: '/investor/subscription', icon: '\u2B50' },
-  { label: 'Preferences', path: '/investor/preferences', icon: '\u2699\uFE0F' },
-  { label: 'Calculators', path: '/calculators', icon: '\uD83E\uDDEE' },
-  { label: 'Profile', path: '/profile', icon: '\uD83D\uDC64' },
+  { label: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard {...ICON_PROPS} /> },
+  { label: 'Browse Deals', path: '/investor/browse', icon: <Search {...ICON_PROPS} /> },
+  { label: 'My Matches', path: '/investor/matches', icon: <Target {...ICON_PROPS} /> },
+  { label: 'Saved Deals', path: '/investor/saved', icon: <Bookmark {...ICON_PROPS} /> },
+  { label: 'My Offers', path: '/investor/offers', icon: <Mail {...ICON_PROPS} /> },
+  { label: 'Transactions', path: '/investor/transactions', icon: <ArrowLeftRight {...ICON_PROPS} /> },
+  { label: 'Subscription', path: '/investor/subscription', icon: <Star {...ICON_PROPS} /> },
+  { label: 'Preferences', path: '/investor/preferences', icon: <Settings {...ICON_PROPS} /> },
+  { label: 'Calculators', path: '/calculators', icon: <Calculator {...ICON_PROPS} /> },
+  { label: 'Profile', path: '/profile', icon: <User {...ICON_PROPS} /> },
 ];
 
 const adminNav = [
-  { label: 'Dashboard', path: '/admin/dashboard', icon: '\uD83D\uDCCA' },
-  { label: 'Users', path: '/admin/users', icon: '\uD83D\uDC65' },
-  { label: 'Deal Moderation', path: '/admin/deals', icon: '\uD83D\uDD0D' },
-  { label: 'Transactions', path: '/admin/transactions', icon: '\uD83D\uDCB1' },
-  { label: 'Disputes', path: '/admin/disputes', icon: '\u26A0\uFE0F' },
-  { label: 'Revenue', path: '/admin/revenue', icon: '\uD83D\uDCC8' },
-  { label: 'Platform Settings', path: '/admin/settings', icon: '\u2699\uFE0F' },
+  { label: 'Dashboard', path: '/admin/dashboard', icon: <LayoutDashboard {...ICON_PROPS} /> },
+  { label: 'Users', path: '/admin/users', icon: <Users {...ICON_PROPS} /> },
+  { label: 'Deal Moderation', path: '/admin/deals', icon: <ShieldCheck {...ICON_PROPS} /> },
+  { label: 'Transactions', path: '/admin/transactions', icon: <ArrowLeftRight {...ICON_PROPS} /> },
+  { label: 'Disputes', path: '/admin/disputes', icon: <AlertTriangle {...ICON_PROPS} /> },
+  { label: 'Revenue', path: '/admin/revenue', icon: <TrendingUp {...ICON_PROPS} /> },
+  { label: 'Platform Settings', path: '/admin/settings', icon: <Settings {...ICON_PROPS} /> },
 ];
 
 function getNavForRole(role) {
@@ -80,7 +86,6 @@ function getNavForRole(role) {
 function Sidebar({ navItems, isOpen, onClose, isMobile }) {
   const location = useLocation();
 
-  // Close sidebar on route change (mobile only)
   useEffect(() => {
     if (isMobile) onClose();
   }, [location.pathname]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -94,7 +99,9 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
           style={{
             position: 'fixed',
             inset: 0,
-            background: 'rgba(0,0,0,0.5)',
+            background: 'rgba(0, 0, 0, 0.7)',
+            backdropFilter: 'blur(4px)',
+            WebkitBackdropFilter: 'blur(4px)',
             zIndex: 89,
           }}
         />
@@ -107,13 +114,16 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
           left: 0,
           bottom: 0,
           width: 'var(--sidebar-width)',
-          background: 'var(--bg-secondary)',
-          borderRight: '1px solid var(--border-color)',
+          background: 'rgba(255, 255, 255, 0.03)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          borderRight: '1px solid rgba(255, 255, 255, 0.06)',
+          boxShadow: 'inset 0 1px 0 rgba(255, 255, 255, 0.04)',
           display: 'flex',
           flexDirection: 'column',
           zIndex: 90,
           transform: isMobile && !isOpen ? 'translateX(-100%)' : 'translateX(0)',
-          transition: 'transform 0.25s ease',
+          transition: 'transform 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
         }}
       >
         {/* Logo */}
@@ -123,28 +133,30 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
             display: 'flex',
             alignItems: 'center',
             padding: '0 1.25rem',
-            borderBottom: '1px solid var(--border-color)',
+            borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
             gap: '0.625rem',
             flexShrink: 0,
           }}
         >
-          <div
+          <span
             style={{
-              width: 32,
-              height: 32,
-              borderRadius: 8,
-              background: 'linear-gradient(135deg, var(--accent-primary), #a78bfa)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
               fontWeight: 700,
-              fontSize: '0.875rem',
-              color: '#fff',
+              fontSize: '0.9375rem',
+              color: '#ffffff',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
             }}
           >
             DH
-          </div>
-          <span style={{ fontWeight: 700, fontSize: '1.0625rem', letterSpacing: '-0.01em' }}>
+          </span>
+          <span
+            style={{
+              width: '1px',
+              height: '16px',
+              background: 'rgba(255, 255, 255, 0.12)',
+            }}
+          />
+          <span style={{ fontWeight: 500, fontSize: '0.875rem', color: 'var(--text-secondary)', letterSpacing: '-0.01em' }}>
             DispoHub
           </span>
           {isMobile && (
@@ -156,13 +168,13 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
                 background: 'none',
                 border: 'none',
                 color: 'var(--text-secondary)',
-                fontSize: '1.25rem',
                 padding: '0.25rem',
                 lineHeight: 1,
                 cursor: 'pointer',
+                display: 'flex',
               }}
             >
-              ✕
+              <X size={18} strokeWidth={1.5} />
             </button>
           )}
         </div>
@@ -179,19 +191,25 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
                 gap: '0.75rem',
                 padding: '0.5625rem 0.75rem',
                 borderRadius: 'var(--border-radius)',
-                fontSize: '0.875rem',
-                fontWeight: isActive ? 600 : 400,
-                color: isActive ? 'var(--text-primary)' : 'var(--text-secondary)',
-                background: isActive ? 'var(--bg-hover)' : 'transparent',
+                fontSize: '0.8125rem',
+                fontWeight: isActive ? 500 : 400,
+                color: isActive ? '#ffffff' : 'var(--text-secondary)',
+                background: 'transparent',
                 textDecoration: 'none',
                 marginBottom: '0.125rem',
-                transition: 'var(--transition)',
+                transition: 'all 150ms cubic-bezier(0.4, 0, 0.2, 1)',
+                borderLeft: isActive ? '2px solid #ffffff' : '2px solid transparent',
+                paddingLeft: isActive ? 'calc(0.75rem - 2px)' : '0.75rem',
               })}
             >
-              <span style={{ fontSize: '1.125rem', lineHeight: 1, width: '1.5rem', textAlign: 'center' }}>
-                {item.icon}
-              </span>
-              <span>{item.label}</span>
+              {({ isActive }) => (
+                <>
+                  <span style={{ display: 'flex', opacity: isActive ? 1 : 0.6 }}>
+                    {item.icon}
+                  </span>
+                  <span>{item.label}</span>
+                </>
+              )}
             </NavLink>
           ))}
         </nav>
@@ -200,9 +218,12 @@ function Sidebar({ navItems, isOpen, onClose, isMobile }) {
         <div
           style={{
             padding: '0.75rem 1rem',
-            borderTop: '1px solid var(--border-color)',
-            fontSize: '0.75rem',
+            borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+            fontSize: '0.625rem',
+            fontWeight: 500,
             color: 'var(--text-muted)',
+            textTransform: 'uppercase',
+            letterSpacing: '0.06em',
           }}
         >
           DispoHub v0.1.0
@@ -224,7 +245,6 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  // Close dropdown on outside click
   useEffect(() => {
     const handleClick = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -243,8 +263,10 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
         left: isMobile ? 0 : 'var(--sidebar-width)',
         right: 0,
         height: 'var(--topbar-height)',
-        background: 'var(--bg-secondary)',
-        borderBottom: '1px solid var(--border-color)',
+        background: 'rgba(255, 255, 255, 0.03)',
+        backdropFilter: 'blur(20px)',
+        WebkitBackdropFilter: 'blur(20px)',
+        borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
         display: 'flex',
         alignItems: 'center',
         padding: isMobile ? '0 0.75rem' : '0 1.25rem',
@@ -252,7 +274,7 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
         zIndex: 80,
       }}
     >
-      {/* Hamburger (mobile only) */}
+      {/* Hamburger */}
       {isMobile && (
         <button
           onClick={onToggleSidebar}
@@ -265,13 +287,10 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
             lineHeight: 1,
             cursor: 'pointer',
             flexShrink: 0,
+            display: 'flex',
           }}
         >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <line x1="3" y1="6" x2="21" y2="6" />
-            <line x1="3" y1="12" x2="21" y2="12" />
-            <line x1="3" y1="18" x2="21" y2="18" />
-          </svg>
+          <Menu size={20} strokeWidth={1.5} />
         </button>
       )}
 
@@ -295,28 +314,17 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
           background: 'none',
           border: 'none',
           color: 'var(--text-secondary)',
-          fontSize: '1.25rem',
           cursor: 'pointer',
           padding: '0.375rem',
           borderRadius: 'var(--border-radius)',
-          transition: 'var(--transition)',
+          transition: 'var(--transition-fast)',
           lineHeight: 1,
+          display: 'flex',
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--text-primary)')}
+        onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
         onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
       >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="4" y="2" width="16" height="20" rx="2" />
-          <line x1="8" y1="6" x2="16" y2="6" />
-          <line x1="8" y1="10" x2="8" y2="10.01" />
-          <line x1="12" y1="10" x2="12" y2="10.01" />
-          <line x1="16" y1="10" x2="16" y2="10.01" />
-          <line x1="8" y1="14" x2="8" y2="14.01" />
-          <line x1="12" y1="14" x2="12" y2="14.01" />
-          <line x1="16" y1="14" x2="16" y2="14.01" />
-          <line x1="8" y1="18" x2="8" y2="18.01" />
-          <line x1="12" y1="18" x2="16" y2="18" />
-        </svg>
+        <Calculator size={18} strokeWidth={1.5} />
       </button>
 
       {/* Notifications bell */}
@@ -328,42 +336,29 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
           background: 'none',
           border: 'none',
           color: 'var(--text-secondary)',
-          fontSize: '1.25rem',
           cursor: 'pointer',
           padding: '0.375rem',
           borderRadius: 'var(--border-radius)',
-          transition: 'var(--transition)',
+          transition: 'var(--transition-fast)',
           lineHeight: 1,
+          display: 'flex',
         }}
-        onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--text-primary)')}
+        onMouseEnter={(e) => (e.currentTarget.style.color = '#ffffff')}
         onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--text-secondary)')}
       >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-          <path d="M13.73 21a2 2 0 0 1-3.46 0" />
-        </svg>
+        <Bell size={18} strokeWidth={1.5} />
         {unreadCount > 0 && (
           <span
             style={{
               position: 'absolute',
-              top: 0,
-              right: 0,
-              minWidth: '16px',
-              height: '16px',
-              borderRadius: '9999px',
-              background: 'var(--accent-danger)',
-              color: '#fff',
-              fontSize: '0.625rem',
-              fontWeight: 700,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '0 4px',
-              lineHeight: 1,
+              top: 2,
+              right: 2,
+              width: '7px',
+              height: '7px',
+              borderRadius: '50%',
+              background: '#ffffff',
             }}
-          >
-            {unreadCount > 99 ? '99+' : unreadCount}
-          </span>
+          />
         )}
       </button>
 
@@ -398,22 +393,15 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
               {user?.name || user?.email || 'User'}
             </span>
           )}
-          <svg
-            width="12"
-            height="12"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="var(--text-muted)"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+          <ChevronDown
+            size={12}
+            strokeWidth={1.5}
             style={{
+              color: 'var(--text-muted)',
               transition: 'transform 0.2s ease',
               transform: dropdownOpen ? 'rotate(180deg)' : 'rotate(0)',
             }}
-          >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
+          />
         </button>
 
         {dropdownOpen && (
@@ -423,25 +411,27 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
               top: 'calc(100% + 0.5rem)',
               right: 0,
               width: '200px',
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border-color)',
+              background: 'rgba(255, 255, 255, 0.06)',
+              backdropFilter: 'blur(24px)',
+              WebkitBackdropFilter: 'blur(24px)',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
               borderRadius: 'var(--border-radius-lg)',
-              boxShadow: 'var(--shadow-lg)',
+              boxShadow: 'var(--shadow-lg), inset 0 1px 0 rgba(255, 255, 255, 0.06)',
               overflow: 'hidden',
               zIndex: 100,
-              animation: 'dropdownIn 0.15s ease',
+              animation: 'dropdownIn 0.15s cubic-bezier(0.4, 0, 0.2, 1)',
             }}
           >
             <div
               style={{
                 padding: '0.75rem 1rem',
-                borderBottom: '1px solid var(--border-color)',
+                borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
               }}
             >
               <div style={{ fontSize: '0.8125rem', fontWeight: 600 }}>
                 {user?.name || 'User'}
               </div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+              <div style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
                 {user?.role || 'member'}
               </div>
             </div>
@@ -459,7 +449,7 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
                 setDropdownOpen(false);
               }}
             />
-            <div style={{ borderTop: '1px solid var(--border-color)' }}>
+            <div style={{ borderTop: '1px solid rgba(255, 255, 255, 0.06)' }}>
               <DropdownItem
                 label="Sign out"
                 danger
@@ -476,8 +466,8 @@ function Topbar({ onToggleCalc, onToggleSidebar, isMobile }) {
 
       <style>{`
         @keyframes dropdownIn {
-          from { opacity: 0; transform: translateY(-4px); }
-          to { opacity: 1; transform: translateY(0); }
+          from { opacity: 0; transform: translateY(-4px) scale(0.97); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
         }
       `}</style>
     </header>
@@ -498,11 +488,11 @@ function DropdownItem({ label, onClick, danger = false }) {
         padding: '0.5rem 1rem',
         fontSize: '0.8125rem',
         textAlign: 'left',
-        background: hovered ? 'var(--bg-hover)' : 'transparent',
+        background: hovered ? 'rgba(255, 255, 255, 0.05)' : 'transparent',
         color: danger ? 'var(--accent-danger)' : 'var(--text-secondary)',
         border: 'none',
         cursor: 'pointer',
-        transition: 'var(--transition)',
+        transition: 'var(--transition-fast)',
       }}
     >
       {label}

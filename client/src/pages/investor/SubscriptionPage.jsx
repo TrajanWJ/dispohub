@@ -106,7 +106,7 @@ const s = {
     display: 'flex', flexDirection: 'column', position: 'relative',
     transition: 'var(--transition)',
     border: '2px solid var(--accent-primary)',
-    boxShadow: '0 0 20px rgba(108, 92, 231, 0.15)',
+    boxShadow: '0 0 20px rgba(255, 255, 255, 0.15)',
   },
   featuredTag: {
     position: 'absolute', top: -12, left: '50%', transform: 'translateX(-50%)',
@@ -143,7 +143,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -270,8 +270,8 @@ export default function SubscriptionPage() {
   const tierBg = (name) => {
     const map = {
       free: { bg: 'var(--bg-tertiary)', color: 'var(--text-secondary)' },
-      pro: { bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)' },
-      premium: { bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)' },
+      pro: { bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)' },
+      premium: { bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)' },
     };
     return map[name] || map.free;
   };

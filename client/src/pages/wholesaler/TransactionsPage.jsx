@@ -13,11 +13,11 @@ function fmtDate(d) {
 }
 
 const STATUS_MAP = {
-  escrow_funded: { label: 'Escrow Funded', bg: 'rgba(52,152,219,0.12)', color: 'var(--accent-info)' },
-  under_review: { label: 'Under Review', bg: 'rgba(255,170,0,0.12)', color: 'var(--accent-warning)' },
-  closing: { label: 'Closing', bg: 'rgba(108,92,231,0.12)', color: 'var(--accent-primary)' },
-  completed: { label: 'Completed', bg: 'rgba(0,214,143,0.12)', color: 'var(--accent-success)' },
-  cancelled: { label: 'Cancelled', bg: 'rgba(255,71,87,0.12)', color: 'var(--accent-danger)' },
+  escrow_funded: { label: 'Escrow Funded', bg: 'rgba(96, 165, 250,0.12)', color: 'var(--accent-info)' },
+  under_review: { label: 'Under Review', bg: 'rgba(251, 191, 36,0.12)', color: 'var(--accent-warning)' },
+  closing: { label: 'Closing', bg: 'rgba(255, 255, 255,0.12)', color: 'var(--accent-primary)' },
+  completed: { label: 'Completed', bg: 'rgba(52, 211, 153,0.12)', color: 'var(--accent-success)' },
+  cancelled: { label: 'Cancelled', bg: 'rgba(248, 113, 113,0.12)', color: 'var(--accent-danger)' },
   pending: { label: 'Pending', bg: 'rgba(95,99,104,0.15)', color: 'var(--text-secondary)' },
 };
 
@@ -57,7 +57,7 @@ const s = {
     animation: 'spin 0.8s linear infinite',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248, 113, 113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },

@@ -32,7 +32,7 @@ const styles = {
     minHeight: '40vh',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '0.875rem 1rem',
@@ -171,7 +171,7 @@ const styles = {
   tocItemActive: {
     color: 'var(--accent-primary)',
     borderLeftColor: 'var(--accent-primary)',
-    background: 'rgba(108, 92, 231, 0.06)',
+    background: 'rgba(255, 255, 255, 0.06)',
     fontWeight: 600,
   },
 
@@ -190,7 +190,7 @@ const styles = {
     justifyContent: 'center',
     gap: '0.5rem',
     padding: '0.625rem',
-    background: 'rgba(0, 214, 143, 0.1)',
+    background: 'rgba(52, 211, 153, 0.1)',
     borderRadius: 'var(--border-radius)',
     color: 'var(--accent-success)',
     fontSize: '0.875rem',
@@ -229,12 +229,12 @@ const styles = {
    ============================================================ */
 
 const categoryColors = {
-  fundamentals: { bg: 'rgba(108, 92, 231, 0.12)', color: 'var(--accent-primary)' },
-  lead_generation: { bg: 'rgba(0, 214, 143, 0.12)', color: 'var(--accent-success)' },
-  deal_analysis: { bg: 'rgba(52, 152, 219, 0.12)', color: 'var(--accent-info)' },
-  networking: { bg: 'rgba(255, 170, 0, 0.12)', color: 'var(--accent-warning)' },
-  legal: { bg: 'rgba(255, 71, 87, 0.12)', color: 'var(--accent-danger)' },
-  growth: { bg: 'rgba(0, 184, 148, 0.12)', color: '#00b894' },
+  fundamentals: { bg: 'rgba(255, 255, 255, 0.12)', color: 'var(--accent-primary)' },
+  lead_generation: { bg: 'rgba(52, 211, 153, 0.12)', color: 'var(--accent-success)' },
+  deal_analysis: { bg: 'rgba(96, 165, 250, 0.12)', color: 'var(--accent-info)' },
+  networking: { bg: 'rgba(251, 191, 36, 0.12)', color: 'var(--accent-warning)' },
+  legal: { bg: 'rgba(248, 113, 113, 0.12)', color: 'var(--accent-danger)' },
+  growth: { bg: 'rgba(0, 184, 148, 0.12)', color: 'rgba(255,255,255,0.3)' },
 };
 
 function getCategoryStyle(category) {

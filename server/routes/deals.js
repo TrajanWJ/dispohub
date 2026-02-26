@@ -67,6 +67,7 @@ router.get('/saved', authenticateToken, async (req, res) => {
 router.get('/', async (req, res) => {
   try {
     const {
+      status,
       state,
       city,
       propertyType,
@@ -79,13 +80,17 @@ router.get('/', async (req, res) => {
     } = req.query;
 
     // Build the filter object consumed by the model layer
-    const filters = { status: 'active' };
+    const filters = {};
+    if (status) filters.status = status;
+    else filters.status = 'active'; // default status if none specified
+
     if (state) filters.state = state;
     if (city) filters.city = city;
     if (propertyType) filters.propertyType = propertyType;
     if (priceMin != null) filters.priceMin = priceMin;
     if (priceMax != null) filters.priceMax = priceMax;
     if (search) filters.search = search;
+    if (req.query.wholesalerId) filters.wholesalerId = req.query.wholesalerId;
 
     let deals = await findAllDeals(filters);
 

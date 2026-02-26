@@ -79,6 +79,9 @@ export async function findAllDeals(filters = {}) {
   if (filters.status) {
     results = results.filter(d => d.status === filters.status);
   }
+  if (filters.wholesalerId) {
+    results = results.filter(d => d.wholesalerId === filters.wholesalerId);
+  }
   if (filters.search) {
     const term = filters.search.toLowerCase();
     results = results.filter(d =>

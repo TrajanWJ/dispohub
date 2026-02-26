@@ -60,7 +60,7 @@ const s = {
   disputeIcon: {
     width: 48, height: 48, borderRadius: 12, display: 'flex',
     alignItems: 'center', justifyContent: 'center', fontSize: '1.25rem', flexShrink: 0,
-    background: 'rgba(255,71,87,0.12)',
+    background: 'rgba(248,113,113,0.12)',
   },
   disputeInfo: { flex: 1, minWidth: 0 },
   disputeProperty: { fontSize: '1rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '0.25rem' },
@@ -69,13 +69,13 @@ const s = {
   disputeAmount: { fontSize: '1.125rem', fontWeight: 700, color: 'var(--accent-success)', textAlign: 'right', minWidth: 100 },
   disputeDays: {
     fontSize: '0.75rem', color: 'var(--accent-danger)', fontWeight: 600,
-    background: 'rgba(255,71,87,0.1)', borderRadius: 'var(--border-radius)',
+    background: 'rgba(248,113,113,0.1)', borderRadius: 'var(--border-radius)',
     padding: '0.25rem 0.5rem', whiteSpace: 'nowrap',
   },
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -234,15 +234,15 @@ export default function DisputeResolutionPage() {
   const statCards = [
     {
       label: 'Open Disputes', value: String(totalDisputes),
-      icon: '\u26A0\uFE0F', bg: 'rgba(255,71,87,0.15)', color: 'var(--accent-danger)',
+      icon: '\u26A0\uFE0F', bg: 'rgba(248,113,113,0.15)', color: 'var(--accent-danger)',
     },
     {
       label: 'Resolved This Month', value: String(resolvedThisMonth),
-      icon: '\u2705', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)',
+      icon: '\u2705', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)',
     },
     {
       label: 'Avg. Resolution Time', value: avgResolutionDays ? `${Number(avgResolutionDays).toFixed(1)}d` : '-',
-      icon: '\u{1F552}', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)',
+      icon: '\u{1F552}', bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)',
     },
   ];
 
@@ -414,7 +414,7 @@ function DisputeResolveContent({ dispute, resolution, setResolution, notes, setN
         <>
           <div style={s.sectionTitle}>Dispute Reason</div>
           <div style={{
-            background: 'rgba(255,71,87,0.06)', border: '1px solid rgba(255,71,87,0.2)',
+            background: 'rgba(248,113,113,0.06)', border: '1px solid rgba(248,113,113,0.2)',
             borderRadius: 'var(--border-radius)', padding: '0.75rem 1rem',
             fontSize: '0.875rem', color: 'var(--text-primary)', lineHeight: 1.6,
             marginBottom: '0.5rem',

@@ -165,7 +165,7 @@ const styles = {
   },
 
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '0.875rem 1rem',

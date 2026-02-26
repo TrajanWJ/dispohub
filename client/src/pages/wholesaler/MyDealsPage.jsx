@@ -31,21 +31,29 @@ const TABS = [
 ];
 
 const STATUS_COLORS = {
-  active: { bg: 'rgba(0,214,143,0.12)', text: 'var(--accent-success)' },
-  pending_review: { bg: 'rgba(255,170,0,0.12)', text: 'var(--accent-warning)' },
-  under_contract: { bg: 'rgba(108,92,231,0.12)', text: 'var(--accent-primary)' },
-  sold: { bg: 'rgba(52,152,219,0.12)', text: 'var(--accent-info)' },
+  active: { bg: 'rgba(52, 211, 153,0.12)', text: 'var(--accent-success)' },
+  pending_review: { bg: 'rgba(251, 191, 36,0.12)', text: 'var(--accent-warning)' },
+  under_contract: { bg: 'rgba(255, 255, 255,0.12)', text: 'var(--accent-primary)' },
+  sold: { bg: 'rgba(96, 165, 250,0.12)', text: 'var(--accent-info)' },
   draft: { bg: 'rgba(95,99,104,0.15)', text: 'var(--text-secondary)' },
-  delisted: { bg: 'rgba(255,71,87,0.12)', text: 'var(--accent-danger)' },
+  delisted: { bg: 'rgba(248, 113, 113,0.12)', text: 'var(--accent-danger)' },
 };
 
 const PROPERTY_GRADIENTS = {
-  SFH: 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)',
-  'Multi-Family': 'linear-gradient(135deg, #00d68f 0%, #00b894 100%)',
-  Commercial: 'linear-gradient(135deg, #3498db 0%, #74b9ff 100%)',
-  Land: 'linear-gradient(135deg, #ffaa00 0%, #fdcb6e 100%)',
+  SFH: 'rgba(255, 255, 255, 0.08)',
+  'Multi-Family': 'rgba(255, 255, 255, 0.08)',
+  Commercial: 'rgba(255, 255, 255, 0.08)',
+  Land: 'rgba(255, 255, 255, 0.08)',
   default: 'linear-gradient(135deg, #636e72 0%, #b2bec3 100%)',
 };
+
+const US_STATES = [
+  'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA',
+  'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
+  'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT',
+  'VA', 'WA', 'WV', 'WI', 'WY',
+];
+const PROPERTY_TYPES_FILTER = ['SFH', 'Multi-Family', 'Commercial', 'Land'];
 
 // ─── Inline Styles ────────────────────────────────────────────────
 const s = {
@@ -109,11 +117,42 @@ const s = {
     animation: 'spin 0.8s linear infinite',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248, 113, 113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
   empty: { textAlign: 'center', padding: '3rem 1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' },
+
+  /* Layout */
+  layout: { display: 'flex', gap: '1.5rem' },
+  sidebar: {
+    width: 260, flexShrink: 0, background: 'var(--bg-card)',
+    border: '1px solid var(--border-color)', borderRadius: 'var(--border-radius-lg)',
+    padding: '1.25rem', alignSelf: 'flex-start', position: 'sticky', top: 80,
+  },
+  content: { flex: 1, minWidth: 0 },
+  filterGroup: { marginBottom: '1.25rem' },
+  filterLabel: {
+    fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)',
+    marginBottom: '0.5rem', display: 'block', textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  select: {
+    width: '100%', padding: '0.5rem 0.75rem', background: 'var(--bg-tertiary)',
+    border: '1px solid var(--border-color)', borderRadius: 'var(--border-radius)',
+    color: 'var(--text-primary)', fontSize: '0.85rem',
+  },
+  input: {
+    width: '100%', padding: '0.5rem 0.75rem', background: 'var(--bg-tertiary)',
+    border: '1px solid var(--border-color)', borderRadius: 'var(--border-radius)',
+    color: 'var(--text-primary)', fontSize: '0.85rem', boxSizing: 'border-box',
+  },
+  priceRow: { display: 'flex', gap: '0.5rem', alignItems: 'center' },
+  checkboxList: { display: 'flex', flexDirection: 'column', gap: '0.4rem' },
+  checkboxItem: {
+    display: 'flex', alignItems: 'center', gap: '0.5rem',
+    fontSize: '0.85rem', color: 'var(--text-primary)', cursor: 'pointer',
+  },
 
   /* ── Modal overlay ── */
   overlay: {
@@ -224,6 +263,11 @@ export default function MyDealsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Filters
+  const [filters, setFilters] = useState({
+    state: '', city: '', propertyTypes: [], priceMin: '', priceMax: '',
+  });
+
   // Detail modal
   const [selectedDeal, setSelectedDeal] = useState(null);
   const [dealOffers, setDealOffers] = useState([]);
@@ -239,10 +283,24 @@ export default function MyDealsPage() {
     setLoading(true);
     setError(null);
     try {
-      const params = { limit: 100 };
+      const params = { limit: 100, wholesalerId: user?.id };
       if (activeTab !== 'all') params.status = activeTab;
+
+      // Add filter params
+      if (filters.state) params.state = filters.state;
+      if (filters.city) params.city = filters.city;
+      if (filters.propertyTypes.length === 1) params.propertyType = filters.propertyTypes[0];
+      if (filters.priceMin) params.priceMin = filters.priceMin;
+      if (filters.priceMax) params.priceMax = filters.priceMax;
+
       const res = await api.get('/deals', { params });
-      const dealsList = res.data.deals || [];
+      let dealsList = res.data.deals || [];
+
+      // Client-side multi-property type filter
+      if (filters.propertyTypes.length > 1) {
+        dealsList = dealsList.filter(d => filters.propertyTypes.includes(d.propertyType));
+      }
+
       setDeals(dealsList);
 
       // fetch offer counts in background
@@ -268,6 +326,23 @@ export default function MyDealsPage() {
   useEffect(() => {
     fetchDeals();
   }, [fetchDeals]);
+
+  const updateFilter = (key, val) => {
+    setFilters((prev) => ({ ...prev, [key]: val }));
+  };
+
+  const togglePropertyType = (type) => {
+    setFilters((prev) => {
+      const types = prev.propertyTypes.includes(type)
+        ? prev.propertyTypes.filter((t) => t !== type)
+        : [...prev.propertyTypes, type];
+      return { ...prev, propertyTypes: types };
+    });
+  };
+
+  const clearFilters = () => {
+    setFilters({ state: '', city: '', propertyTypes: [], priceMin: '', priceMax: '' });
+  };
 
   // ── Open deal detail ──
   const openDeal = (deal) => {
@@ -383,72 +458,151 @@ export default function MyDealsPage() {
 
       {error && <div style={s.errorBox}>{error}</div>}
 
-      {/* Loading */}
-      {loading && (
-        <div style={s.center}>
-          <div style={s.spinner} />
-        </div>
-      )}
+      <div style={s.layout}>
+        {/* Sidebar Filters */}
+        <div style={s.sidebar}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+            <span style={{ fontWeight: 600, fontSize: '0.9rem' }}>Filters</span>
+            <button
+              onClick={clearFilters}
+              style={{ background: 'none', border: 'none', color: 'var(--accent-primary)', fontSize: '0.75rem', cursor: 'pointer' }}
+            >
+              Clear
+            </button>
+          </div>
 
-      {/* Empty */}
-      {!loading && deals.length === 0 && (
-        <div style={s.empty}>
-          <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>
-            No deals found
-          </p>
-          <p>
-            {activeTab === 'all'
-              ? 'Create your first deal to get started.'
-              : `No ${activeTab.replace(/_/g, ' ')} deals.`}
-          </p>
-        </div>
-      )}
+          <div style={s.filterGroup}>
+            <label style={s.filterLabel}>State</label>
+            <select
+              style={s.select}
+              value={filters.state}
+              onChange={(e) => updateFilter('state', e.target.value)}
+            >
+              <option value="">All States</option>
+              {US_STATES.map((st) => (
+                <option key={st} value={st}>{st}</option>
+              ))}
+            </select>
+          </div>
 
-      {/* Deal grid */}
-      {!loading && deals.length > 0 && (
-        <div style={s.grid}>
-          {deals.map((deal) => {
-            const id = deal._id || deal.id;
-            const gradient = PROPERTY_GRADIENTS[deal.propertyType] || PROPERTY_GRADIENTS.default;
-            return (
-              <div
-                key={id}
-                style={s.card}
-                onClick={() => openDeal(deal)}
-                onMouseOver={(e) => (e.currentTarget.style.borderColor = 'var(--accent-primary)')}
-                onMouseOut={(e) => (e.currentTarget.style.borderColor = 'var(--border-color)')}
-              >
-                <div style={{ ...s.cardPhoto, background: gradient }}>
-                  {deal.propertyType || 'PROPERTY'}
-                </div>
-                <div style={s.cardBody}>
-                  <div style={s.cardAddress}>{deal.address || 'No address'}</div>
-                  <div style={s.cardLocation}>
-                    {deal.city || ''}{deal.state ? `, ${deal.state}` : ''}{deal.zip ? ` ${deal.zip}` : ''}
-                  </div>
-                  <div style={s.cardPriceRow}>
-                    <span style={s.cardPrice}>{fmt(deal.askingPrice)}</span>
-                    {deal.arv && <span style={s.cardArv}>ARV {fmt(deal.arv)}</span>}
-                  </div>
-                  <div style={s.cardFooter}>
-                    <StatusBadge status={deal.status} />
-                    <div style={{ display: 'flex', gap: '0.75rem' }}>
-                      <span style={s.countBadge}>
-                        <span style={{ fontSize: '0.85rem' }}>{'\u{1F4E9}'}</span>
-                        {offerCounts[id] ?? '-'}
-                      </span>
-                      <span style={s.countBadge}>
-                        <span style={{ fontSize: '0.85rem' }}>{'\u{1F441}'}</span>
-                        {deal.viewCount ?? 0}
-                      </span>
+          <div style={s.filterGroup}>
+            <label style={s.filterLabel}>City</label>
+            <input
+              style={s.input}
+              placeholder="Filter by city..."
+              value={filters.city}
+              onChange={(e) => updateFilter('city', e.target.value)}
+            />
+          </div>
+
+          <div style={s.filterGroup}>
+            <label style={s.filterLabel}>Property Type</label>
+            <div style={s.checkboxList}>
+              {PROPERTY_TYPES_FILTER.map((type) => (
+                <label key={type} style={s.checkboxItem}>
+                  <input
+                    type="checkbox"
+                    checked={filters.propertyTypes.includes(type)}
+                    onChange={() => togglePropertyType(type)}
+                    style={{ accentColor: 'var(--accent-primary)' }}
+                  />
+                  {type}
+                </label>
+              ))}
+            </div>
+          </div>
+
+          <div style={s.filterGroup}>
+            <label style={s.filterLabel}>Price Range</label>
+            <div style={s.priceRow}>
+              <input
+                style={s.input}
+                type="number"
+                placeholder="Min"
+                value={filters.priceMin}
+                onChange={(e) => updateFilter('priceMin', e.target.value)}
+              />
+              <span style={{ color: 'var(--text-muted)' }}>-</span>
+              <input
+                style={s.input}
+                type="number"
+                placeholder="Max"
+                value={filters.priceMax}
+                onChange={(e) => updateFilter('priceMax', e.target.value)}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div style={s.content}>
+          {/* Loading */}
+          {loading && (
+            <div style={s.center}>
+              <div style={s.spinner} />
+            </div>
+          )}
+
+          {/* Empty */}
+          {!loading && deals.length === 0 && (
+            <div style={s.empty}>
+              <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>
+                No deals found
+              </p>
+              <p>
+                {activeTab === 'all'
+                  ? 'Create your first deal to get started.'
+                  : `No ${activeTab.replace(/_/g, ' ')} deals matching filters.`}
+              </p>
+            </div>
+          )}
+
+          {/* Deal grid */}
+          {!loading && deals.length > 0 && (
+            <div style={s.grid}>
+              {deals.map((deal) => {
+                const id = deal._id || deal.id;
+                const gradient = PROPERTY_GRADIENTS[deal.propertyType] || PROPERTY_GRADIENTS.default;
+                return (
+                  <div
+                    key={id}
+                    style={s.card}
+                    onClick={() => openDeal(deal)}
+                    onMouseOver={(e) => (e.currentTarget.style.borderColor = 'var(--accent-primary)')}
+                    onMouseOut={(e) => (e.currentTarget.style.borderColor = 'var(--border-color)')}
+                  >
+                    <div style={{ ...s.cardPhoto, background: gradient }}>
+                      {deal.propertyType || 'PROPERTY'}
+                    </div>
+                    <div style={s.cardBody}>
+                      <div style={s.cardAddress}>{deal.address || 'No address'}</div>
+                      <div style={s.cardLocation}>
+                        {deal.city || ''}{deal.state ? `, ${deal.state}` : ''}{deal.zip ? ` ${deal.zip}` : ''}
+                      </div>
+                      <div style={s.cardPriceRow}>
+                        <span style={s.cardPrice}>{fmt(deal.askingPrice)}</span>
+                        {deal.arv && <span style={s.cardArv}>ARV {fmt(deal.arv)}</span>}
+                      </div>
+                      <div style={s.cardFooter}>
+                        <StatusBadge status={deal.status} />
+                        <div style={{ display: 'flex', gap: '0.75rem' }}>
+                          <span style={s.countBadge}>
+                            <span style={{ fontSize: '0.85rem' }}>{'\u{1F4E9}'}</span>
+                            {offerCounts[id] ?? '-'}
+                          </span>
+                          <span style={s.countBadge}>
+                            <span style={{ fontSize: '0.85rem' }}>{'\u{1F441}'}</span>
+                            {deal.viewCount ?? 0}
+                          </span>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            );
-          })}
+                );
+              })}
+            </div>
+          )}
         </div>
-      )}
+      </div>
 
       {/* ═══ Deal Detail Modal ═══ */}
       {selectedDeal && (
@@ -489,8 +643,8 @@ export default function MyDealsPage() {
               {confirmAction.type === 'accept_offer'
                 ? 'Accept Offer'
                 : confirmAction.type === 'reject_offer'
-                ? 'Reject Offer'
-                : 'Delist Deal'}
+                  ? 'Reject Offer'
+                  : 'Delist Deal'}
             </div>
             <div style={s.confirmText}>{confirmAction.message}</div>
             <div style={s.confirmBtns}>
@@ -666,7 +820,7 @@ function DealDetailView({ deal, onViewOffers, onEdit, onDelist }) {
         )}
         {canDelist && (
           <button
-            style={{ ...s.actionBtn, background: 'rgba(255,71,87,0.12)', color: 'var(--accent-danger)' }}
+            style={{ ...s.actionBtn, background: 'rgba(248, 113, 113,0.12)', color: 'var(--accent-danger)' }}
             onClick={onDelist}
           >
             Delist
@@ -793,7 +947,7 @@ function OfferPanelView({ offers, loading: offersLoading, onBack, onAccept, onRe
                   Accept
                 </button>
                 <button
-                  style={{ ...s.actionBtn, background: 'rgba(255,71,87,0.12)', color: 'var(--accent-danger)', fontSize: '0.8rem', padding: '0.4rem 0.9rem' }}
+                  style={{ ...s.actionBtn, background: 'rgba(248, 113, 113,0.12)', color: 'var(--accent-danger)', fontSize: '0.8rem', padding: '0.4rem 0.9rem' }}
                   onClick={() => onReject(offer)}
                 >
                   Reject

@@ -87,13 +87,13 @@ const s = {
     borderRadius: 'var(--border-radius-lg)', padding: '1.1rem 0.75rem',
     textAlign: 'center', cursor: 'pointer', transition: 'var(--transition)',
   },
-  typeCardActive: { borderColor: 'var(--accent-primary)', background: 'rgba(108,92,231,0.08)' },
+  typeCardActive: { borderColor: 'var(--accent-primary)', background: 'rgba(255, 255, 255,0.08)' },
   typeIcon: { fontSize: '1.5rem', marginBottom: '0.4rem' },
   typeLabel: { fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-primary)' },
 
   /* Financial helper */
   finHelper: {
-    background: 'rgba(108,92,231,0.08)', border: '1px solid rgba(108,92,231,0.2)',
+    background: 'rgba(255, 255, 255,0.08)', border: '1px solid rgba(255, 255, 255,0.2)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem', marginTop: '1.25rem',
   },
   finHelperLabel: { fontSize: '0.78rem', color: 'var(--text-secondary)', marginBottom: 2 },
@@ -145,7 +145,7 @@ const s = {
 
   /* Misc */
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248, 113, 113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '0.85rem 1.1rem',
     color: 'var(--accent-danger)', fontSize: '0.85rem', marginBottom: '1.25rem',
   },

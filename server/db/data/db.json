@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
+      "id": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
       "role": "wholesaler",
       "email": "marcus@demo.com",
       "name": "Marcus Johnson",
@@ -20,17 +20,17 @@
       ],
       "dealCount": 47,
       "reputationScore": 4.7,
-      "memberSince": "2024-08-20T01:44:21.416Z",
+      "memberSince": "2024-08-20T20:18:43.648Z",
       "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true,
         "notifyDealMatches": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-08-20T01:44:21.416Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-08-20T20:18:43.648Z"
     },
     {
-      "id": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+      "id": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
       "role": "investor",
       "email": "sarah@demo.com",
       "name": "Sarah Chen",
@@ -50,7 +50,7 @@
       ],
       "dealCount": 32,
       "reputationScore": 4.9,
-      "memberSince": "2024-12-20T02:44:21.416Z",
+      "memberSince": "2024-12-20T21:18:43.648Z",
       "subscriptionTier": "premium",
       "preferences": {
         "targetStates": [
@@ -67,11 +67,11 @@
         "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-12-20T02:44:21.416Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-12-20T21:18:43.648Z"
     },
     {
-      "id": "3978efb9-156c-4692-a250-85d33ad40698",
+      "id": "491b97dd-3c10-4ebc-af77-6c04432f979b",
       "role": "admin",
       "email": "alex@demo.com",
       "name": "Alex Rivera",
@@ -87,19 +87,19 @@
       "verificationDocs": [],
       "dealCount": 0,
       "reputationScore": 0,
-      "memberSince": "2024-02-20T02:44:21.416Z",
+      "memberSince": "2024-02-20T21:18:43.648Z",
       "subscriptionTier": "premium",
       "preferences": {},
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-02-20T02:44:21.416Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-02-20T21:18:43.648Z"
     },
     {
-      "id": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
+      "id": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
       "role": "wholesaler",
       "email": "james.williams@email.com",
       "name": "James Williams",
       "avatar": null,
-      "phone": "(257) 555-8373",
+      "phone": "(735) 555-4351",
       "company": "Keystone Property Group",
       "bio": "Experienced wholesaler operating in the Houston, TX market. Focused on finding great deals for serious investors.",
       "location": {
@@ -110,23 +110,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 45,
-      "reputationScore": 4.58,
-      "memberSince": "2024-10-20T01:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 10,
+      "reputationScore": 4.71,
+      "memberSince": "2025-03-20T20:18:43.648Z",
+      "subscriptionTier": "free",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-10-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-03-20T20:18:43.648Z"
     },
     {
-      "id": "21dca469-6b83-42df-99e1-e4e946fd90a5",
+      "id": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
       "role": "wholesaler",
       "email": "maria.brown@email.com",
       "name": "Maria Brown",
       "avatar": null,
-      "phone": "(655) 555-8816",
+      "phone": "(849) 555-2099",
       "company": "Apex Deal Source",
       "bio": "Experienced wholesaler operating in the Dallas, TX market. Focused on finding great deals for serious investors.",
       "location": {
@@ -137,23 +137,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 23,
-      "reputationScore": 3.6,
-      "memberSince": "2025-07-20T01:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 33,
+      "reputationScore": 3.72,
+      "memberSince": "2025-02-20T21:18:43.648Z",
+      "subscriptionTier": "free",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-07-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-02-20T21:18:43.648Z"
     },
     {
-      "id": "c265e91c-b75f-4dd3-bb6a-ca373c8a428e",
+      "id": "66908bef-5ef7-4398-8e82-05bb71ee9ce7",
       "role": "wholesaler",
       "email": "david.garcia@email.com",
       "name": "David Garcia",
       "avatar": null,
-      "phone": "(973) 555-1186",
+      "phone": "(263) 555-5324",
       "company": "Metro Wholesale Holdings",
       "bio": "Experienced wholesaler operating in the San Antonio, TX market. Focused on finding great deals for serious investors.",
       "location": {
@@ -164,23 +164,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 9,
-      "reputationScore": 4.14,
-      "memberSince": "2025-08-20T01:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 42,
+      "reputationScore": 3.68,
+      "memberSince": "2025-05-20T20:18:43.648Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-05-20T20:18:43.648Z"
     },
     {
-      "id": "2dd1b283-235f-47d1-a5a1-4f255426703e",
+      "id": "f69c53da-606c-4394-86c2-62e7a70fdc57",
       "role": "wholesaler",
       "email": "jessica.miller@email.com",
       "name": "Jessica Miller",
       "avatar": null,
-      "phone": "(656) 555-6395",
+      "phone": "(329) 555-9824",
       "company": "Liberty Property Solutions",
       "bio": "Experienced wholesaler operating in the Jacksonville, FL market. Focused on finding great deals for serious investors.",
       "location": {
@@ -191,23 +191,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 18,
-      "reputationScore": 4.28,
-      "memberSince": "2024-09-20T01:44:21.417Z",
+      "dealCount": 59,
+      "reputationScore": 4.3,
+      "memberSince": "2025-05-20T20:18:43.648Z",
       "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-09-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-05-20T20:18:43.648Z"
     },
     {
-      "id": "988dddbd-af36-4cbd-9f97-ef62c907660f",
+      "id": "b6230bbb-23e1-454c-94c2-939c6d160f3f",
       "role": "wholesaler",
       "email": "daniel.davis@email.com",
       "name": "Daniel Davis",
       "avatar": null,
-      "phone": "(247) 555-3870",
+      "phone": "(932) 555-8627",
       "company": "Summit Acquisitions",
       "bio": "Experienced wholesaler operating in the Tampa, FL market. Focused on finding great deals for serious investors.",
       "location": {
@@ -218,23 +218,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 17,
-      "reputationScore": 4.37,
-      "memberSince": "2025-08-20T01:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 9,
+      "reputationScore": 3.59,
+      "memberSince": "2024-12-20T21:18:43.648Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-12-20T21:18:43.648Z"
     },
     {
-      "id": "12db2ab2-a389-41f9-b0a6-068520ca9437",
+      "id": "e8ffddad-5186-4274-9677-2ee2f470a573",
       "role": "wholesaler",
       "email": "nicole.rodriguez@email.com",
       "name": "Nicole Rodriguez",
       "avatar": null,
-      "phone": "(625) 555-6846",
+      "phone": "(479) 555-9782",
       "company": "Trident Real Estate",
       "bio": "Experienced wholesaler operating in the Orlando, FL market. Focused on finding great deals for serious investors.",
       "location": {
@@ -245,23 +245,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 57,
-      "reputationScore": 4.94,
-      "memberSince": "2024-11-20T02:44:21.417Z",
+      "dealCount": 43,
+      "reputationScore": 3.98,
+      "memberSince": "2025-02-20T21:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-11-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-02-20T21:18:43.649Z"
     },
     {
-      "id": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
+      "id": "725e119b-9ccf-4a29-96bf-765a7b262f02",
       "role": "wholesaler",
       "email": "kevin.martinez@email.com",
       "name": "Kevin Martinez",
       "avatar": null,
-      "phone": "(827) 555-3377",
+      "phone": "(843) 555-2557",
       "company": "Cornerstone Dispo",
       "bio": "Experienced wholesaler operating in the Sacramento, CA market. Focused on finding great deals for serious investors.",
       "location": {
@@ -272,23 +272,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 14,
-      "reputationScore": 4.01,
-      "memberSince": "2024-11-20T02:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 54,
+      "reputationScore": 4.68,
+      "memberSince": "2025-07-20T20:18:43.649Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-11-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-07-20T20:18:43.649Z"
     },
     {
-      "id": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+      "id": "6e69254e-8727-44a8-9440-9a2a994dfe92",
       "role": "wholesaler",
       "email": "brittany.anderson@email.com",
       "name": "Brittany Anderson",
       "avatar": null,
-      "phone": "(256) 555-6361",
+      "phone": "(298) 555-4401",
       "company": "Horizon Deal Flow",
       "bio": "Experienced wholesaler operating in the Fresno, CA market. Focused on finding great deals for serious investors.",
       "location": {
@@ -299,23 +299,23 @@
       "verificationDocs": [
         "drivers_license.pdf"
       ],
-      "dealCount": 16,
-      "reputationScore": 3.54,
-      "memberSince": "2024-08-20T01:44:21.417Z",
+      "dealCount": 57,
+      "reputationScore": 4.8,
+      "memberSince": "2025-08-20T20:18:43.649Z",
       "subscriptionTier": "free",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-08-20T20:18:43.649Z"
     },
     {
-      "id": "23681cdb-77f8-4262-a620-30ddbedd6218",
+      "id": "bbc12c72-3555-444a-aa5d-9f396137023f",
       "role": "wholesaler",
       "email": "carlos.taylor@email.com",
       "name": "Carlos Taylor",
       "avatar": null,
-      "phone": "(291) 555-6497",
+      "phone": "(692) 555-5403",
       "company": "Atlas Property Partners",
       "bio": "Experienced wholesaler operating in the Atlanta, GA market. Focused on finding great deals for serious investors.",
       "location": {
@@ -324,23 +324,23 @@
       },
       "verificationStatus": "pending",
       "verificationDocs": [],
-      "dealCount": 13,
-      "reputationScore": 4.85,
-      "memberSince": "2025-02-20T02:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 60,
+      "reputationScore": 4.73,
+      "memberSince": "2024-10-20T20:18:43.649Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-02-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-10-20T20:18:43.649Z"
     },
     {
-      "id": "b3554fed-8e19-4ee6-8a94-2468e90f147f",
+      "id": "3046a2c5-0b51-44ad-ae35-ef6aeb5f1927",
       "role": "wholesaler",
       "email": "crystal.thomas@email.com",
       "name": "Crystal Thomas",
       "avatar": null,
-      "phone": "(681) 555-7130",
+      "phone": "(453) 555-3964",
       "company": "Pinnacle Wholesale Group",
       "bio": "Experienced wholesaler operating in the Savannah, GA market. Focused on finding great deals for serious investors.",
       "location": {
@@ -349,25 +349,25 @@
       },
       "verificationStatus": "pending",
       "verificationDocs": [],
-      "dealCount": 23,
-      "reputationScore": 4.31,
-      "memberSince": "2025-08-20T01:44:21.417Z",
+      "dealCount": 8,
+      "reputationScore": 3.61,
+      "memberSince": "2024-11-20T21:18:43.649Z",
       "subscriptionTier": "free",
       "preferences": {
         "notifyNewOffers": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-11-20T21:18:43.649Z"
     },
     {
-      "id": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
+      "id": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
       "role": "investor",
       "email": "michael.hernandez@email.com",
       "name": "Michael Hernandez",
       "avatar": null,
-      "phone": "(210) 555-2561",
+      "phone": "(598) 555-5489",
       "company": "Vanguard Capital RE",
-      "bio": "Real estate investor specializing in BRRRR strategy properties in FL.",
+      "bio": "Real estate investor specializing in buy-and-hold properties in FL.",
       "location": {
         "state": "FL",
         "city": "Tampa"
@@ -376,9 +376,44 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 8,
-      "reputationScore": 4.92,
-      "memberSince": "2025-01-20T02:44:21.417Z",
+      "dealCount": 37,
+      "reputationScore": 3.3,
+      "memberSince": "2025-04-20T20:18:43.649Z",
+      "subscriptionTier": "free",
+      "preferences": {
+        "targetStates": [
+          "FL"
+        ],
+        "targetPropertyTypes": [
+          "SFH"
+        ],
+        "budgetMin": 100000,
+        "budgetMax": 350000,
+        "notifyNewDeals": true
+      },
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-04-20T20:18:43.649Z"
+    },
+    {
+      "id": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "role": "investor",
+      "email": "stephanie.moore@email.com",
+      "name": "Stephanie Moore",
+      "avatar": null,
+      "phone": "(909) 555-9107",
+      "company": "Prestige Investments LLC",
+      "bio": "Real estate investor specializing in value-add multifamily properties in FL.",
+      "location": {
+        "state": "FL",
+        "city": "Orlando"
+      },
+      "verificationStatus": "verified",
+      "verificationDocs": [
+        "proof_of_funds.pdf"
+      ],
+      "dealCount": 7,
+      "reputationScore": 3.28,
+      "memberSince": "2025-07-20T20:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
@@ -391,53 +426,18 @@
         "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-01-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-07-20T20:18:43.649Z"
     },
     {
-      "id": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "role": "investor",
-      "email": "stephanie.moore@email.com",
-      "name": "Stephanie Moore",
-      "avatar": null,
-      "phone": "(873) 555-7067",
-      "company": "Prestige Investments LLC",
-      "bio": "Real estate investor specializing in turnkey rentals properties in FL.",
-      "location": {
-        "state": "FL",
-        "city": "Orlando"
-      },
-      "verificationStatus": "verified",
-      "verificationDocs": [
-        "proof_of_funds.pdf"
-      ],
-      "dealCount": 13,
-      "reputationScore": 4.1,
-      "memberSince": "2026-01-20T02:44:21.417Z",
-      "subscriptionTier": "pro",
-      "preferences": {
-        "targetStates": [
-          "FL"
-        ],
-        "targetPropertyTypes": [
-          "SFH"
-        ],
-        "budgetMin": 80000,
-        "budgetMax": 350000,
-        "notifyNewDeals": true
-      },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2026-01-20T02:44:21.417Z"
-    },
-    {
-      "id": "3abc0ac6-9ad2-4930-b2b5-9816d7c85919",
+      "id": "3d34f270-df6e-42b7-963a-ee20438eb338",
       "role": "investor",
       "email": "anthony.martin@email.com",
       "name": "Anthony Martin",
       "avatar": null,
-      "phone": "(317) 555-6692",
+      "phone": "(897) 555-8754",
       "company": "Clearwater Holdings",
-      "bio": "Real estate investor specializing in buy-and-hold properties in CA.",
+      "bio": "Real estate investor specializing in value-add multifamily properties in CA.",
       "location": {
         "state": "CA",
         "city": "Sacramento"
@@ -447,8 +447,8 @@
         "proof_of_funds.pdf"
       ],
       "dealCount": 31,
-      "reputationScore": 3.38,
-      "memberSince": "2025-07-20T01:44:21.417Z",
+      "reputationScore": 4.73,
+      "memberSince": "2025-08-20T20:18:43.649Z",
       "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
@@ -457,22 +457,22 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 50000,
-        "budgetMax": 350000,
+        "budgetMin": 100000,
+        "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-07-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-08-20T20:18:43.649Z"
     },
     {
-      "id": "0ef8b3c5-e372-4a3e-81f6-5345312c7ead",
+      "id": "cb299a6d-f15c-45d4-9362-479f1b418449",
       "role": "investor",
       "email": "ashley.jackson@email.com",
       "name": "Ashley Jackson",
       "avatar": null,
-      "phone": "(553) 555-1467",
+      "phone": "(635) 555-7101",
       "company": "Redstone Capital Partners",
-      "bio": "Real estate investor specializing in BRRRR strategy properties in CA.",
+      "bio": "Real estate investor specializing in turnkey rentals properties in CA.",
       "location": {
         "state": "CA",
         "city": "Fresno"
@@ -481,10 +481,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 17,
-      "reputationScore": 4.53,
-      "memberSince": "2025-11-20T02:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 12,
+      "reputationScore": 3.89,
+      "memberSince": "2024-11-20T21:18:43.649Z",
+      "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
           "CA"
@@ -492,22 +492,22 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 50000,
-        "budgetMax": 250000,
+        "budgetMin": 80000,
+        "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-11-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-11-20T21:18:43.649Z"
     },
     {
-      "id": "c9d6ca2b-7497-4c5f-bff7-0841bfbf26d7",
+      "id": "d39d65bf-8177-470b-946d-7986c0404f16",
       "role": "investor",
       "email": "brandon.thompson@email.com",
       "name": "Brandon Thompson",
       "avatar": null,
-      "phone": "(989) 555-3912",
+      "phone": "(665) 555-4542",
       "company": "Pacific Equity Group",
-      "bio": "Real estate investor specializing in BRRRR strategy properties in GA.",
+      "bio": "Real estate investor specializing in fix-and-flip properties in GA.",
       "location": {
         "state": "GA",
         "city": "Atlanta"
@@ -516,9 +516,9 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 36,
-      "reputationScore": 4.46,
-      "memberSince": "2025-04-20T01:44:21.417Z",
+      "dealCount": 28,
+      "reputationScore": 3.46,
+      "memberSince": "2025-04-20T20:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
@@ -527,22 +527,22 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 100000,
-        "budgetMax": 500000,
+        "budgetMin": 50000,
+        "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-04-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-04-20T20:18:43.649Z"
     },
     {
-      "id": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
+      "id": "f0f9ccd0-d264-420e-b116-397b60878a9b",
       "role": "investor",
       "email": "tiffany.white@email.com",
       "name": "Tiffany White",
       "avatar": null,
-      "phone": "(472) 555-5348",
+      "phone": "(273) 555-7385",
       "company": "Northern Trust RE",
-      "bio": "Real estate investor specializing in BRRRR strategy properties in GA.",
+      "bio": "Real estate investor specializing in turnkey rentals properties in GA.",
       "location": {
         "state": "GA",
         "city": "Savannah"
@@ -551,10 +551,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 31,
-      "reputationScore": 4.68,
-      "memberSince": "2024-10-20T01:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 29,
+      "reputationScore": 3.22,
+      "memberSince": "2025-12-20T21:18:43.649Z",
+      "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
           "GA"
@@ -562,22 +562,22 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 100000,
+        "budgetMin": 80000,
         "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-10-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-12-20T21:18:43.649Z"
     },
     {
-      "id": "2169cf17-36af-4bab-a800-f218a0d3f94d",
+      "id": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
       "role": "investor",
       "email": "derek.lee@email.com",
       "name": "Derek Lee",
       "avatar": null,
-      "phone": "(831) 555-4788",
+      "phone": "(847) 555-6855",
       "company": "Emerald City Investments",
-      "bio": "Real estate investor specializing in fix-and-flip properties in OH.",
+      "bio": "Real estate investor specializing in value-add multifamily properties in OH.",
       "location": {
         "state": "OH",
         "city": "Cleveland"
@@ -586,9 +586,9 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 6,
-      "reputationScore": 3.64,
-      "memberSince": "2024-11-20T02:44:21.417Z",
+      "dealCount": 8,
+      "reputationScore": 3.78,
+      "memberSince": "2025-07-20T20:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
@@ -601,18 +601,18 @@
         "budgetMax": 250000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-11-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-07-20T20:18:43.649Z"
     },
     {
-      "id": "a90f7b2d-884b-4e98-969b-fb7189429687",
+      "id": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
       "role": "investor",
       "email": "jennifer.harris@email.com",
       "name": "Jennifer Harris",
       "avatar": null,
-      "phone": "(223) 555-6359",
+      "phone": "(367) 555-7237",
       "company": "Golden State Acquisitions",
-      "bio": "Real estate investor specializing in turnkey rentals properties in OH.",
+      "bio": "Real estate investor specializing in fix-and-flip properties in OH.",
       "location": {
         "state": "OH",
         "city": "Columbus"
@@ -621,10 +621,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 12,
-      "reputationScore": 3.63,
-      "memberSince": "2025-06-20T01:44:21.417Z",
-      "subscriptionTier": "premium",
+      "dealCount": 20,
+      "reputationScore": 4.08,
+      "memberSince": "2025-10-20T20:18:43.649Z",
+      "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
           "OH"
@@ -632,22 +632,22 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 100000,
-        "budgetMax": 350000,
+        "budgetMin": 80000,
+        "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-06-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-10-20T20:18:43.649Z"
     },
     {
-      "id": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
+      "id": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
       "role": "investor",
       "email": "robert.clark@email.com",
       "name": "Robert Clark",
       "avatar": null,
-      "phone": "(276) 555-1955",
+      "phone": "(789) 555-4093",
       "company": "Ironclad Properties",
-      "bio": "Real estate investor specializing in turnkey rentals properties in NC.",
+      "bio": "Real estate investor specializing in BRRRR strategy properties in NC.",
       "location": {
         "state": "NC",
         "city": "Charlotte"
@@ -656,10 +656,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 25,
-      "reputationScore": 4.78,
-      "memberSince": "2025-02-20T02:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 24,
+      "reputationScore": 4.36,
+      "memberSince": "2025-10-20T20:18:43.649Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
           "NC"
@@ -667,20 +667,20 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 100000,
-        "budgetMax": 500000,
+        "budgetMin": 50000,
+        "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-02-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-10-20T20:18:43.649Z"
     },
     {
-      "id": "01d45fc0-9648-48a3-a6a5-f3bfcf9504df",
+      "id": "7286d113-f51e-48f8-a73e-14679f070896",
       "role": "investor",
       "email": "amanda.lewis@email.com",
       "name": "Amanda Lewis",
       "avatar": null,
-      "phone": "(631) 555-6922",
+      "phone": "(206) 555-4795",
       "company": "Beacon Hill Capital",
       "bio": "Real estate investor specializing in turnkey rentals properties in NC.",
       "location": {
@@ -691,10 +691,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 28,
-      "reputationScore": 3.82,
-      "memberSince": "2025-01-20T02:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 6,
+      "reputationScore": 4.23,
+      "memberSince": "2025-03-20T20:18:43.649Z",
+      "subscriptionTier": "premium",
       "preferences": {
         "targetStates": [
           "NC"
@@ -703,19 +703,19 @@
           "SFH"
         ],
         "budgetMin": 80000,
-        "budgetMax": 500000,
+        "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-01-20T02:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-03-20T20:18:43.649Z"
     },
     {
-      "id": "3495821b-7d23-44b9-a7f9-c646ff59529e",
+      "id": "a3251ad6-358a-4302-8ee6-78d06ffd1da7",
       "role": "investor",
       "email": "michael.robinson@email.com",
       "name": "Michael Robinson",
       "avatar": null,
-      "phone": "(651) 555-8119",
+      "phone": "(903) 555-8942",
       "company": "Silverline Investments",
       "bio": "Real estate investor specializing in fix-and-flip properties in AZ.",
       "location": {
@@ -726,10 +726,10 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 34,
-      "reputationScore": 3.25,
-      "memberSince": "2025-08-20T01:44:21.417Z",
-      "subscriptionTier": "premium",
+      "dealCount": 6,
+      "reputationScore": 3.74,
+      "memberSince": "2025-05-20T20:18:43.649Z",
+      "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
           "AZ"
@@ -738,21 +738,21 @@
           "SFH"
         ],
         "budgetMin": 80000,
-        "budgetMax": 350000,
+        "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-05-20T20:18:43.649Z"
     },
     {
-      "id": "da7d1626-da08-47f9-bb32-c25b3273880c",
+      "id": "710b6b15-eee4-410e-bf18-5195f751c4e3",
       "role": "investor",
       "email": "stephanie.walker@email.com",
       "name": "Stephanie Walker",
       "avatar": null,
-      "phone": "(968) 555-9192",
+      "phone": "(260) 555-5308",
       "company": "Crossroads Capital Group",
-      "bio": "Real estate investor specializing in fix-and-flip properties in AZ.",
+      "bio": "Real estate investor specializing in value-add multifamily properties in AZ.",
       "location": {
         "state": "AZ",
         "city": "Tucson"
@@ -761,9 +761,9 @@
       "verificationDocs": [
         "proof_of_funds.pdf"
       ],
-      "dealCount": 15,
-      "reputationScore": 4.52,
-      "memberSince": "2025-08-20T01:44:21.417Z",
+      "dealCount": 23,
+      "reputationScore": 4.57,
+      "memberSince": "2024-11-20T21:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
@@ -772,32 +772,32 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 50000,
-        "budgetMax": 500000,
+        "budgetMin": 100000,
+        "budgetMax": 350000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-08-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2024-11-20T21:18:43.649Z"
     },
     {
-      "id": "2182c2ea-1e89-4e0d-a9a5-911b058bf32f",
+      "id": "0419151c-5d88-4512-8097-4531e7609c74",
       "role": "investor",
       "email": "anthony.young@email.com",
       "name": "Anthony Young",
       "avatar": null,
-      "phone": "(891) 555-1209",
+      "phone": "(713) 555-9040",
       "company": "Eclipse Property Fund",
-      "bio": "Real estate investor specializing in fix-and-flip properties in TX.",
+      "bio": "Real estate investor specializing in value-add multifamily properties in TX.",
       "location": {
         "state": "TX",
         "city": "Houston"
       },
       "verificationStatus": "pending",
       "verificationDocs": [],
-      "dealCount": 3,
-      "reputationScore": 3.36,
-      "memberSince": "2025-10-20T01:44:21.417Z",
-      "subscriptionTier": "free",
+      "dealCount": 2,
+      "reputationScore": 3.81,
+      "memberSince": "2025-10-20T20:18:43.649Z",
+      "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
           "TX"
@@ -809,16 +809,16 @@
         "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-10-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-10-20T20:18:43.649Z"
     },
     {
-      "id": "840e46fa-9e1d-408e-a024-e53ef7417b0c",
+      "id": "3fff9245-f2be-42ca-94f8-39f1e59c0599",
       "role": "investor",
       "email": "ashley.allen@email.com",
       "name": "Ashley Allen",
       "avatar": null,
-      "phone": "(833) 555-6240",
+      "phone": "(476) 555-8021",
       "company": "Patriot Real Estate",
       "bio": "Real estate investor specializing in buy-and-hold properties in TX.",
       "location": {
@@ -827,9 +827,9 @@
       },
       "verificationStatus": "pending",
       "verificationDocs": [],
-      "dealCount": 15,
-      "reputationScore": 4.63,
-      "memberSince": "2024-10-20T01:44:21.417Z",
+      "dealCount": 13,
+      "reputationScore": 4.6,
+      "memberSince": "2025-12-20T21:18:43.649Z",
       "subscriptionTier": "pro",
       "preferences": {
         "targetStates": [
@@ -838,32 +838,32 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 50000,
-        "budgetMax": 500000,
+        "budgetMin": 80000,
+        "budgetMax": 250000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2024-10-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-12-20T21:18:43.649Z"
     },
     {
-      "id": "c8004419-50fb-4ea4-9c6d-9b5d947d4889",
+      "id": "000d7ca9-258c-46f9-abc6-c2737c793b0f",
       "role": "investor",
       "email": "brandon.king@email.com",
       "name": "Brandon King",
       "avatar": null,
-      "phone": "(679) 555-9592",
+      "phone": "(779) 555-3003",
       "company": "Cascade Investment Group",
-      "bio": "Real estate investor specializing in BRRRR strategy properties in TX.",
+      "bio": "Real estate investor specializing in buy-and-hold properties in TX.",
       "location": {
         "state": "TX",
         "city": "San Antonio"
       },
       "verificationStatus": "pending",
       "verificationDocs": [],
-      "dealCount": 27,
-      "reputationScore": 4.64,
-      "memberSince": "2025-10-20T01:44:21.417Z",
-      "subscriptionTier": "pro",
+      "dealCount": 36,
+      "reputationScore": 3.21,
+      "memberSince": "2025-08-20T20:18:43.649Z",
+      "subscriptionTier": "free",
       "preferences": {
         "targetStates": [
           "TX"
@@ -871,243 +871,834 @@
         "targetPropertyTypes": [
           "SFH"
         ],
-        "budgetMin": 100000,
-        "budgetMax": 350000,
+        "budgetMin": 80000,
+        "budgetMax": 500000,
         "notifyNewDeals": true
       },
-      "passwordHash": "$2a$10$yx5Vc63C2rl8rTdBoF0l.OZL.pYIXlpYgbfvSCDq/amjQHUPnztIi",
-      "createdAt": "2025-10-20T01:44:21.417Z"
+      "passwordHash": "$2a$10$/Qq7BJuzAhBPhGtH1JOi7eM7nzy/QUocUlchQV9LkJYwwyDPkaSOq",
+      "createdAt": "2025-08-20T20:18:43.649Z"
     }
   ],
   "deals": [
     {
-      "id": "a55b41e3-a2b5-45dd-b8ef-95d9592d66a6",
-      "wholesalerId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
+      "id": "19f376b6-e12a-439d-84cc-7c5664ad7e73",
+      "wholesalerId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
       "status": "active",
-      "address": "8919 Pine Dr",
+      "address": "7833 Church Ct",
       "city": "Houston",
       "state": "TX",
-      "zip": "77002",
+      "zip": "77004",
       "county": "Harris",
       "propertyType": "SFH",
       "bedrooms": 2,
-      "bathrooms": 2.5,
-      "sqft": 1730,
-      "lotSize": "0.11 acres",
-      "yearBuilt": 1999,
+      "bathrooms": 3,
+      "sqft": 1017,
+      "lotSize": "0.21 acres",
+      "yearBuilt": 1956,
       "photos": [],
-      "askingPrice": 202000,
-      "arvEstimate": 321000,
-      "rehabEstimate": 73000,
-      "currentValue": 204000,
-      "assignmentFee": 19000,
+      "askingPrice": 107000,
+      "arvEstimate": 162000,
+      "rehabEstimate": 54000,
+      "currentValue": 95000,
+      "assignmentFee": 13000,
       "description": "Excellent flip opportunity in a rapidly appreciating neighborhood. The property needs cosmetic updates but has solid bones. Recent comps in the area support a strong ARV.",
       "highlights": [
-        "Rental comps support strong ROI",
         "Owner financing available",
-        "Quiet cul-de-sac location",
+        "Below market value - motivated seller",
+        "Hardwood floors throughout"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-14T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 221,
+      "saveCount": 8,
+      "offerCount": 2,
+      "savedBy": [],
+      "createdAt": "2026-01-14T21:18:43.649Z"
+    },
+    {
+      "id": "541eb919-9b7c-42cf-b305-97bde57bbe07",
+      "wholesalerId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
+      "status": "active",
+      "address": "3772 Cedar Way",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75204",
+      "county": "Dallas",
+      "propertyType": "SFH",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 2590,
+      "lotSize": "0.34 acres",
+      "yearBuilt": 1955,
+      "photos": [],
+      "askingPrice": 107000,
+      "arvEstimate": 152000,
+      "rehabEstimate": 44000,
+      "currentValue": 93000,
+      "assignmentFee": 14000,
+      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
+      "highlights": [
+        "No HOA fees",
+        "Large backyard - great for additions",
+        "Excellent school district",
+        "Historic district - appreciation potential"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-11T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 353,
+      "saveCount": 33,
+      "offerCount": 2,
+      "savedBy": [],
+      "createdAt": "2026-01-11T21:18:43.649Z"
+    },
+    {
+      "id": "b57de39e-19a9-4afb-8dda-e3d83ae2db74",
+      "wholesalerId": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
+      "status": "active",
+      "address": "9374 Franklin Cir",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "78202",
+      "county": "Bexar",
+      "propertyType": "SFH",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "sqft": 2204,
+      "lotSize": "0.32 acres",
+      "yearBuilt": 1982,
+      "photos": [],
+      "askingPrice": 146000,
+      "arvEstimate": 206000,
+      "rehabEstimate": 76000,
+      "currentValue": 131000,
+      "assignmentFee": 10000,
+      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
+      "highlights": [
+        "Walk score 85+ near transit",
+        "Large backyard - great for additions",
         "Full basement - extra living space"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-21T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-13T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 359,
-      "saveCount": 16,
+      "viewCount": 163,
+      "saveCount": 8,
       "offerCount": 2,
       "savedBy": [],
-      "createdAt": "2025-12-21T02:44:21.417Z"
+      "createdAt": "2025-12-13T21:18:43.649Z"
     },
     {
-      "id": "f0c3606e-cbfd-4722-884b-7f72cf9e16b2",
-      "wholesalerId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
+      "id": "37b63083-9d0a-4945-9a63-bff1beb0eee9",
+      "wholesalerId": "66908bef-5ef7-4398-8e82-05bb71ee9ce7",
       "status": "active",
-      "address": "890 Elm St",
-      "city": "Dallas",
-      "state": "TX",
-      "zip": "75201",
-      "county": "Dallas",
+      "address": "9288 Elm Way",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32201",
+      "county": "Duval",
+      "propertyType": "SFH",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1432,
+      "lotSize": "0.41 acres",
+      "yearBuilt": 1993,
+      "photos": [],
+      "askingPrice": 144000,
+      "arvEstimate": 226000,
+      "rehabEstimate": 64000,
+      "currentValue": 148000,
+      "assignmentFee": 6000,
+      "description": "Off-market deal sourced directly from a probate situation. Family is eager to sell quickly. Property is in livable condition but dated - light cosmetic rehab needed.",
+      "highlights": [
+        "Owner financing available",
+        "Zoned for multi-family conversion",
+        "Large backyard - great for additions",
+        "Hardwood floors throughout"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-12T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 358,
+      "saveCount": 33,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-12T21:18:43.649Z"
+    },
+    {
+      "id": "2b37eda4-5ca8-4347-bddb-9584ce186736",
+      "wholesalerId": "f69c53da-606c-4394-86c2-62e7a70fdc57",
+      "status": "active",
+      "address": "6173 Cedar Dr",
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33601",
+      "county": "Hillsborough",
+      "propertyType": "Multi-Family",
+      "bedrooms": 9,
+      "bathrooms": 4,
+      "sqft": 3868,
+      "lotSize": "0.75 acres",
+      "yearBuilt": 1963,
+      "photos": [],
+      "askingPrice": 223000,
+      "arvEstimate": 299000,
+      "rehabEstimate": 78000,
+      "currentValue": 216000,
+      "assignmentFee": 16000,
+      "description": "Vacant lot in a high-demand area with approved plans for a single-family home. All permits in hand. Turnkey development opportunity.",
+      "highlights": [
+        "Near major employment centers",
+        "Owner financing available",
+        "Zoned for multi-family conversion",
+        "Walk score 85+ near transit"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-03T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 253,
+      "saveCount": 34,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-03T21:18:43.649Z"
+    },
+    {
+      "id": "56d9a201-267d-4665-a445-295b01954c8b",
+      "wholesalerId": "b6230bbb-23e1-454c-94c2-939c6d160f3f",
+      "status": "active",
+      "address": "9111 Lincoln Rd",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32806",
+      "county": "Orange",
+      "propertyType": "Multi-Family",
+      "bedrooms": 9,
+      "bathrooms": 5,
+      "sqft": 4371,
+      "lotSize": "0.29 acres",
+      "yearBuilt": 1984,
+      "photos": [],
+      "askingPrice": 334000,
+      "arvEstimate": 518000,
+      "rehabEstimate": 72000,
+      "currentValue": 294000,
+      "assignmentFee": 25000,
+      "description": "Three-bedroom ranch in a desirable neighborhood. Needs updated kitchen, bathrooms, and flooring. Strong comps within 0.5 miles support the ARV estimate.",
+      "highlights": [
+        "Quiet cul-de-sac location",
+        "Hardwood floors throughout"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-31T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 210,
+      "saveCount": 25,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-31T21:18:43.649Z"
+    },
+    {
+      "id": "816d968b-38e1-4a75-b268-9a8f70e0d346",
+      "wholesalerId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "status": "active",
+      "address": "3480 Elm Cir",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814",
+      "county": "Sacramento",
+      "propertyType": "Commercial",
+      "bedrooms": null,
+      "bathrooms": 4,
+      "sqft": 6742,
+      "lotSize": "0.42 acres",
+      "yearBuilt": 2001,
+      "photos": [],
+      "askingPrice": 260000,
+      "arvEstimate": 354000,
+      "rehabEstimate": 60000,
+      "currentValue": 263000,
+      "assignmentFee": 23000,
+      "description": "Duplex with both units occupied. Below market rents with month-to-month leases. Value-add opportunity through renovations and rent increases.",
+      "highlights": [
+        "Below market value - motivated seller",
+        "Large backyard - great for additions",
+        "Recently appraised, strong ARV potential",
+        "Walk score 85+ near transit"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-09T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 222,
+      "saveCount": 37,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2026-01-09T21:18:43.649Z"
+    },
+    {
+      "id": "2d7f8a83-ed15-400a-8177-01a7a1fd6163",
+      "wholesalerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "status": "active",
+      "address": "9868 Dogwood St",
+      "city": "Fresno",
+      "state": "CA",
+      "zip": "93704",
+      "county": "Fresno",
+      "propertyType": "Land",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "lotSize": "3.04 acres",
+      "yearBuilt": null,
+      "photos": [],
+      "askingPrice": 33000,
+      "arvEstimate": 52000,
+      "rehabEstimate": 0,
+      "currentValue": 29000,
+      "assignmentFee": 5000,
+      "description": "Estate sale property with deferred maintenance. Large lot with potential for an ADU. City has streamlined ADU permits in this zone.",
+      "highlights": [
+        "Excellent school district",
+        "Historic district - appreciation potential",
+        "Below market value - motivated seller",
+        "Foundation recently inspected - solid"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-06T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 105,
+      "saveCount": 16,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-06T21:18:43.649Z"
+    },
+    {
+      "id": "e4211b4f-d880-4d6e-8608-a6b7769f382f",
+      "wholesalerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "status": "active",
+      "address": "7175 Jefferson Pl",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30301",
+      "county": "Fulton",
+      "propertyType": "SFH",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1491,
+      "lotSize": "0.42 acres",
+      "yearBuilt": 1956,
+      "photos": [],
+      "askingPrice": 273000,
+      "arvEstimate": 371000,
+      "rehabEstimate": 28000,
+      "currentValue": 257000,
+      "assignmentFee": 20000,
+      "description": "Pre-foreclosure deal - owner willing to do a short sale. Bank has approved the price. Quick close possible with proof of funds.",
+      "highlights": [
+        "New roof installed 2024",
+        "Recently appraised, strong ARV potential",
+        "Below market value - motivated seller"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-19T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 52,
+      "saveCount": 7,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-19T21:18:43.649Z"
+    },
+    {
+      "id": "39bf217e-b979-450d-b8f5-a92cf3d4ecae",
+      "wholesalerId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "status": "active",
+      "address": "7442 Elm Ave",
+      "city": "Savannah",
+      "state": "GA",
+      "zip": "31404",
+      "county": "Chatham",
       "propertyType": "SFH",
       "bedrooms": 4,
       "bathrooms": 1,
-      "sqft": 2195,
-      "lotSize": "0.33 acres",
-      "yearBuilt": 1976,
+      "sqft": 1705,
+      "lotSize": "0.13 acres",
+      "yearBuilt": 1997,
       "photos": [],
-      "askingPrice": 204000,
-      "arvEstimate": 290000,
-      "rehabEstimate": 18000,
-      "currentValue": 190000,
-      "assignmentFee": 7000,
-      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
+      "askingPrice": 157000,
+      "arvEstimate": 226000,
+      "rehabEstimate": 48000,
+      "currentValue": 146000,
+      "assignmentFee": 23000,
+      "description": "Solid brick construction in an established neighborhood. Needs roof, HVAC, and cosmetic updates. After repair, comparable properties are selling in 14 days or less.",
       "highlights": [
-        "Foundation recently inspected - solid",
-        "New roof installed 2024"
+        "Full basement - extra living space",
+        "Walk score 85+ near transit"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-02-07T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-11T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 374,
-      "saveCount": 36,
-      "offerCount": 2,
+      "viewCount": 413,
+      "saveCount": 37,
+      "offerCount": 1,
       "savedBy": [],
-      "createdAt": "2026-02-07T02:44:21.417Z"
+      "createdAt": "2026-01-11T21:18:43.649Z"
     },
     {
-      "id": "158270f8-8a22-48f6-82ff-49a6f01fe244",
-      "wholesalerId": "21dca469-6b83-42df-99e1-e4e946fd90a5",
+      "id": "499449a4-5757-4b7a-922b-f1f702df45bc",
+      "wholesalerId": "3046a2c5-0b51-44ad-ae35-ef6aeb5f1927",
       "status": "active",
-      "address": "2468 Spring Pl",
+      "address": "4846 Meadow Way",
+      "city": "Cleveland",
+      "state": "OH",
+      "zip": "44102",
+      "county": "Cuyahoga",
+      "propertyType": "SFH",
+      "bedrooms": 5,
+      "bathrooms": 1.5,
+      "sqft": 2191,
+      "lotSize": "0.33 acres",
+      "yearBuilt": 1984,
+      "photos": [],
+      "askingPrice": 283000,
+      "arvEstimate": 374000,
+      "rehabEstimate": 64000,
+      "currentValue": 252000,
+      "assignmentFee": 15000,
+      "description": "Excellent flip opportunity in a rapidly appreciating neighborhood. The property needs cosmetic updates but has solid bones. Recent comps in the area support a strong ARV.",
+      "highlights": [
+        "Excellent school district",
+        "Large backyard - great for additions",
+        "Corner lot with extra parking"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-31T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 191,
+      "saveCount": 38,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-31T21:18:43.649Z"
+    },
+    {
+      "id": "b510e638-f435-47c9-8aa9-277e2e51d314",
+      "wholesalerId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
+      "status": "active",
+      "address": "2482 Riverside Rd",
+      "city": "Columbus",
+      "state": "OH",
+      "zip": "43203",
+      "county": "Franklin",
+      "propertyType": "SFH",
+      "bedrooms": 2,
+      "bathrooms": 2.5,
+      "sqft": 1516,
+      "lotSize": "0.37 acres",
+      "yearBuilt": 2005,
+      "photos": [],
+      "askingPrice": 89000,
+      "arvEstimate": 122000,
+      "rehabEstimate": 50000,
+      "currentValue": 92000,
+      "assignmentFee": 13000,
+      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
+      "highlights": [
+        "Newer HVAC system (2023)",
+        "Rental comps support strong ROI"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-23T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 251,
+      "saveCount": 30,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-23T21:18:43.649Z"
+    },
+    {
+      "id": "ceac4d70-96c0-4ad7-8c9f-46b0761bbd2a",
+      "wholesalerId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
+      "status": "active",
+      "address": "4936 Oak Cir",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28204",
+      "county": "Mecklenburg",
+      "propertyType": "Multi-Family",
+      "bedrooms": 10,
+      "bathrooms": 3,
+      "sqft": 3260,
+      "lotSize": "0.79 acres",
+      "yearBuilt": 1991,
+      "photos": [],
+      "askingPrice": 451000,
+      "arvEstimate": 722000,
+      "rehabEstimate": 41000,
+      "currentValue": 415000,
+      "assignmentFee": 5000,
+      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
+      "highlights": [
+        "Rental comps support strong ROI",
+        "Excellent school district",
+        "Owner financing available",
+        "Walk score 85+ near transit"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-12T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 410,
+      "saveCount": 15,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2026-01-12T21:18:43.649Z"
+    },
+    {
+      "id": "276b186e-2eb7-47da-a439-fde70b28549c",
+      "wholesalerId": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
+      "status": "active",
+      "address": "4173 Elm Pl",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27603",
+      "county": "Wake",
+      "propertyType": "Multi-Family",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "sqft": 3863,
+      "lotSize": "0.78 acres",
+      "yearBuilt": 1979,
+      "photos": [],
+      "askingPrice": 351000,
+      "arvEstimate": 551000,
+      "rehabEstimate": 59000,
+      "currentValue": 355000,
+      "assignmentFee": 25000,
+      "description": "Off-market deal sourced directly from a probate situation. Family is eager to sell quickly. Property is in livable condition but dated - light cosmetic rehab needed.",
+      "highlights": [
+        "No HOA fees",
+        "Full basement - extra living space",
+        "New roof installed 2024",
+        "Recently appraised, strong ARV potential"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-03T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 346,
+      "saveCount": 33,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-03T21:18:43.649Z"
+    },
+    {
+      "id": "8f6849a6-191f-4cac-a0b6-8b8c18c2f93a",
+      "wholesalerId": "66908bef-5ef7-4398-8e82-05bb71ee9ce7",
+      "status": "active",
+      "address": "7073 Madison Cir",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85004",
+      "county": "Maricopa",
+      "propertyType": "Commercial",
+      "bedrooms": null,
+      "bathrooms": 4,
+      "sqft": 6825,
+      "lotSize": "1.49 acres",
+      "yearBuilt": 1978,
+      "photos": [],
+      "askingPrice": 245000,
+      "arvEstimate": 319000,
+      "rehabEstimate": 23000,
+      "currentValue": 252000,
+      "assignmentFee": 11000,
+      "description": "Vacant lot in a high-demand area with approved plans for a single-family home. All permits in hand. Turnkey development opportunity.",
+      "highlights": [
+        "Recently appraised, strong ARV potential",
+        "Foundation recently inspected - solid"
+      ],
+      "approvalStatus": "approved",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-24T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 52,
+      "saveCount": 38,
+      "offerCount": 1,
+      "savedBy": [],
+      "createdAt": "2025-12-24T21:18:43.649Z"
+    },
+    {
+      "id": "5a8247af-66a9-4373-bb6f-1babbf86e2cd",
+      "wholesalerId": "f69c53da-606c-4394-86c2-62e7a70fdc57",
+      "status": "pending_review",
+      "address": "7220 Jackson Pl",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "85710",
+      "county": "Pima",
+      "propertyType": "Land",
+      "bedrooms": null,
+      "bathrooms": null,
+      "sqft": null,
+      "lotSize": "4.88 acres",
+      "yearBuilt": null,
+      "photos": [],
+      "askingPrice": 147000,
+      "arvEstimate": 234000,
+      "rehabEstimate": 0,
+      "currentValue": 125000,
+      "assignmentFee": 16000,
+      "description": "Three-bedroom ranch in a desirable neighborhood. Needs updated kitchen, bathrooms, and flooring. Strong comps within 0.5 miles support the ARV estimate.",
+      "highlights": [
+        "Zoned for multi-family conversion",
+        "Excellent school district",
+        "Full basement - extra living space"
+      ],
+      "approvalStatus": null,
+      "approvedBy": null,
+      "listedAt": "2025-12-10T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 374,
+      "saveCount": 19,
+      "offerCount": 0,
+      "savedBy": [],
+      "createdAt": "2025-12-10T21:18:43.649Z"
+    },
+    {
+      "id": "1d68844b-195e-4b84-84fb-32517ce7ef57",
+      "wholesalerId": "b6230bbb-23e1-454c-94c2-939c6d160f3f",
+      "status": "pending_review",
+      "address": "8925 Washington Ln",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77004",
+      "county": "Harris",
+      "propertyType": "SFH",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 2399,
+      "lotSize": "0.2 acres",
+      "yearBuilt": 1971,
+      "photos": [],
+      "askingPrice": 105000,
+      "arvEstimate": 152000,
+      "rehabEstimate": 64000,
+      "currentValue": 108000,
+      "assignmentFee": 7000,
+      "description": "Duplex with both units occupied. Below market rents with month-to-month leases. Value-add opportunity through renovations and rent increases.",
+      "highlights": [
+        "Updated kitchen and bathrooms",
+        "New roof installed 2024",
+        "Corner lot with extra parking"
+      ],
+      "approvalStatus": null,
+      "approvedBy": null,
+      "listedAt": "2026-02-14T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 447,
+      "saveCount": 17,
+      "offerCount": 0,
+      "savedBy": [],
+      "createdAt": "2026-02-14T21:18:43.649Z"
+    },
+    {
+      "id": "ef7d273d-7b37-4a16-bcd0-cd96b7511cb0",
+      "wholesalerId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "status": "pending_review",
+      "address": "4804 Franklin St",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75204",
+      "county": "Dallas",
+      "propertyType": "SFH",
+      "bedrooms": 5,
+      "bathrooms": 2.5,
+      "sqft": 1900,
+      "lotSize": "0.3 acres",
+      "yearBuilt": 1995,
+      "photos": [],
+      "askingPrice": 128000,
+      "arvEstimate": 166000,
+      "rehabEstimate": 55000,
+      "currentValue": 124000,
+      "assignmentFee": 21000,
+      "description": "Estate sale property with deferred maintenance. Large lot with potential for an ADU. City has streamlined ADU permits in this zone.",
+      "highlights": [
+        "Zoned for multi-family conversion",
+        "Excellent school district"
+      ],
+      "approvalStatus": null,
+      "approvedBy": null,
+      "listedAt": "2025-12-15T21:18:43.649Z",
+      "delistedAt": null,
+      "viewCount": 199,
+      "saveCount": 23,
+      "offerCount": 0,
+      "savedBy": [],
+      "createdAt": "2025-12-15T21:18:43.649Z"
+    },
+    {
+      "id": "3a7d23d1-a62b-436c-8796-fd90d9da9c90",
+      "wholesalerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "status": "sold",
+      "address": "1303 Maple Cir",
       "city": "San Antonio",
       "state": "TX",
       "zip": "78203",
       "county": "Bexar",
       "propertyType": "SFH",
-      "bedrooms": 4,
-      "bathrooms": 2.5,
-      "sqft": 1783,
-      "lotSize": "0.49 acres",
-      "yearBuilt": 1960,
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "sqft": 1377,
+      "lotSize": "0.22 acres",
+      "yearBuilt": 2009,
       "photos": [],
-      "askingPrice": 303000,
-      "arvEstimate": 445000,
-      "rehabEstimate": 19000,
-      "currentValue": 279000,
-      "assignmentFee": 5000,
-      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
+      "askingPrice": 173000,
+      "arvEstimate": 268000,
+      "rehabEstimate": 80000,
+      "currentValue": 163000,
+      "assignmentFee": 19000,
+      "description": "Pre-foreclosure deal - owner willing to do a short sale. Bank has approved the price. Quick close possible with proof of funds.",
       "highlights": [
-        "Corner lot with extra parking",
-        "Quiet cul-de-sac location",
-        "Tenant-occupied - immediate cash flow"
+        "Hardwood floors throughout",
+        "Below market value - motivated seller",
+        "Recently appraised, strong ARV potential"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-18T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-13T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 72,
-      "saveCount": 11,
-      "offerCount": 2,
+      "viewCount": 314,
+      "saveCount": 8,
+      "offerCount": 0,
       "savedBy": [],
-      "createdAt": "2025-12-18T02:44:21.417Z"
+      "createdAt": "2026-01-13T21:18:43.649Z"
     },
     {
-      "id": "9ac7d39c-d691-4a51-ba72-8a4cf02cce70",
-      "wholesalerId": "c265e91c-b75f-4dd3-bb6a-ca373c8a428e",
-      "status": "active",
-      "address": "5063 Church St",
+      "id": "09511b24-4e50-4dfa-8893-aa7e04dcb741",
+      "wholesalerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "status": "sold",
+      "address": "2261 Meadow Ave",
       "city": "Jacksonville",
       "state": "FL",
-      "zip": "32204",
+      "zip": "32202",
       "county": "Duval",
       "propertyType": "SFH",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": 2461,
-      "lotSize": "0.38 acres",
-      "yearBuilt": 1975,
+      "bedrooms": 5,
+      "bathrooms": 2.5,
+      "sqft": 1553,
+      "lotSize": "0.19 acres",
+      "yearBuilt": 2001,
       "photos": [],
-      "askingPrice": 261000,
-      "arvEstimate": 399000,
-      "rehabEstimate": 17000,
-      "currentValue": 243000,
-      "assignmentFee": 24000,
-      "description": "Off-market deal sourced directly from a probate situation. Family is eager to sell quickly. Property is in livable condition but dated - light cosmetic rehab needed.",
+      "askingPrice": 141000,
+      "arvEstimate": 210000,
+      "rehabEstimate": 57000,
+      "currentValue": 125000,
+      "assignmentFee": 7000,
+      "description": "Solid brick construction in an established neighborhood. Needs roof, HVAC, and cosmetic updates. After repair, comparable properties are selling in 14 days or less.",
       "highlights": [
-        "Corner lot with extra parking",
-        "Quiet cul-de-sac location",
-        "Hardwood floors throughout"
+        "Recently appraised, strong ARV potential",
+        "Tenant-occupied - immediate cash flow",
+        "Quiet cul-de-sac location"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-02-13T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-12-13T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 301,
-      "saveCount": 37,
-      "offerCount": 1,
+      "viewCount": 154,
+      "saveCount": 24,
+      "offerCount": 0,
       "savedBy": [],
-      "createdAt": "2026-02-13T02:44:21.417Z"
+      "createdAt": "2025-12-13T21:18:43.649Z"
     },
     {
-      "id": "88265a7d-93b1-4ca6-a08f-e6953a24a448",
-      "wholesalerId": "2dd1b283-235f-47d1-a5a1-4f255426703e",
-      "status": "active",
-      "address": "2646 Main Cir",
+      "id": "490bddf3-4031-4fe3-9e69-41c9a053ebf7",
+      "wholesalerId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "status": "sold",
+      "address": "3259 Chestnut Pl",
       "city": "Tampa",
       "state": "FL",
-      "zip": "33604",
+      "zip": "33603",
       "county": "Hillsborough",
       "propertyType": "Multi-Family",
       "bedrooms": 9,
-      "bathrooms": 3,
-      "sqft": 2303,
-      "lotSize": "0.21 acres",
-      "yearBuilt": 1983,
+      "bathrooms": 6,
+      "sqft": 2462,
+      "lotSize": "0.71 acres",
+      "yearBuilt": 2004,
       "photos": [],
-      "askingPrice": 196000,
-      "arvEstimate": 280000,
-      "rehabEstimate": 31000,
-      "currentValue": 176000,
-      "assignmentFee": 12000,
-      "description": "Vacant lot in a high-demand area with approved plans for a single-family home. All permits in hand. Turnkey development opportunity.",
+      "askingPrice": 173000,
+      "arvEstimate": 239000,
+      "rehabEstimate": 59000,
+      "currentValue": 161000,
+      "assignmentFee": 14000,
+      "description": "Excellent flip opportunity in a rapidly appreciating neighborhood. The property needs cosmetic updates but has solid bones. Recent comps in the area support a strong ARV.",
       "highlights": [
-        "Recently appraised, strong ARV potential",
-        "Corner lot with extra parking",
-        "Full basement - extra living space",
-        "No HOA fees"
+        "Newer HVAC system (2023)",
+        "Below market value - motivated seller"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-04T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-01-27T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 130,
-      "saveCount": 31,
-      "offerCount": 1,
+      "viewCount": 94,
+      "saveCount": 28,
+      "offerCount": 0,
       "savedBy": [],
-      "createdAt": "2025-12-04T02:44:21.417Z"
+      "createdAt": "2026-01-27T21:18:43.649Z"
     },
     {
-      "id": "46dc4d04-d1f5-4da7-be1c-bbff81e5a6ce",
-      "wholesalerId": "988dddbd-af36-4cbd-9f97-ef62c907660f",
-      "status": "active",
-      "address": "3144 Cypress Dr",
+      "id": "ada8e242-1220-485f-9985-b192a172df79",
+      "wholesalerId": "3046a2c5-0b51-44ad-ae35-ef6aeb5f1927",
+      "status": "under_contract",
+      "address": "7517 Magnolia Cir",
       "city": "Orlando",
       "state": "FL",
-      "zip": "32801",
+      "zip": "32806",
       "county": "Orange",
       "propertyType": "Multi-Family",
-      "bedrooms": 8,
-      "bathrooms": 3,
-      "sqft": 4868,
-      "lotSize": "0.75 acres",
-      "yearBuilt": 2003,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "sqft": 2886,
+      "lotSize": "0.56 acres",
+      "yearBuilt": 1969,
       "photos": [],
-      "askingPrice": 248000,
-      "arvEstimate": 362000,
-      "rehabEstimate": 16000,
-      "currentValue": 221000,
-      "assignmentFee": 17000,
-      "description": "Three-bedroom ranch in a desirable neighborhood. Needs updated kitchen, bathrooms, and flooring. Strong comps within 0.5 miles support the ARV estimate.",
+      "askingPrice": 230000,
+      "arvEstimate": 361000,
+      "rehabEstimate": 70000,
+      "currentValue": 198000,
+      "assignmentFee": 13000,
+      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
       "highlights": [
-        "New roof installed 2024",
-        "Historic district - appreciation potential",
-        "Tenant-occupied - immediate cash flow"
+        "Large backyard - great for additions",
+        "Rental comps support strong ROI"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-20T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-11-24T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 378,
-      "saveCount": 10,
+      "viewCount": 30,
+      "saveCount": 5,
       "offerCount": 1,
       "savedBy": [],
-      "createdAt": "2026-01-20T02:44:21.417Z"
+      "createdAt": "2025-11-24T21:18:43.649Z"
     },
     {
-      "id": "129d5495-7b5a-48c4-ac5e-e8d897627121",
-      "wholesalerId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
-      "status": "active",
-      "address": "9419 Chestnut Blvd",
+      "id": "9e1c8e12-9d61-42c7-a596-def72521ebce",
+      "wholesalerId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
+      "status": "under_contract",
+      "address": "6454 Sunset Blvd",
       "city": "Sacramento",
       "state": "CA",
       "zip": "95814",
@@ -1115,37 +1706,37 @@
       "propertyType": "Commercial",
       "bedrooms": null,
       "bathrooms": 2,
-      "sqft": 3723,
-      "lotSize": "0.91 acres",
-      "yearBuilt": 2015,
+      "sqft": 8027,
+      "lotSize": "0.51 acres",
+      "yearBuilt": 1971,
       "photos": [],
-      "askingPrice": 441000,
-      "arvEstimate": 648000,
-      "rehabEstimate": 79000,
-      "currentValue": 397000,
-      "assignmentFee": 9000,
-      "description": "Duplex with both units occupied. Below market rents with month-to-month leases. Value-add opportunity through renovations and rent increases.",
+      "askingPrice": 445000,
+      "arvEstimate": 654000,
+      "rehabEstimate": 28000,
+      "currentValue": 405000,
+      "assignmentFee": 20000,
+      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
       "highlights": [
-        "Corner lot with extra parking",
-        "Full basement - extra living space",
-        "Rental comps support strong ROI",
-        "Excellent school district"
+        "Recently appraised, strong ARV potential",
+        "Foundation recently inspected - solid",
+        "Updated kitchen and bathrooms",
+        "Quiet cul-de-sac location"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-21T02:44:21.417Z",
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2025-11-30T21:18:43.649Z",
       "delistedAt": null,
-      "viewCount": 445,
-      "saveCount": 2,
+      "viewCount": 443,
+      "saveCount": 16,
       "offerCount": 1,
       "savedBy": [],
-      "createdAt": "2025-12-21T02:44:21.417Z"
+      "createdAt": "2025-11-30T21:18:43.649Z"
     },
     {
-      "id": "2bdcc286-25fe-4e1b-85b2-598923e99cb7",
-      "wholesalerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "status": "active",
-      "address": "6999 Pine Pl",
+      "id": "6f2683fe-7d60-4335-86d4-f3bc8865f0ad",
+      "wholesalerId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
+      "status": "draft",
+      "address": "5360 Church Cir",
       "city": "Fresno",
       "state": "CA",
       "zip": "93703",
@@ -1154,1464 +1745,874 @@
       "bedrooms": null,
       "bathrooms": null,
       "sqft": null,
-      "lotSize": "4.95 acres",
+      "lotSize": "0.61 acres",
       "yearBuilt": null,
       "photos": [],
-      "askingPrice": 80000,
-      "arvEstimate": 114000,
+      "askingPrice": 119000,
+      "arvEstimate": 173000,
       "rehabEstimate": 0,
-      "currentValue": 70000,
-      "assignmentFee": 11000,
-      "description": "Estate sale property with deferred maintenance. Large lot with potential for an ADU. City has streamlined ADU permits in this zone.",
-      "highlights": [
-        "Full basement - extra living space",
-        "New roof installed 2024",
-        "Foundation recently inspected - solid"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-12T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 368,
-      "saveCount": 30,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-12T02:44:21.417Z"
-    },
-    {
-      "id": "39690783-3e62-42ac-9245-61d7c90079c7",
-      "wholesalerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "status": "active",
-      "address": "3847 Cypress Dr",
-      "city": "Atlanta",
-      "state": "GA",
-      "zip": "30303",
-      "county": "Fulton",
-      "propertyType": "SFH",
-      "bedrooms": 4,
-      "bathrooms": 1.5,
-      "sqft": 2176,
-      "lotSize": "0.31 acres",
-      "yearBuilt": 1965,
-      "photos": [],
-      "askingPrice": 178000,
-      "arvEstimate": 262000,
-      "rehabEstimate": 38000,
-      "currentValue": 153000,
-      "assignmentFee": 18000,
-      "description": "Pre-foreclosure deal - owner willing to do a short sale. Bank has approved the price. Quick close possible with proof of funds.",
-      "highlights": [
-        "Corner lot with extra parking",
-        "Large backyard - great for additions",
-        "Zoned for multi-family conversion"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-14T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 420,
-      "saveCount": 5,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-14T02:44:21.417Z"
-    },
-    {
-      "id": "2985ad36-786e-49d9-9691-06e0f99dccb6",
-      "wholesalerId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "status": "active",
-      "address": "2607 Washington Rd",
-      "city": "Savannah",
-      "state": "GA",
-      "zip": "31406",
-      "county": "Chatham",
-      "propertyType": "SFH",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": 2334,
-      "lotSize": "0.31 acres",
-      "yearBuilt": 1997,
-      "photos": [],
-      "askingPrice": 177000,
-      "arvEstimate": 230000,
-      "rehabEstimate": 74000,
-      "currentValue": 161000,
-      "assignmentFee": 23000,
-      "description": "Solid brick construction in an established neighborhood. Needs roof, HVAC, and cosmetic updates. After repair, comparable properties are selling in 14 days or less.",
-      "highlights": [
-        "Below market value - motivated seller",
-        "Rental comps support strong ROI"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-25T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 412,
-      "saveCount": 32,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2025-12-25T02:44:21.417Z"
-    },
-    {
-      "id": "2f87cd97-cb07-46b8-8820-f3121c4cfea0",
-      "wholesalerId": "b3554fed-8e19-4ee6-8a94-2468e90f147f",
-      "status": "active",
-      "address": "4816 Chestnut Ct",
-      "city": "Cleveland",
-      "state": "OH",
-      "zip": "44102",
-      "county": "Cuyahoga",
-      "propertyType": "SFH",
-      "bedrooms": 3,
-      "bathrooms": 2.5,
-      "sqft": 2661,
-      "lotSize": "0.34 acres",
-      "yearBuilt": 1962,
-      "photos": [],
-      "askingPrice": 156000,
-      "arvEstimate": 225000,
-      "rehabEstimate": 76000,
-      "currentValue": 164000,
-      "assignmentFee": 18000,
-      "description": "Excellent flip opportunity in a rapidly appreciating neighborhood. The property needs cosmetic updates but has solid bones. Recent comps in the area support a strong ARV.",
-      "highlights": [
-        "Updated kitchen and bathrooms",
-        "Hardwood floors throughout"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-27T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 98,
-      "saveCount": 16,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2025-12-27T02:44:21.417Z"
-    },
-    {
-      "id": "9da25738-22eb-4cd4-a1d6-8d2d66433b69",
-      "wholesalerId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
-      "status": "active",
-      "address": "4438 Cypress Cir",
-      "city": "Columbus",
-      "state": "OH",
-      "zip": "43201",
-      "county": "Franklin",
-      "propertyType": "SFH",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": 2069,
-      "lotSize": "0.18 acres",
-      "yearBuilt": 1989,
-      "photos": [],
-      "askingPrice": 171000,
-      "arvEstimate": 248000,
-      "rehabEstimate": 78000,
-      "currentValue": 149000,
-      "assignmentFee": 5000,
-      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
-      "highlights": [
-        "Hardwood floors throughout",
-        "Owner financing available",
-        "Zoned for multi-family conversion",
-        "Tenant-occupied - immediate cash flow"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-24T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 446,
-      "saveCount": 2,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-24T02:44:21.417Z"
-    },
-    {
-      "id": "d65a6546-017e-4da5-bd5b-b6967b5bb90b",
-      "wholesalerId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
-      "status": "active",
-      "address": "9110 Main Rd",
-      "city": "Charlotte",
-      "state": "NC",
-      "zip": "28202",
-      "county": "Mecklenburg",
-      "propertyType": "Multi-Family",
-      "bedrooms": 6,
-      "bathrooms": 6,
-      "sqft": 2164,
-      "lotSize": "0.21 acres",
-      "yearBuilt": 1977,
-      "photos": [],
-      "askingPrice": 255000,
-      "arvEstimate": 344000,
-      "rehabEstimate": 38000,
-      "currentValue": 219000,
-      "assignmentFee": 23000,
-      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
-      "highlights": [
-        "Owner financing available",
-        "Full basement - extra living space"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-11-29T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 16,
-      "saveCount": 11,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2025-11-29T02:44:21.417Z"
-    },
-    {
-      "id": "bf89198d-1bf8-4b5d-add5-47c1fd71a92f",
-      "wholesalerId": "21dca469-6b83-42df-99e1-e4e946fd90a5",
-      "status": "active",
-      "address": "4865 Dogwood Ln",
-      "city": "Raleigh",
-      "state": "NC",
-      "zip": "27603",
-      "county": "Wake",
-      "propertyType": "Multi-Family",
-      "bedrooms": 4,
-      "bathrooms": 6,
-      "sqft": 4704,
-      "lotSize": "0.39 acres",
-      "yearBuilt": 1971,
-      "photos": [],
-      "askingPrice": 406000,
-      "arvEstimate": 646000,
-      "rehabEstimate": 67000,
-      "currentValue": 382000,
-      "assignmentFee": 17000,
-      "description": "Off-market deal sourced directly from a probate situation. Family is eager to sell quickly. Property is in livable condition but dated - light cosmetic rehab needed.",
-      "highlights": [
-        "Owner financing available",
-        "Hardwood floors throughout",
-        "New roof installed 2024",
-        "Excellent school district"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-11-29T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 278,
-      "saveCount": 22,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2025-11-29T02:44:21.417Z"
-    },
-    {
-      "id": "2a834a07-8cf7-49d1-9821-20a7768ad41e",
-      "wholesalerId": "c265e91c-b75f-4dd3-bb6a-ca373c8a428e",
-      "status": "active",
-      "address": "1155 Oak Blvd",
-      "city": "Phoenix",
-      "state": "AZ",
-      "zip": "85006",
-      "county": "Maricopa",
-      "propertyType": "Commercial",
-      "bedrooms": null,
-      "bathrooms": 3,
-      "sqft": 7335,
-      "lotSize": "0.72 acres",
-      "yearBuilt": 1983,
-      "photos": [],
-      "askingPrice": 242000,
-      "arvEstimate": 324000,
-      "rehabEstimate": 17000,
-      "currentValue": 232000,
+      "currentValue": 125000,
       "assignmentFee": 8000,
-      "description": "Vacant lot in a high-demand area with approved plans for a single-family home. All permits in hand. Turnkey development opportunity.",
-      "highlights": [
-        "Owner financing available",
-        "Rental comps support strong ROI",
-        "New roof installed 2024"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-31T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 387,
-      "saveCount": 29,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-31T02:44:21.417Z"
-    },
-    {
-      "id": "892d26b7-90a0-45f8-90f9-cbf4b83a1c0b",
-      "wholesalerId": "2dd1b283-235f-47d1-a5a1-4f255426703e",
-      "status": "pending_review",
-      "address": "2458 Pine Ln",
-      "city": "Tucson",
-      "state": "AZ",
-      "zip": "85701",
-      "county": "Pima",
-      "propertyType": "Land",
-      "bedrooms": null,
-      "bathrooms": null,
-      "sqft": null,
-      "lotSize": "4.4 acres",
-      "yearBuilt": null,
-      "photos": [],
-      "askingPrice": 144000,
-      "arvEstimate": 225000,
-      "rehabEstimate": 0,
-      "currentValue": 143000,
-      "assignmentFee": 16000,
-      "description": "Three-bedroom ranch in a desirable neighborhood. Needs updated kitchen, bathrooms, and flooring. Strong comps within 0.5 miles support the ARV estimate.",
-      "highlights": [
-        "Below market value - motivated seller",
-        "Historic district - appreciation potential",
-        "Foundation recently inspected - solid",
-        "Near major employment centers"
-      ],
-      "approvalStatus": null,
-      "approvedBy": null,
-      "listedAt": "2026-02-09T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 438,
-      "saveCount": 4,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2026-02-09T02:44:21.417Z"
-    },
-    {
-      "id": "397498eb-d51c-4b26-b957-e3de72e84302",
-      "wholesalerId": "988dddbd-af36-4cbd-9f97-ef62c907660f",
-      "status": "pending_review",
-      "address": "8920 Madison Ct",
-      "city": "Houston",
-      "state": "TX",
-      "zip": "77002",
-      "county": "Harris",
-      "propertyType": "SFH",
-      "bedrooms": 4,
-      "bathrooms": 1,
-      "sqft": 1516,
-      "lotSize": "0.22 acres",
-      "yearBuilt": 1986,
-      "photos": [],
-      "askingPrice": 110000,
-      "arvEstimate": 174000,
-      "rehabEstimate": 66000,
-      "currentValue": 109000,
-      "assignmentFee": 12000,
-      "description": "Duplex with both units occupied. Below market rents with month-to-month leases. Value-add opportunity through renovations and rent increases.",
-      "highlights": [
-        "Large backyard - great for additions",
-        "Rental comps support strong ROI",
-        "New roof installed 2024",
-        "Excellent school district"
-      ],
-      "approvalStatus": null,
-      "approvedBy": null,
-      "listedAt": "2026-02-08T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 48,
-      "saveCount": 33,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2026-02-08T02:44:21.417Z"
-    },
-    {
-      "id": "0544f3fe-2836-4728-a616-1a38776bcf00",
-      "wholesalerId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
-      "status": "pending_review",
-      "address": "5646 Sycamore Ct",
-      "city": "Dallas",
-      "state": "TX",
-      "zip": "75204",
-      "county": "Dallas",
-      "propertyType": "SFH",
-      "bedrooms": 5,
-      "bathrooms": 1.5,
-      "sqft": 2357,
-      "lotSize": "0.13 acres",
-      "yearBuilt": 2007,
-      "photos": [],
-      "askingPrice": 123000,
-      "arvEstimate": 162000,
-      "rehabEstimate": 50000,
-      "currentValue": 112000,
-      "assignmentFee": 5000,
-      "description": "Estate sale property with deferred maintenance. Large lot with potential for an ADU. City has streamlined ADU permits in this zone.",
-      "highlights": [
-        "Zoned for multi-family conversion",
-        "Near major employment centers"
-      ],
-      "approvalStatus": null,
-      "approvedBy": null,
-      "listedAt": "2025-12-26T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 427,
-      "saveCount": 12,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2025-12-26T02:44:21.417Z"
-    },
-    {
-      "id": "0a6798e2-34b8-48d8-b35e-9fbaf60149bd",
-      "wholesalerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "status": "sold",
-      "address": "5285 Main Blvd",
-      "city": "San Antonio",
-      "state": "TX",
-      "zip": "78202",
-      "county": "Bexar",
-      "propertyType": "SFH",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "sqft": 2444,
-      "lotSize": "0.24 acres",
-      "yearBuilt": 1990,
-      "photos": [],
-      "askingPrice": 233000,
-      "arvEstimate": 354000,
-      "rehabEstimate": 71000,
-      "currentValue": 245000,
-      "assignmentFee": 16000,
-      "description": "Pre-foreclosure deal - owner willing to do a short sale. Bank has approved the price. Quick close possible with proof of funds.",
-      "highlights": [
-        "Below market value - motivated seller",
-        "Quiet cul-de-sac location",
-        "Recently appraised, strong ARV potential",
-        "No HOA fees"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-21T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 366,
-      "saveCount": 14,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2026-01-21T02:44:21.417Z"
-    },
-    {
-      "id": "33306113-f5d6-4c60-b918-11c27b520f8b",
-      "wholesalerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "status": "sold",
-      "address": "5462 Park St",
-      "city": "Jacksonville",
-      "state": "FL",
-      "zip": "32205",
-      "county": "Duval",
-      "propertyType": "SFH",
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "sqft": 2206,
-      "lotSize": "0.27 acres",
-      "yearBuilt": 2007,
-      "photos": [],
-      "askingPrice": 82000,
-      "arvEstimate": 131000,
-      "rehabEstimate": 15000,
-      "currentValue": 82000,
-      "assignmentFee": 19000,
-      "description": "Solid brick construction in an established neighborhood. Needs roof, HVAC, and cosmetic updates. After repair, comparable properties are selling in 14 days or less.",
-      "highlights": [
-        "Walk score 85+ near transit",
-        "Full basement - extra living space",
-        "Recently appraised, strong ARV potential",
-        "Near major employment centers"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-11-28T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 310,
-      "saveCount": 15,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2025-11-28T02:44:21.417Z"
-    },
-    {
-      "id": "f6354b1f-77b6-4180-b481-8207aa85748a",
-      "wholesalerId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "status": "sold",
-      "address": "7031 Riverside St",
-      "city": "Tampa",
-      "state": "FL",
-      "zip": "33602",
-      "county": "Hillsborough",
-      "propertyType": "Multi-Family",
-      "bedrooms": 7,
-      "bathrooms": 4,
-      "sqft": 4965,
-      "lotSize": "0.56 acres",
-      "yearBuilt": 1965,
-      "photos": [],
-      "askingPrice": 278000,
-      "arvEstimate": 436000,
-      "rehabEstimate": 59000,
-      "currentValue": 281000,
-      "assignmentFee": 9000,
-      "description": "Excellent flip opportunity in a rapidly appreciating neighborhood. The property needs cosmetic updates but has solid bones. Recent comps in the area support a strong ARV.",
-      "highlights": [
-        "Walk score 85+ near transit",
-        "Recently appraised, strong ARV potential"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2025-12-21T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 164,
-      "saveCount": 17,
-      "offerCount": 0,
-      "savedBy": [],
-      "createdAt": "2025-12-21T02:44:21.417Z"
-    },
-    {
-      "id": "bdd69d94-75f1-4868-90ed-55b8cda462ed",
-      "wholesalerId": "b3554fed-8e19-4ee6-8a94-2468e90f147f",
-      "status": "under_contract",
-      "address": "2744 Dogwood Rd",
-      "city": "Orlando",
-      "state": "FL",
-      "zip": "32801",
-      "county": "Orange",
-      "propertyType": "Multi-Family",
-      "bedrooms": 4,
-      "bathrooms": 4,
-      "sqft": 4831,
-      "lotSize": "0.26 acres",
-      "yearBuilt": 2004,
-      "photos": [],
-      "askingPrice": 244000,
-      "arvEstimate": 386000,
-      "rehabEstimate": 50000,
-      "currentValue": 217000,
-      "assignmentFee": 15000,
-      "description": "Distressed property with significant upside potential. Seller is motivated and ready for a quick close. Perfect for experienced rehabbers looking for their next project.",
-      "highlights": [
-        "Updated kitchen and bathrooms",
-        "Near major employment centers"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-08T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 190,
-      "saveCount": 10,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-08T02:44:21.417Z"
-    },
-    {
-      "id": "7b3aa4a1-a9de-478e-b193-19816fe49803",
-      "wholesalerId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
-      "status": "under_contract",
-      "address": "474 Cypress Blvd",
-      "city": "Sacramento",
-      "state": "CA",
-      "zip": "95816",
-      "county": "Sacramento",
-      "propertyType": "Commercial",
-      "bedrooms": null,
-      "bathrooms": 3,
-      "sqft": 8910,
-      "lotSize": "0.93 acres",
-      "yearBuilt": 2006,
-      "photos": [],
-      "askingPrice": 246000,
-      "arvEstimate": 357000,
-      "rehabEstimate": 55000,
-      "currentValue": 258000,
-      "assignmentFee": 6000,
-      "description": "Buy-and-hold opportunity in a strong rental market. Current tenant paying below market rent with lease expiring soon. Opportunity to increase rents by 15-20%.",
-      "highlights": [
-        "Updated kitchen and bathrooms",
-        "Large backyard - great for additions"
-      ],
-      "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-05T02:44:21.417Z",
-      "delistedAt": null,
-      "viewCount": 336,
-      "saveCount": 31,
-      "offerCount": 1,
-      "savedBy": [],
-      "createdAt": "2026-01-05T02:44:21.417Z"
-    },
-    {
-      "id": "68498653-c8cf-486f-a3cd-80a656dfc678",
-      "wholesalerId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
-      "status": "draft",
-      "address": "6485 Chestnut Pl",
-      "city": "Fresno",
-      "state": "CA",
-      "zip": "93702",
-      "county": "Fresno",
-      "propertyType": "Land",
-      "bedrooms": null,
-      "bathrooms": null,
-      "sqft": null,
-      "lotSize": "4.17 acres",
-      "yearBuilt": null,
-      "photos": [],
-      "askingPrice": 93000,
-      "arvEstimate": 129000,
-      "rehabEstimate": 0,
-      "currentValue": 79000,
-      "assignmentFee": 5000,
       "description": "Off-market deal sourced directly from a probate situation. Family is eager to sell quickly. Property is in livable condition but dated - light cosmetic rehab needed.",
       "highlights": [
-        "Quiet cul-de-sac location",
-        "Excellent school district"
+        "Walk score 85+ near transit",
+        "Below market value - motivated seller"
       ],
       "approvalStatus": null,
       "approvedBy": null,
       "listedAt": null,
       "delistedAt": null,
-      "viewCount": 263,
-      "saveCount": 28,
+      "viewCount": 426,
+      "saveCount": 17,
       "offerCount": 0,
       "savedBy": [],
-      "createdAt": "2025-12-05T02:44:21.417Z"
+      "createdAt": "2025-12-03T21:18:43.649Z"
     },
     {
-      "id": "37ad589d-2301-48de-b6dd-b6a6ddcc2491",
-      "wholesalerId": "21dca469-6b83-42df-99e1-e4e946fd90a5",
+      "id": "6b2775c4-b623-44e6-b526-0644206ca6f3",
+      "wholesalerId": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
       "status": "delisted",
-      "address": "5008 Maple Ave",
+      "address": "6868 Peachtree Blvd",
       "city": "Atlanta",
       "state": "GA",
-      "zip": "30305",
+      "zip": "30301",
       "county": "Fulton",
       "propertyType": "SFH",
-      "bedrooms": 3,
+      "bedrooms": 4,
       "bathrooms": 2,
-      "sqft": 1777,
-      "lotSize": "0.29 acres",
-      "yearBuilt": 1957,
+      "sqft": 1252,
+      "lotSize": "0.17 acres",
+      "yearBuilt": 1983,
       "photos": [],
-      "askingPrice": 184000,
-      "arvEstimate": 278000,
-      "rehabEstimate": 29000,
-      "currentValue": 182000,
-      "assignmentFee": 23000,
+      "askingPrice": 187000,
+      "arvEstimate": 284000,
+      "rehabEstimate": 67000,
+      "currentValue": 189000,
+      "assignmentFee": 13000,
       "description": "Vacant lot in a high-demand area with approved plans for a single-family home. All permits in hand. Turnkey development opportunity.",
       "highlights": [
-        "Full basement - extra living space",
-        "Excellent school district",
-        "Near major employment centers"
+        "Recently appraised, strong ARV potential",
+        "Foundation recently inspected - solid",
+        "New roof installed 2024",
+        "Walk score 85+ near transit"
       ],
       "approvalStatus": "approved",
-      "approvedBy": "3978efb9-156c-4692-a250-85d33ad40698",
-      "listedAt": "2026-01-16T02:44:21.417Z",
-      "delistedAt": "2026-02-16T02:44:21.417Z",
-      "viewCount": 79,
-      "saveCount": 16,
+      "approvedBy": "491b97dd-3c10-4ebc-af77-6c04432f979b",
+      "listedAt": "2026-02-02T21:18:43.649Z",
+      "delistedAt": "2026-02-12T21:18:43.649Z",
+      "viewCount": 139,
+      "saveCount": 39,
       "offerCount": 0,
       "savedBy": [],
-      "createdAt": "2026-01-16T02:44:21.417Z"
+      "createdAt": "2026-02-02T21:18:43.649Z"
     }
   ],
   "offers": [
     {
-      "id": "82e5324d-8d9c-4c85-b42c-5956c38e9ecb",
-      "dealId": "a55b41e3-a2b5-45dd-b8ef-95d9592d66a6",
-      "investorId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
-      "amount": 184000,
+      "id": "5d758f3b-34f4-4928-bd8b-6966860abe5e",
+      "dealId": "19f376b6-e12a-439d-84cc-7c5664ad7e73",
+      "investorId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
+      "amount": 98000,
       "message": "Interested in this property. Cash buyer, can close in 14 days.",
       "status": "pending",
-      "createdAt": "2026-02-13T02:44:21.417Z",
+      "createdAt": "2026-01-31T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "07d24183-010b-4d17-a9ba-56ce4674237b",
-      "dealId": "f0c3606e-cbfd-4722-884b-7f72cf9e16b2",
-      "investorId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "amount": 190000,
+      "id": "34bb427f-f52d-4015-ab0e-13b3aa254449",
+      "dealId": "541eb919-9b7c-42cf-b305-97bde57bbe07",
+      "investorId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
+      "amount": 113000,
       "message": "We have been looking in this area for months. Ready to move quickly with proof of funds available.",
       "status": "pending",
-      "createdAt": "2026-02-06T02:44:21.417Z",
+      "createdAt": "2026-02-06T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "d9f3798f-c8e8-4284-9e76-a08071e62884",
-      "dealId": "158270f8-8a22-48f6-82ff-49a6f01fe244",
-      "investorId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "amount": 318000,
+      "id": "0f57b26b-0521-4b94-999e-f4b6d61f3f89",
+      "dealId": "b57de39e-19a9-4afb-8dda-e3d83ae2db74",
+      "investorId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "amount": 146000,
       "message": "Strong offer backed by our investment fund. We can accommodate your preferred timeline.",
       "status": "pending",
-      "createdAt": "2026-02-13T02:44:21.417Z",
+      "createdAt": "2026-02-05T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "19550158-ba02-4ce5-876c-69108e387068",
-      "dealId": "9ac7d39c-d691-4a51-ba72-8a4cf02cce70",
-      "investorId": "3abc0ac6-9ad2-4930-b2b5-9816d7c85919",
-      "amount": 277000,
+      "id": "eaa8dd13-8a80-4014-8e98-d171e56ff9d1",
+      "dealId": "37b63083-9d0a-4945-9a63-bff1beb0eee9",
+      "investorId": "3d34f270-df6e-42b7-963a-ee20438eb338",
+      "amount": 143000,
       "message": "Cash offer, no contingencies. We have closed 50+ deals this year and can provide references.",
       "status": "pending",
-      "createdAt": "2026-01-24T02:44:21.417Z",
+      "createdAt": "2026-01-31T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "16435748-d125-485a-8334-49a1c829f7c5",
-      "dealId": "88265a7d-93b1-4ca6-a08f-e6953a24a448",
-      "investorId": "0ef8b3c5-e372-4a3e-81f6-5345312c7ead",
-      "amount": 210000,
+      "id": "3ebd3513-ee8c-47e1-a2ee-d562209e9af7",
+      "dealId": "2b37eda4-5ca8-4347-bddb-9584ce186736",
+      "investorId": "cb299a6d-f15c-45d4-9362-479f1b418449",
+      "amount": 234000,
       "message": "Offering above asking - this fits our portfolio perfectly. Can we schedule a walkthrough?",
       "status": "pending",
-      "createdAt": "2026-01-29T02:44:21.417Z",
+      "createdAt": "2026-02-11T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "92a4a503-236a-4de9-a5a1-1fe4748807b9",
-      "dealId": "46dc4d04-d1f5-4da7-be1c-bbff81e5a6ce",
-      "investorId": "c9d6ca2b-7497-4c5f-bff7-0841bfbf26d7",
-      "amount": 226000,
+      "id": "f424a5b6-7e10-4719-864c-5e2dcf21d65b",
+      "dealId": "56d9a201-267d-4665-a445-295b01954c8b",
+      "investorId": "d39d65bf-8177-470b-946d-7986c0404f16",
+      "amount": 317000,
       "message": "We love the numbers on this one. Our rehab crew is ready to start immediately after closing.",
       "status": "pending",
-      "createdAt": "2026-01-26T02:44:21.417Z",
+      "createdAt": "2026-01-30T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "0d879008-d688-4371-9715-e0bf675e207e",
-      "dealId": "129d5495-7b5a-48c4-ac5e-e8d897627121",
-      "investorId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
-      "amount": 467000,
+      "id": "acd3a867-f603-49e5-99ab-41fc667da64f",
+      "dealId": "816d968b-38e1-4a75-b268-9a8f70e0d346",
+      "investorId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
+      "amount": 281000,
       "message": "Serious buyer here. We close with our own capital - no lending delays. Let us know your timeline.",
       "status": "accepted",
-      "createdAt": "2026-02-06T02:44:21.417Z",
-      "respondedAt": "2026-02-20T02:44:21.417Z",
-      "expiresAt": "2026-03-20T01:44:21.417Z"
+      "createdAt": "2026-02-03T21:18:43.649Z",
+      "respondedAt": "2026-02-15T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "9ff20be6-723a-4868-bd7a-4e37c47a95ec",
-      "dealId": "2bdcc286-25fe-4e1b-85b2-598923e99cb7",
-      "investorId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
-      "amount": 73000,
+      "id": "ef9e6baa-4196-4501-9759-79b072ffeb38",
+      "dealId": "2d7f8a83-ed15-400a-8177-01a7a1fd6163",
+      "investorId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
+      "amount": 34000,
       "message": "This is exactly what we are looking for. Flexible on closing date. Would like to discuss terms.",
       "status": "accepted",
-      "createdAt": "2026-02-17T02:44:21.417Z",
-      "respondedAt": "2026-02-19T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-14T21:18:43.649Z",
+      "respondedAt": "2026-02-17T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "3c5d50a4-ac72-4925-a96f-8e9cfb282ccd",
-      "dealId": "39690783-3e62-42ac-9245-61d7c90079c7",
-      "investorId": "a90f7b2d-884b-4e98-969b-fb7189429687",
-      "amount": 162000,
+      "id": "6e99774f-e027-434c-809e-0bb15bbdfd96",
+      "dealId": "e4211b4f-d880-4d6e-8608-a6b7769f382f",
+      "investorId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
+      "amount": 292000,
       "message": "Ready to wire earnest money today. Our attorney can handle closing within 10 business days.",
       "status": "accepted",
-      "createdAt": "2026-02-15T02:44:21.418Z",
-      "respondedAt": "2026-02-16T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-01-28T21:18:43.649Z",
+      "respondedAt": "2026-02-16T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "3a1ed634-4594-4210-9c2f-a35b6f791ed2",
-      "dealId": "2985ad36-786e-49d9-9691-06e0f99dccb6",
-      "investorId": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
-      "amount": 170000,
+      "id": "a6272432-af5b-4c45-9803-9dec4947f9fe",
+      "dealId": "39bf217e-b979-450d-b8f5-a92cf3d4ecae",
+      "investorId": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
+      "amount": 159000,
       "message": "We are a local investment group and can close fast. Happy to work with your title company.",
       "status": "accepted",
-      "createdAt": "2026-02-08T02:44:21.418Z",
-      "respondedAt": "2026-02-16T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-19T21:18:43.649Z",
+      "respondedAt": "2026-02-19T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "346701ae-3199-442e-a687-1e58b3731b1b",
-      "dealId": "2f87cd97-cb07-46b8-8820-f3121c4cfea0",
-      "investorId": "01d45fc0-9648-48a3-a6a5-f3bfcf9504df",
-      "amount": 154000,
+      "id": "16667cf2-7516-474c-987e-c4fac6bc4ce0",
+      "dealId": "499449a4-5757-4b7a-922b-f1f702df45bc",
+      "investorId": "7286d113-f51e-48f8-a73e-14679f070896",
+      "amount": 283000,
       "message": "Interested in this property. Cash buyer, can close in 14 days.",
       "status": "rejected",
-      "createdAt": "2026-01-30T02:44:21.418Z",
-      "respondedAt": "2026-02-20T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-08T21:18:43.649Z",
+      "respondedAt": "2026-02-18T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "c82c0f1f-d1c3-4da0-a94d-7606793b57a2",
-      "dealId": "9da25738-22eb-4cd4-a1d6-8d2d66433b69",
-      "investorId": "3495821b-7d23-44b9-a7f9-c646ff59529e",
-      "amount": 157000,
+      "id": "1ad094e1-bcb9-4afb-9a93-4406dda7c5cc",
+      "dealId": "b510e638-f435-47c9-8aa9-277e2e51d314",
+      "investorId": "a3251ad6-358a-4302-8ee6-78d06ffd1da7",
+      "amount": 87000,
       "message": "We have been looking in this area for months. Ready to move quickly with proof of funds available.",
       "status": "rejected",
-      "createdAt": "2026-01-28T02:44:21.418Z",
-      "respondedAt": "2026-02-15T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-05T21:18:43.649Z",
+      "respondedAt": "2026-02-19T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "dfca8ed5-7703-45e2-980c-579aa6f8ef31",
-      "dealId": "d65a6546-017e-4da5-bd5b-b6967b5bb90b",
-      "investorId": "da7d1626-da08-47f9-bb32-c25b3273880c",
-      "amount": 245000,
+      "id": "f36316de-c1b5-42dd-be38-0f138f4a2d86",
+      "dealId": "ceac4d70-96c0-4ad7-8c9f-46b0761bbd2a",
+      "investorId": "710b6b15-eee4-410e-bf18-5195f751c4e3",
+      "amount": 451000,
       "message": "Strong offer backed by our investment fund. We can accommodate your preferred timeline.",
       "status": "rejected",
-      "createdAt": "2026-01-28T02:44:21.418Z",
-      "respondedAt": "2026-02-16T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-12T21:18:43.649Z",
+      "respondedAt": "2026-02-18T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "452b543c-9ab8-407b-9bda-be9d241ed79b",
-      "dealId": "bf89198d-1bf8-4b5d-add5-47c1fd71a92f",
-      "investorId": "2182c2ea-1e89-4e0d-a9a5-911b058bf32f",
-      "amount": 406000,
+      "id": "5fa8b5ff-b1a6-4211-97d6-ae99eb6a88c8",
+      "dealId": "276b186e-2eb7-47da-a439-fde70b28549c",
+      "investorId": "0419151c-5d88-4512-8097-4531e7609c74",
+      "amount": 312000,
       "message": "Cash offer, no contingencies. We have closed 50+ deals this year and can provide references.",
       "status": "withdrawn",
-      "createdAt": "2026-02-11T02:44:21.418Z",
-      "respondedAt": "2026-02-16T02:44:21.418Z",
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "createdAt": "2026-02-02T21:18:43.649Z",
+      "respondedAt": "2026-02-16T21:18:43.649Z",
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "621ba0a0-a23c-4da2-b88c-6321f515a325",
-      "dealId": "2a834a07-8cf7-49d1-9821-20a7768ad41e",
-      "investorId": "840e46fa-9e1d-408e-a024-e53ef7417b0c",
-      "amount": 242000,
+      "id": "6cd507d5-6dde-41d4-a343-e3a624d2b7b1",
+      "dealId": "8f6849a6-191f-4cac-a0b6-8b8c18c2f93a",
+      "investorId": "3fff9245-f2be-42ca-94f8-39f1e59c0599",
+      "amount": 233000,
       "message": "Offering above asking - this fits our portfolio perfectly. Can we schedule a walkthrough?",
       "status": "pending",
-      "createdAt": "2026-02-01T02:44:21.418Z",
+      "createdAt": "2026-02-09T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "12ce49f4-35ec-4f4b-aab6-6d0260a2f53f",
-      "dealId": "bdd69d94-75f1-4868-90ed-55b8cda462ed",
-      "investorId": "c8004419-50fb-4ea4-9c6d-9b5d947d4889",
-      "amount": 229000,
+      "id": "3f4acec1-86a0-4c41-b31f-ad7ac9645bc7",
+      "dealId": "ada8e242-1220-485f-9985-b192a172df79",
+      "investorId": "000d7ca9-258c-46f9-abc6-c2737c793b0f",
+      "amount": 214000,
       "message": "We love the numbers on this one. Our rehab crew is ready to start immediately after closing.",
       "status": "pending",
-      "createdAt": "2026-02-17T02:44:21.418Z",
+      "createdAt": "2026-02-09T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "91c6d7cf-b6b7-425b-bc6e-1f3579eb820d",
-      "dealId": "7b3aa4a1-a9de-478e-b193-19816fe49803",
-      "investorId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
-      "amount": 236000,
+      "id": "2188c2ff-8dc2-4d12-aa3f-c81d078a1a70",
+      "dealId": "9e1c8e12-9d61-42c7-a596-def72521ebce",
+      "investorId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
+      "amount": 436000,
       "message": "Serious buyer here. We close with our own capital - no lending delays. Let us know your timeline.",
       "status": "pending",
-      "createdAt": "2026-01-30T02:44:21.418Z",
+      "createdAt": "2026-01-25T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "349b08e7-bc96-42e9-8b1f-53d1a348cd9c",
-      "dealId": "a55b41e3-a2b5-45dd-b8ef-95d9592d66a6",
-      "investorId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "amount": 194000,
+      "id": "97b3060e-7ed3-4f66-916c-3380cf403823",
+      "dealId": "19f376b6-e12a-439d-84cc-7c5664ad7e73",
+      "investorId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
+      "amount": 106000,
       "message": "This is exactly what we are looking for. Flexible on closing date. Would like to discuss terms.",
       "status": "pending",
-      "createdAt": "2026-01-24T02:44:21.418Z",
+      "createdAt": "2026-02-06T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "9ca11815-0840-4e06-a0a1-edf088e93efd",
-      "dealId": "f0c3606e-cbfd-4722-884b-7f72cf9e16b2",
-      "investorId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "amount": 212000,
+      "id": "66c8872d-55ab-4a5e-953e-c20041a958c3",
+      "dealId": "541eb919-9b7c-42cf-b305-97bde57bbe07",
+      "investorId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "amount": 96000,
       "message": "Ready to wire earnest money today. Our attorney can handle closing within 10 business days.",
       "status": "pending",
-      "createdAt": "2026-02-08T02:44:21.418Z",
+      "createdAt": "2026-01-27T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     },
     {
-      "id": "6c900973-bbcf-481d-8716-bf10cc0c28b9",
-      "dealId": "158270f8-8a22-48f6-82ff-49a6f01fe244",
-      "investorId": "3abc0ac6-9ad2-4930-b2b5-9816d7c85919",
-      "amount": 294000,
+      "id": "e418f644-a210-40b1-95fa-7622e987290b",
+      "dealId": "b57de39e-19a9-4afb-8dda-e3d83ae2db74",
+      "investorId": "3d34f270-df6e-42b7-963a-ee20438eb338",
+      "amount": 134000,
       "message": "We are a local investment group and can close fast. Happy to work with your title company.",
       "status": "pending",
-      "createdAt": "2026-01-21T02:44:21.418Z",
+      "createdAt": "2026-01-21T21:18:43.649Z",
       "respondedAt": null,
-      "expiresAt": "2026-03-20T01:44:21.418Z"
+      "expiresAt": "2026-03-20T20:18:43.649Z"
     }
   ],
   "transactions": [
     {
-      "id": "e636f25e-af24-4ce2-8b58-5d584f526f07",
-      "dealId": "0a6798e2-34b8-48d8-b35e-9fbaf60149bd",
+      "id": "6900954d-021e-486b-adcd-4ee61861408e",
+      "dealId": "3a7d23d1-a62b-436c-8796-fd90d9da9c90",
       "offerId": null,
-      "wholesalerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "investorId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+      "wholesalerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "investorId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
       "status": "completed",
-      "salePrice": 233000,
-      "platformFee": 12000,
-      "platformFeePercent": 5,
-      "escrowAmount": 2000,
-      "contractId": "857dfa57-d65c-4ebc-bd59-675250bda769",
-      "closingDate": "2026-02-15T02:44:21.418Z",
-      "completedAt": "2026-02-15T02:44:21.418Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2026-01-05T02:44:21.418Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-16T02:44:21.418Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-01-22T02:44:21.418Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-15T02:44:21.418Z"
-        }
-      ],
-      "createdAt": "2025-12-30T02:44:21.418Z"
-    },
-    {
-      "id": "5f2ec73c-1f20-4b39-bf11-876b88e68cee",
-      "dealId": "33306113-f5d6-4c60-b918-11c27b520f8b",
-      "offerId": null,
-      "wholesalerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "investorId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "status": "completed",
-      "salePrice": 82000,
-      "platformFee": 4000,
-      "platformFeePercent": 5,
-      "escrowAmount": 1000,
-      "contractId": "c758b161-7508-4da5-8c4d-708ee5dc53c2",
-      "closingDate": "2026-02-11T02:44:21.429Z",
-      "completedAt": "2026-02-11T02:44:21.429Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2026-01-02T02:44:21.429Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-16T02:44:21.429Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-01-31T02:44:21.429Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-11T02:44:21.429Z"
-        }
-      ],
-      "createdAt": "2025-12-27T02:44:21.429Z"
-    },
-    {
-      "id": "556583bc-38da-4f59-b454-bdde158d1b14",
-      "dealId": "f6354b1f-77b6-4180-b481-8207aa85748a",
-      "offerId": null,
-      "wholesalerId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "investorId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "status": "completed",
-      "salePrice": 278000,
-      "platformFee": 14000,
-      "platformFeePercent": 5,
-      "escrowAmount": 3000,
-      "contractId": "c8a67828-0815-44cf-aac2-a2d08461813d",
-      "closingDate": "2026-02-01T02:44:21.429Z",
-      "completedAt": "2026-02-01T02:44:21.429Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2025-12-27T02:44:21.429Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-15T02:44:21.429Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-01-30T02:44:21.429Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-01T02:44:21.429Z"
-        }
-      ],
-      "createdAt": "2025-12-30T02:44:21.429Z"
-    },
-    {
-      "id": "a850c5bc-0077-4193-9cad-3b7ba5e7c6fc",
-      "dealId": "129d5495-7b5a-48c4-ac5e-e8d897627121",
-      "offerId": "0d879008-d688-4371-9715-e0bf675e207e",
-      "wholesalerId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
-      "investorId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
-      "status": "completed",
-      "salePrice": 467000,
-      "platformFee": 23000,
-      "platformFeePercent": 5,
-      "escrowAmount": 5000,
-      "contractId": "a0e9bbfb-7558-4452-97d8-6e8f3d4a7997",
-      "closingDate": "2026-02-02T02:44:21.429Z",
-      "completedAt": "2026-02-02T02:44:21.429Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2026-01-11T02:44:21.429Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-22T02:44:21.429Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-02-03T02:44:21.429Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-02T02:44:21.429Z"
-        }
-      ],
-      "createdAt": "2026-01-06T02:44:21.429Z"
-    },
-    {
-      "id": "530826af-4b2d-4a1f-bf13-df13ad929c14",
-      "dealId": "2bdcc286-25fe-4e1b-85b2-598923e99cb7",
-      "offerId": "9ff20be6-723a-4868-bd7a-4e37c47a95ec",
-      "wholesalerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "investorId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
-      "status": "completed",
-      "salePrice": 73000,
-      "platformFee": 4000,
-      "platformFeePercent": 5,
-      "escrowAmount": 1000,
-      "contractId": "2bdb9515-5cf7-4f50-82ba-e9b885a1e77e",
-      "closingDate": "2026-02-05T02:44:21.430Z",
-      "completedAt": "2026-02-05T02:44:21.430Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2026-01-19T02:44:21.430Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-22T02:44:21.430Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-02-06T02:44:21.430Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-05T02:44:21.430Z"
-        }
-      ],
-      "createdAt": "2026-01-14T02:44:21.430Z"
-    },
-    {
-      "id": "0d43975d-1683-4f5b-ad72-d9e138feea10",
-      "dealId": "39690783-3e62-42ac-9245-61d7c90079c7",
-      "offerId": "3c5d50a4-ac72-4925-a96f-8e9cfb282ccd",
-      "wholesalerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "investorId": "a90f7b2d-884b-4e98-969b-fb7189429687",
-      "status": "completed",
-      "salePrice": 162000,
-      "platformFee": 8000,
-      "platformFeePercent": 5,
-      "escrowAmount": 2000,
-      "contractId": "b3d321f2-edd2-41d7-9400-3f9c34e54d42",
-      "closingDate": "2026-02-15T02:44:21.430Z",
-      "completedAt": "2026-02-15T02:44:21.430Z",
-      "statusHistory": [
-        {
-          "status": "escrow_funded",
-          "timestamp": "2026-01-05T02:44:21.430Z"
-        },
-        {
-          "status": "under_review",
-          "timestamp": "2026-01-23T02:44:21.430Z"
-        },
-        {
-          "status": "closing",
-          "timestamp": "2026-02-05T02:44:21.430Z"
-        },
-        {
-          "status": "completed",
-          "timestamp": "2026-02-15T02:44:21.430Z"
-        }
-      ],
-      "createdAt": "2026-01-10T02:44:21.430Z"
-    },
-    {
-      "id": "d2d66f47-8984-492e-a76c-8ff36aad1bc6",
-      "dealId": "2985ad36-786e-49d9-9691-06e0f99dccb6",
-      "offerId": "3a1ed634-4594-4210-9c2f-a35b6f791ed2",
-      "wholesalerId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "investorId": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
-      "status": "closing",
-      "salePrice": 170000,
+      "salePrice": 173000,
       "platformFee": 9000,
       "platformFeePercent": 5,
       "escrowAmount": 2000,
-      "contractId": "c84ba2d1-d2c4-4f42-9be3-c41cf73ed791",
-      "closingDate": "2026-03-20T01:44:21.430Z",
+      "contractId": "c9fc8dba-9b8b-4cda-a4ce-4d2f18353c8f",
+      "closingDate": "2026-02-04T21:18:43.649Z",
+      "completedAt": "2026-02-04T21:18:43.649Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2025-12-31T21:18:43.650Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-12T21:18:43.650Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-02-04T21:18:43.650Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-04T21:18:43.649Z"
+        }
+      ],
+      "createdAt": "2025-12-26T21:18:43.650Z"
+    },
+    {
+      "id": "728c002d-3525-4012-9b20-2922acf4ea74",
+      "dealId": "09511b24-4e50-4dfa-8893-aa7e04dcb741",
+      "offerId": null,
+      "wholesalerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "investorId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
+      "status": "completed",
+      "salePrice": 141000,
+      "platformFee": 7000,
+      "platformFeePercent": 5,
+      "escrowAmount": 1000,
+      "contractId": "06d9845a-8295-4837-81bb-4dd47076a068",
+      "closingDate": "2026-02-12T21:18:43.660Z",
+      "completedAt": "2026-02-12T21:18:43.660Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2026-01-07T21:18:43.660Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-19T21:18:43.660Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-02-04T21:18:43.660Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-12T21:18:43.660Z"
+        }
+      ],
+      "createdAt": "2026-01-04T21:18:43.660Z"
+    },
+    {
+      "id": "a13afa3e-3eb0-4b32-bc81-b3488db02a21",
+      "dealId": "490bddf3-4031-4fe3-9e69-41c9a053ebf7",
+      "offerId": null,
+      "wholesalerId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "investorId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "status": "completed",
+      "salePrice": 173000,
+      "platformFee": 9000,
+      "platformFeePercent": 5,
+      "escrowAmount": 2000,
+      "contractId": "d63fec29-307e-4aed-94b0-8fb3e59f39b1",
+      "closingDate": "2026-02-03T21:18:43.660Z",
+      "completedAt": "2026-02-03T21:18:43.660Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2026-01-03T21:18:43.660Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-17T21:18:43.660Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-01-31T21:18:43.660Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-03T21:18:43.660Z"
+        }
+      ],
+      "createdAt": "2025-12-25T21:18:43.660Z"
+    },
+    {
+      "id": "18953488-5ea4-47a3-bd60-641b52c1e244",
+      "dealId": "816d968b-38e1-4a75-b268-9a8f70e0d346",
+      "offerId": "acd3a867-f603-49e5-99ab-41fc667da64f",
+      "wholesalerId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "investorId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
+      "status": "completed",
+      "salePrice": 281000,
+      "platformFee": 14000,
+      "platformFeePercent": 5,
+      "escrowAmount": 3000,
+      "contractId": "c714b5e7-d5ab-404f-ad1d-f6d2270ff151",
+      "closingDate": "2026-02-14T21:18:43.660Z",
+      "completedAt": "2026-02-14T21:18:43.660Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2026-01-05T21:18:43.660Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-29T21:18:43.660Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-02-01T21:18:43.660Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-14T21:18:43.660Z"
+        }
+      ],
+      "createdAt": "2026-01-20T21:18:43.660Z"
+    },
+    {
+      "id": "2370e1bd-03bd-4fa5-b077-4773f982963e",
+      "dealId": "2d7f8a83-ed15-400a-8177-01a7a1fd6163",
+      "offerId": "ef9e6baa-4196-4501-9759-79b072ffeb38",
+      "wholesalerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "investorId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
+      "status": "completed",
+      "salePrice": 34000,
+      "platformFee": 2000,
+      "platformFeePercent": 5,
+      "escrowAmount": 0,
+      "contractId": "264dde56-7cd7-4078-adfb-6e47c3247b90",
+      "closingDate": "2026-02-08T21:18:43.660Z",
+      "completedAt": "2026-02-08T21:18:43.660Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2026-01-17T21:18:43.660Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-31T21:18:43.660Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-02-09T21:18:43.660Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-08T21:18:43.660Z"
+        }
+      ],
+      "createdAt": "2026-01-20T21:18:43.660Z"
+    },
+    {
+      "id": "5608b325-ccb8-4f14-a7da-03bae3f6c146",
+      "dealId": "e4211b4f-d880-4d6e-8608-a6b7769f382f",
+      "offerId": "6e99774f-e027-434c-809e-0bb15bbdfd96",
+      "wholesalerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "investorId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
+      "status": "completed",
+      "salePrice": 292000,
+      "platformFee": 15000,
+      "platformFeePercent": 5,
+      "escrowAmount": 3000,
+      "contractId": "6f4c9e2d-298b-492b-a43e-42138156f2d8",
+      "closingDate": "2026-02-02T21:18:43.660Z",
+      "completedAt": "2026-02-02T21:18:43.660Z",
+      "statusHistory": [
+        {
+          "status": "escrow_funded",
+          "timestamp": "2026-01-05T21:18:43.660Z"
+        },
+        {
+          "status": "under_review",
+          "timestamp": "2026-01-23T21:18:43.660Z"
+        },
+        {
+          "status": "closing",
+          "timestamp": "2026-02-09T21:18:43.660Z"
+        },
+        {
+          "status": "completed",
+          "timestamp": "2026-02-02T21:18:43.660Z"
+        }
+      ],
+      "createdAt": "2026-01-07T21:18:43.660Z"
+    },
+    {
+      "id": "cccad6da-658b-45f8-92e3-eaab9f24b257",
+      "dealId": "39bf217e-b979-450d-b8f5-a92cf3d4ecae",
+      "offerId": "a6272432-af5b-4c45-9803-9dec4947f9fe",
+      "wholesalerId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "investorId": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
+      "status": "closing",
+      "salePrice": 159000,
+      "platformFee": 8000,
+      "platformFeePercent": 5,
+      "escrowAmount": 2000,
+      "contractId": "8accf225-9952-420c-b01e-ad5a6592d0af",
+      "closingDate": "2026-03-20T20:18:43.660Z",
       "completedAt": null,
       "statusHistory": [
         {
           "status": "escrow_funded",
-          "timestamp": "2026-01-03T02:44:21.430Z"
+          "timestamp": "2026-01-05T21:18:43.660Z"
         },
         {
           "status": "under_review",
-          "timestamp": "2026-01-25T02:44:21.430Z"
+          "timestamp": "2026-01-22T21:18:43.660Z"
         },
         {
           "status": "closing",
-          "timestamp": "2026-02-09T02:44:21.430Z"
+          "timestamp": "2026-02-05T21:18:43.660Z"
         }
       ],
-      "createdAt": "2026-01-01T02:44:21.430Z"
+      "createdAt": "2026-01-12T21:18:43.660Z"
     }
   ],
   "ratings": [
     {
-      "id": "9ffabe6f-e4e2-4b47-8546-1d2188bcdaed",
-      "transactionId": "e636f25e-af24-4ce2-8b58-5d584f526f07",
-      "reviewerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "revieweeId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
-      "score": 5,
-      "comment": "Smooth transaction from start to finish. Would definitely work with them again.",
+      "id": "1109082c-7ca8-448f-b09c-8e528b769d33",
+      "transactionId": "6900954d-021e-486b-adcd-4ee61861408e",
+      "reviewerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "revieweeId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
+      "score": 4,
+      "comment": "Very professional and kept us updated every step of the way. Numbers were accurate.",
       "categories": {
         "communication": 4,
-        "dealQuality": 5,
-        "professionalism": 5,
-        "timeliness": 5
-      },
-      "createdAt": "2026-02-19T02:44:21.430Z"
-    },
-    {
-      "id": "13c12b4e-d2ab-4b5c-a8ab-ade6b4724cd9",
-      "transactionId": "e636f25e-af24-4ce2-8b58-5d584f526f07",
-      "reviewerId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
-      "revieweeId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "score": 4,
-      "comment": "Excellent to work with. Transparent about the property condition and very responsive throughout the process.",
-      "categories": {
-        "communication": 3,
-        "dealQuality": 5,
-        "professionalism": 5,
-        "timeliness": 4
-      },
-      "createdAt": "2026-02-12T02:44:21.430Z"
-    },
-    {
-      "id": "770c74ba-e50c-4bdb-94d4-099304d3725a",
-      "transactionId": "5f2ec73c-1f20-4b39-bf11-876b88e68cee",
-      "reviewerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "revieweeId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "score": 4,
-      "comment": "One of the best transactions I have done. Clear documentation and no surprises.",
-      "categories": {
-        "communication": 5,
         "dealQuality": 3,
         "professionalism": 4,
         "timeliness": 3
       },
-      "createdAt": "2026-02-15T02:44:21.430Z"
+      "createdAt": "2026-02-07T21:18:43.660Z"
     },
     {
-      "id": "c80081a2-7c35-418e-80c3-2ab1d2aed6e5",
-      "transactionId": "5f2ec73c-1f20-4b39-bf11-876b88e68cee",
-      "reviewerId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "revieweeId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+      "id": "a53ac674-5c3b-4e7b-b1c7-219252f76afc",
+      "transactionId": "6900954d-021e-486b-adcd-4ee61861408e",
+      "reviewerId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
+      "revieweeId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
       "score": 4,
-      "comment": "Closed quickly and efficiently. Great partner for wholesale deals.",
+      "comment": "Deal was solid but took longer to close than expected. Would still work with them again.",
       "categories": {
-        "communication": 5,
-        "dealQuality": 5,
+        "communication": 4,
+        "dealQuality": 3,
         "professionalism": 5,
         "timeliness": 4
       },
-      "createdAt": "2026-02-19T02:44:21.430Z"
+      "createdAt": "2026-02-07T21:18:43.660Z"
     },
     {
-      "id": "8eb6cc7a-c69d-4743-aeac-1be4154a7ab0",
-      "transactionId": "556583bc-38da-4f59-b454-bdde158d1b14",
-      "reviewerId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "revieweeId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "score": 4,
-      "comment": "Great communication and followed through on everything. The deal closed on time as promised.",
+      "id": "041e69f7-dfa6-41da-8f30-cbf5e81d1525",
+      "transactionId": "728c002d-3525-4012-9b20-2922acf4ea74",
+      "reviewerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "revieweeId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
+      "score": 5,
+      "comment": "One of the best transactions I have done. Clear documentation and no surprises.",
       "categories": {
-        "communication": 4,
-        "dealQuality": 3,
-        "professionalism": 5,
-        "timeliness": 3
-      },
-      "createdAt": "2026-02-12T02:44:21.430Z"
-    },
-    {
-      "id": "706437b6-35c2-4964-a2f7-acc80f21f3fb",
-      "transactionId": "556583bc-38da-4f59-b454-bdde158d1b14",
-      "reviewerId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "revieweeId": "23681cdb-77f8-4262-a620-30ddbedd6218",
-      "score": 4,
-      "comment": "Numbers were slightly off from initial estimates but still a profitable deal.",
-      "categories": {
-        "communication": 4,
-        "dealQuality": 3,
+        "communication": 5,
+        "dealQuality": 4,
         "professionalism": 5,
         "timeliness": 5
       },
-      "createdAt": "2026-02-14T02:44:21.430Z"
+      "createdAt": "2026-02-10T21:18:43.660Z"
     },
     {
-      "id": "0098abf4-3f18-4505-9cc9-13e455221279",
-      "transactionId": "a850c5bc-0077-4193-9cad-3b7ba5e7c6fc",
-      "reviewerId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
-      "revieweeId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
+      "id": "7afd3e62-629a-4b0f-b6bd-0ed76048a55d",
+      "transactionId": "728c002d-3525-4012-9b20-2922acf4ea74",
+      "reviewerId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
+      "revieweeId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
       "score": 5,
       "comment": "Responsive, honest, and easy to work with. Looking forward to the next deal.",
       "categories": {
-        "communication": 5,
-        "dealQuality": 5,
+        "communication": 4,
+        "dealQuality": 4,
         "professionalism": 5,
-        "timeliness": 4
+        "timeliness": 5
       },
-      "createdAt": "2026-02-19T02:44:21.430Z"
+      "createdAt": "2026-02-10T21:18:43.660Z"
     },
     {
-      "id": "2a08fb60-4fbe-4f2a-997d-3f565dc1dec6",
-      "transactionId": "a850c5bc-0077-4193-9cad-3b7ba5e7c6fc",
-      "reviewerId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
-      "revieweeId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
+      "id": "f6389795-b2af-46e0-8207-9a655092a31b",
+      "transactionId": "a13afa3e-3eb0-4b32-bc81-b3488db02a21",
+      "reviewerId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "revieweeId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "score": 4,
+      "comment": "Excellent to work with. Transparent about the property condition and very responsive throughout the process.",
+      "categories": {
+        "communication": 5,
+        "dealQuality": 3,
+        "professionalism": 4,
+        "timeliness": 4
+      },
+      "createdAt": "2026-02-11T21:18:43.660Z"
+    },
+    {
+      "id": "14e9aa3f-52e8-400d-bb57-f6972d1aca4e",
+      "transactionId": "a13afa3e-3eb0-4b32-bc81-b3488db02a21",
+      "reviewerId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "revieweeId": "bbc12c72-3555-444a-aa5d-9f396137023f",
       "score": 5,
-      "comment": "Smooth transaction from start to finish. Would definitely work with them again.",
+      "comment": "Very professional and kept us updated every step of the way. Numbers were accurate.",
+      "categories": {
+        "communication": 4,
+        "dealQuality": 4,
+        "professionalism": 5,
+        "timeliness": 5
+      },
+      "createdAt": "2026-02-07T21:18:43.660Z"
+    },
+    {
+      "id": "24ed753c-966b-4287-aac9-99b67e6dced8",
+      "transactionId": "18953488-5ea4-47a3-bd60-641b52c1e244",
+      "reviewerId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "revieweeId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
+      "score": 4,
+      "comment": "Great communication and followed through on everything. The deal closed on time as promised.",
+      "categories": {
+        "communication": 3,
+        "dealQuality": 5,
+        "professionalism": 4,
+        "timeliness": 3
+      },
+      "createdAt": "2026-02-11T21:18:43.660Z"
+    },
+    {
+      "id": "b19f2b42-3849-4df6-9daf-9941f103ddcc",
+      "transactionId": "18953488-5ea4-47a3-bd60-641b52c1e244",
+      "reviewerId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
+      "revieweeId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "score": 5,
+      "comment": "Excellent to work with. Transparent about the property condition and very responsive throughout the process.",
       "categories": {
         "communication": 5,
         "dealQuality": 4,
         "professionalism": 5,
         "timeliness": 4
       },
-      "createdAt": "2026-02-18T02:44:21.430Z"
+      "createdAt": "2026-02-18T21:18:43.660Z"
     },
     {
-      "id": "01e42fc0-de74-4e6a-89c4-02b777f56bd5",
-      "transactionId": "530826af-4b2d-4a1f-bf13-df13ad929c14",
-      "reviewerId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "revieweeId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
+      "id": "5fa5cc4b-f934-4a80-aceb-49e7696d7562",
+      "transactionId": "2370e1bd-03bd-4fa5-b077-4773f982963e",
+      "reviewerId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "revieweeId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
       "score": 5,
-      "comment": "Great communication and followed through on everything. The deal closed on time as promised.",
+      "comment": "Top-notch professionalism. The property was exactly as described and the financials checked out.",
       "categories": {
-        "communication": 4,
-        "dealQuality": 5,
+        "communication": 5,
+        "dealQuality": 4,
         "professionalism": 5,
-        "timeliness": 5
+        "timeliness": 4
       },
-      "createdAt": "2026-02-08T02:44:21.430Z"
+      "createdAt": "2026-02-08T21:18:43.660Z"
     },
     {
-      "id": "02e91913-bed6-4bd1-8503-bc1a78da20e3",
-      "transactionId": "530826af-4b2d-4a1f-bf13-df13ad929c14",
-      "reviewerId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
-      "revieweeId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
-      "score": 4,
+      "id": "2af9a270-d3b9-473d-ba8d-2bc83c1e3e60",
+      "transactionId": "2370e1bd-03bd-4fa5-b077-4773f982963e",
+      "reviewerId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
+      "revieweeId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "score": 5,
       "comment": "Closed quickly and efficiently. Great partner for wholesale deals.",
       "categories": {
         "communication": 4,
-        "dealQuality": 5,
+        "dealQuality": 4,
         "professionalism": 5,
         "timeliness": 4
       },
-      "createdAt": "2026-02-16T02:44:21.430Z"
+      "createdAt": "2026-02-06T21:18:43.660Z"
     },
     {
-      "id": "ad99429e-eff4-4912-a804-c80f84ce2ac6",
-      "transactionId": "0d43975d-1683-4f5b-ad72-d9e138feea10",
-      "reviewerId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
-      "revieweeId": "a90f7b2d-884b-4e98-969b-fb7189429687",
-      "score": 4,
-      "comment": "Very professional and kept us updated every step of the way. Numbers were accurate.",
+      "id": "49cf4911-74ea-48af-b9c8-91c924db0606",
+      "transactionId": "5608b325-ccb8-4f14-a7da-03bae3f6c146",
+      "reviewerId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
+      "revieweeId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
+      "score": 5,
+      "comment": "Closed quickly and efficiently. Great partner for wholesale deals.",
       "categories": {
         "communication": 5,
-        "dealQuality": 5,
+        "dealQuality": 4,
         "professionalism": 5,
         "timeliness": 4
       },
-      "createdAt": "2026-02-10T02:44:21.430Z"
+      "createdAt": "2026-02-18T21:18:43.660Z"
     },
     {
-      "id": "775d8872-33f8-4881-bb4c-af16315e1164",
-      "transactionId": "0d43975d-1683-4f5b-ad72-d9e138feea10",
-      "reviewerId": "a90f7b2d-884b-4e98-969b-fb7189429687",
-      "revieweeId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+      "id": "932432ec-e2b8-47d8-90ee-f4cd0ae4c6bc",
+      "transactionId": "5608b325-ccb8-4f14-a7da-03bae3f6c146",
+      "reviewerId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
+      "revieweeId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
       "score": 4,
-      "comment": "One of the best transactions I have done. Clear documentation and no surprises.",
+      "comment": "Professional but hard to reach at times. The end result was positive though.",
       "categories": {
-        "communication": 3,
-        "dealQuality": 4,
+        "communication": 4,
+        "dealQuality": 3,
         "professionalism": 5,
         "timeliness": 5
       },
-      "createdAt": "2026-02-10T02:44:21.430Z"
+      "createdAt": "2026-02-13T21:18:43.660Z"
     }
   ],
   "contracts": [
     {
-      "id": "857dfa57-d65c-4ebc-bd59-675250bda769",
-      "transactionId": "e636f25e-af24-4ce2-8b58-5d584f526f07",
+      "id": "c9fc8dba-9b8b-4cda-a4ce-4d2f18353c8f",
+      "transactionId": "6900954d-021e-486b-adcd-4ee61861408e",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
+          "userId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
           "role": "assignor",
-          "signedAt": "2026-01-19T02:44:21.418Z"
+          "signedAt": "2026-01-15T21:18:43.650Z"
         },
         {
-          "userId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+          "userId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
           "role": "assignee",
-          "signedAt": "2026-01-23T02:44:21.418Z"
+          "signedAt": "2026-01-22T21:18:43.650Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 5285 Main Blvd, San Antonio, TX 78202.\n\nAssignment Fee: $16,000\nPurchase Price: $233,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-05T02:44:21.429Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 1303 Maple Cir, San Antonio, TX 78203.\n\nAssignment Fee: $19,000\nPurchase Price: $173,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-01T21:18:43.660Z"
     },
     {
-      "id": "c758b161-7508-4da5-8c4d-708ee5dc53c2",
-      "transactionId": "5f2ec73c-1f20-4b39-bf11-876b88e68cee",
+      "id": "06d9845a-8295-4837-81bb-4dd47076a068",
+      "transactionId": "728c002d-3525-4012-9b20-2922acf4ea74",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+          "userId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
           "role": "assignor",
-          "signedAt": "2026-01-20T02:44:21.429Z"
+          "signedAt": "2026-01-13T21:18:43.660Z"
         },
         {
-          "userId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
+          "userId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
           "role": "assignee",
-          "signedAt": "2026-01-22T02:44:21.429Z"
+          "signedAt": "2026-01-22T21:18:43.660Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 5462 Park St, Jacksonville, FL 32205.\n\nAssignment Fee: $19,000\nPurchase Price: $82,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-01T02:44:21.429Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 2261 Meadow Ave, Jacksonville, FL 32202.\n\nAssignment Fee: $7,000\nPurchase Price: $141,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-09T21:18:43.660Z"
     },
     {
-      "id": "c8a67828-0815-44cf-aac2-a2d08461813d",
-      "transactionId": "556583bc-38da-4f59-b454-bdde158d1b14",
+      "id": "d63fec29-307e-4aed-94b0-8fb3e59f39b1",
+      "transactionId": "a13afa3e-3eb0-4b32-bc81-b3488db02a21",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "23681cdb-77f8-4262-a620-30ddbedd6218",
+          "userId": "bbc12c72-3555-444a-aa5d-9f396137023f",
           "role": "assignor",
-          "signedAt": "2026-01-11T02:44:21.429Z"
+          "signedAt": "2026-01-13T21:18:43.660Z"
         },
         {
-          "userId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
+          "userId": "0385a00b-51cb-4318-9ea2-f36d68927254",
           "role": "assignee",
-          "signedAt": "2026-01-22T02:44:21.429Z"
+          "signedAt": "2026-01-23T21:18:43.660Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 7031 Riverside St, Tampa, FL 33602.\n\nAssignment Fee: $9,000\nPurchase Price: $278,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-10T02:44:21.429Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 3259 Chestnut Pl, Tampa, FL 33603.\n\nAssignment Fee: $14,000\nPurchase Price: $173,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-10T21:18:43.660Z"
     },
     {
-      "id": "a0e9bbfb-7558-4452-97d8-6e8f3d4a7997",
-      "transactionId": "a850c5bc-0077-4193-9cad-3b7ba5e7c6fc",
+      "id": "c714b5e7-d5ab-404f-ad1d-f6d2270ff151",
+      "transactionId": "18953488-5ea4-47a3-bd60-641b52c1e244",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
+          "userId": "e8ffddad-5186-4274-9677-2ee2f470a573",
           "role": "assignor",
-          "signedAt": "2026-01-21T02:44:21.430Z"
+          "signedAt": "2026-01-28T21:18:43.660Z"
         },
         {
-          "userId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
+          "userId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
           "role": "assignee",
-          "signedAt": "2026-02-06T02:44:21.430Z"
+          "signedAt": "2026-02-08T21:18:43.660Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 9419 Chestnut Blvd, Sacramento, CA 95814.\n\nOffer Amount: $467,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-03T02:44:21.430Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 3480 Elm Cir, Sacramento, CA 95814.\n\nOffer Amount: $281,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-16T21:18:43.660Z"
     },
     {
-      "id": "2bdb9515-5cf7-4f50-82ba-e9b885a1e77e",
-      "transactionId": "530826af-4b2d-4a1f-bf13-df13ad929c14",
+      "id": "264dde56-7cd7-4078-adfb-6e47c3247b90",
+      "transactionId": "2370e1bd-03bd-4fa5-b077-4773f982963e",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
+          "userId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
           "role": "assignor",
-          "signedAt": "2026-01-22T02:44:21.430Z"
+          "signedAt": "2026-01-23T21:18:43.660Z"
         },
         {
-          "userId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
+          "userId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
           "role": "assignee",
-          "signedAt": "2026-02-03T02:44:21.430Z"
+          "signedAt": "2026-02-01T21:18:43.660Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 6999 Pine Pl, Fresno, CA 93703.\n\nOffer Amount: $73,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-13T02:44:21.430Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 9868 Dogwood St, Fresno, CA 93704.\n\nOffer Amount: $34,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-09T21:18:43.660Z"
     },
     {
-      "id": "b3d321f2-edd2-41d7-9400-3f9c34e54d42",
-      "transactionId": "0d43975d-1683-4f5b-ad72-d9e138feea10",
+      "id": "6f4c9e2d-298b-492b-a43e-42138156f2d8",
+      "transactionId": "5608b325-ccb8-4f14-a7da-03bae3f6c146",
       "templateId": "tpl-assignment-v1",
       "type": "purchase",
       "status": "fully_signed",
       "parties": [
         {
-          "userId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+          "userId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
           "role": "assignor",
-          "signedAt": "2026-01-28T02:44:21.430Z"
+          "signedAt": "2026-01-21T21:18:43.660Z"
         },
         {
-          "userId": "a90f7b2d-884b-4e98-969b-fb7189429687",
+          "userId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
           "role": "assignee",
-          "signedAt": "2026-02-05T02:44:21.430Z"
+          "signedAt": "2026-02-06T21:18:43.660Z"
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 3847 Cypress Dr, Atlanta, GA 30303.\n\nOffer Amount: $162,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-12T02:44:21.430Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 7175 Jefferson Pl, Atlanta, GA 30301.\n\nOffer Amount: $292,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-12T21:18:43.660Z"
     },
     {
-      "id": "c84ba2d1-d2c4-4f42-9be3-c41cf73ed791",
-      "transactionId": "d2d66f47-8984-492e-a76c-8ff36aad1bc6",
+      "id": "8accf225-9952-420c-b01e-ad5a6592d0af",
+      "transactionId": "cccad6da-658b-45f8-92e3-eaab9f24b257",
       "templateId": "tpl-assignment-v1",
       "type": "assignment",
       "status": "signed_by_one",
       "parties": [
         {
-          "userId": "23681cdb-77f8-4262-a620-30ddbedd6218",
+          "userId": "bbc12c72-3555-444a-aa5d-9f396137023f",
           "role": "assignor",
-          "signedAt": "2026-01-28T02:44:21.430Z"
+          "signedAt": "2026-01-23T21:18:43.660Z"
         },
         {
-          "userId": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
+          "userId": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
           "role": "assignee",
           "signedAt": null
         }
       ],
-      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 2607 Washington Rd, Savannah, GA 31406.\n\nOffer Amount: $170,000\n\n[Full contract terms would appear here in production]",
-      "createdAt": "2026-01-10T02:44:21.430Z"
+      "documentContent": "ASSIGNMENT OF CONTRACT\n\nThis Assignment of Contract (\"Agreement\") is entered into between the parties identified below for the property located at 7442 Elm Ave, Savannah, GA 31404.\n\nOffer Amount: $159,000\n\n[Full contract terms would appear here in production]",
+      "createdAt": "2026-01-11T21:18:43.660Z"
     }
   ],
   "subscriptions": [
     {
-      "id": "d7e49a60-a646-4e36-9756-a5c4dfa54b9e",
-      "userId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
+      "id": "54ed8f4e-44ae-405d-875d-7e633539777c",
+      "userId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2024-08-20T01:44:21.416Z",
-      "renewalDate": "2026-07-20T01:44:21.430Z",
+      "startDate": "2024-08-20T20:18:43.648Z",
+      "renewalDate": "2026-11-20T21:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "aa5f1e45-c11d-40dc-8ca4-5407443518e9",
-      "userId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+      "id": "33294d7c-1b2d-4319-98f2-375605a63304",
+      "userId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
       "tier": "premium",
       "price": 99,
       "features": [
@@ -2621,39 +2622,13 @@
         "Full analytics dashboard",
         "Dedicated support"
       ],
-      "startDate": "2024-12-20T02:44:21.416Z",
-      "renewalDate": "2027-01-20T02:44:21.430Z",
+      "startDate": "2024-12-20T21:18:43.648Z",
+      "renewalDate": "2026-08-20T20:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "3868c54b-3c9f-4cca-a0b3-ca0cc193e0ef",
-      "userId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2024-10-20T01:44:21.417Z",
-      "renewalDate": "2026-07-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "ef20b498-b929-4d8b-8166-273838039905",
-      "userId": "21dca469-6b83-42df-99e1-e4e946fd90a5",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2025-07-20T01:44:21.417Z",
-      "renewalDate": "2026-03-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "33e61608-a419-49a4-ba79-b0cc9199fe2f",
-      "userId": "c265e91c-b75f-4dd3-bb6a-ca373c8a428e",
+      "id": "7767fec0-c853-47e5-b733-2dda5415041d",
+      "userId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2661,26 +2636,13 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-08-20T01:44:21.417Z",
+      "startDate": "2025-03-20T20:18:43.648Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "ef6a7321-9ba9-4b22-aa7b-69a7a640b8c0",
-      "userId": "2dd1b283-235f-47d1-a5a1-4f255426703e",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2024-09-20T01:44:21.417Z",
-      "renewalDate": "2026-04-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "f01dc580-adf4-4d11-8bda-31ee252a4a0f",
-      "userId": "988dddbd-af36-4cbd-9f97-ef62c907660f",
+      "id": "353b7955-2d5e-4e87-b2db-7d4bba0f9e39",
+      "userId": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2688,26 +2650,78 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-08-20T01:44:21.417Z",
+      "startDate": "2025-02-20T21:18:43.648Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "6d762c5d-0fec-46ab-aea9-f5e0f00cde6f",
-      "userId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
+      "id": "f76d408f-b662-4611-bf76-626791bd457a",
+      "userId": "66908bef-5ef7-4398-8e82-05bb71ee9ce7",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2024-11-20T02:44:21.417Z",
-      "renewalDate": "2026-12-20T02:44:21.430Z",
+      "startDate": "2025-05-20T20:18:43.648Z",
+      "renewalDate": "2026-11-20T21:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "2c8f057a-3c21-43ee-aa6b-b420da91e75a",
-      "userId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
+      "id": "1fbd47ec-4193-4d71-8e01-a6a4cb71a193",
+      "userId": "f69c53da-606c-4394-86c2-62e7a70fdc57",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2025-05-20T20:18:43.648Z",
+      "renewalDate": "2026-12-20T21:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "f29c88cb-b653-4d23-b204-2bde1575a160",
+      "userId": "b6230bbb-23e1-454c-94c2-939c6d160f3f",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2024-12-20T21:18:43.648Z",
+      "renewalDate": "2026-05-20T20:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "d417c0ec-b870-45d6-8317-801aec74d6fe",
+      "userId": "e8ffddad-5186-4274-9677-2ee2f470a573",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2025-02-20T21:18:43.649Z",
+      "renewalDate": "2026-08-20T20:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "3049a5bf-dfab-4e18-b7a8-2a03806897de",
+      "userId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2025-07-20T20:18:43.649Z",
+      "renewalDate": "2026-04-20T20:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "d941a6c4-446f-4798-af26-e30418079f81",
+      "userId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2715,13 +2729,26 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2024-11-20T02:44:21.417Z",
+      "startDate": "2025-08-20T20:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "18f5272d-00ab-43eb-b6cb-b01d3c634012",
-      "userId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+      "id": "fd44f30c-1e1c-4029-a2ce-43e6e44ba782",
+      "userId": "bbc12c72-3555-444a-aa5d-9f396137023f",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2024-10-20T20:18:43.649Z",
+      "renewalDate": "2026-04-20T20:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "b2c61141-dba8-4396-aee9-5e3e97d7140f",
+      "userId": "3046a2c5-0b51-44ad-ae35-ef6aeb5f1927",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2729,13 +2756,13 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2024-08-20T01:44:21.417Z",
+      "startDate": "2024-11-20T21:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "24bff300-9fe6-443a-82b2-120156a3f6bb",
-      "userId": "23681cdb-77f8-4262-a620-30ddbedd6218",
+      "id": "4e906efd-e50f-4c69-9e86-2dc5db8ee4b4",
+      "userId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2743,13 +2770,26 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-02-20T02:44:21.417Z",
+      "startDate": "2025-04-20T20:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "d9c829a1-f5ba-4f86-9c86-a20cf5fe02bc",
-      "userId": "b3554fed-8e19-4ee6-8a94-2468e90f147f",
+      "id": "113c7656-9b41-4af7-8eed-1c00aebfb60d",
+      "userId": "0385a00b-51cb-4318-9ea2-f36d68927254",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2025-07-20T20:18:43.649Z",
+      "renewalDate": "2026-03-20T20:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "2f4f6fb9-e4b3-4053-b313-1ae6d0206ac9",
+      "userId": "3d34f270-df6e-42b7-963a-ee20438eb338",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2757,39 +2797,13 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-08-20T01:44:21.417Z",
+      "startDate": "2025-08-20T20:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "6f558bcb-b426-4abf-8d56-01f00c5d2770",
-      "userId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2025-01-20T02:44:21.417Z",
-      "renewalDate": "2026-05-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "df05bd62-d527-4ea3-9fc0-8e1a665183b2",
-      "userId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2026-01-20T02:44:21.417Z",
-      "renewalDate": "2026-09-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "ad55c6b3-0c5c-4211-a5fa-c80bb25d8b2a",
-      "userId": "3abc0ac6-9ad2-4930-b2b5-9816d7c85919",
+      "id": "ba72bd60-40c3-4a97-a5f8-bbe411895546",
+      "userId": "cb299a6d-f15c-45d4-9362-479f1b418449",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2797,65 +2811,80 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-07-20T01:44:21.417Z",
+      "startDate": "2024-11-20T21:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "6dde53e5-4bb5-4e44-a6a2-d9a294c18918",
-      "userId": "0ef8b3c5-e372-4a3e-81f6-5345312c7ead",
+      "id": "067a541b-ab20-44d2-b435-c442f2ccbcc3",
+      "userId": "d39d65bf-8177-470b-946d-7986c0404f16",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2025-11-20T02:44:21.417Z",
-      "renewalDate": "2026-09-20T01:44:21.430Z",
+      "startDate": "2025-04-20T20:18:43.649Z",
+      "renewalDate": "2026-03-20T20:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "fb72076a-c4fe-45a0-8e62-554bd52cd8e8",
-      "userId": "c9d6ca2b-7497-4c5f-bff7-0841bfbf26d7",
+      "id": "0485eb52-8709-46d5-8c36-05d632289afc",
+      "userId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
+      "tier": "free",
+      "price": 0,
+      "features": [
+        "3 offers per month",
+        "Basic matching",
+        "3 calculators"
+      ],
+      "startDate": "2025-12-20T21:18:43.649Z",
+      "renewalDate": null,
+      "status": "active"
+    },
+    {
+      "id": "ba1f7e75-b3d7-43d1-b98c-22c5c7af2860",
+      "userId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2025-04-20T01:44:21.417Z",
-      "renewalDate": "2026-08-20T01:44:21.430Z",
+      "startDate": "2025-07-20T20:18:43.649Z",
+      "renewalDate": "2026-07-20T20:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "5f40d9cf-dc70-4e57-9ec9-bde606f2d700",
-      "userId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
+      "id": "c62a2822-5f96-4168-89ce-8ef537369845",
+      "userId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
+      "tier": "free",
+      "price": 0,
+      "features": [
+        "3 offers per month",
+        "Basic matching",
+        "3 calculators"
+      ],
+      "startDate": "2025-10-20T20:18:43.649Z",
+      "renewalDate": null,
+      "status": "active"
+    },
+    {
+      "id": "0e5ac693-6db6-4cab-a3c5-b2e40a66d512",
+      "userId": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2024-10-20T01:44:21.417Z",
-      "renewalDate": "2026-03-20T01:44:21.430Z",
+      "startDate": "2025-10-20T20:18:43.649Z",
+      "renewalDate": "2026-08-20T20:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "0b9773cd-4952-4a71-88e5-12ba80eb4ad1",
-      "userId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2024-11-20T02:44:21.417Z",
-      "renewalDate": "2026-09-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "f3189679-ae73-42ce-8b8d-df3f7270e9de",
-      "userId": "a90f7b2d-884b-4e98-969b-fb7189429687",
+      "id": "a29b9433-9d18-48b4-b0ee-4f7309e2a2b1",
+      "userId": "7286d113-f51e-48f8-a73e-14679f070896",
       "tier": "premium",
       "price": 99,
       "features": [
@@ -2865,13 +2894,13 @@
         "Full analytics dashboard",
         "Dedicated support"
       ],
-      "startDate": "2025-06-20T01:44:21.417Z",
-      "renewalDate": "2026-04-20T01:44:21.430Z",
+      "startDate": "2025-03-20T20:18:43.649Z",
+      "renewalDate": "2026-12-20T21:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "ca716fe5-5be2-492c-984e-9f296a182772",
-      "userId": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
+      "id": "a1e137ad-5b76-478e-af1c-6df581872ad7",
+      "userId": "a3251ad6-358a-4302-8ee6-78d06ffd1da7",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2879,55 +2908,52 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-02-20T02:44:21.417Z",
+      "startDate": "2025-05-20T20:18:43.649Z",
       "renewalDate": null,
       "status": "active"
     },
     {
-      "id": "907a216f-b77c-4b39-bca5-7c063ca00fe9",
-      "userId": "01d45fc0-9648-48a3-a6a5-f3bfcf9504df",
+      "id": "be1a6b0f-a87f-4b5a-b06f-07d1fe699e13",
+      "userId": "710b6b15-eee4-410e-bf18-5195f751c4e3",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2025-01-20T02:44:21.417Z",
-      "renewalDate": "2026-12-20T02:44:21.430Z",
+      "startDate": "2024-11-20T21:18:43.649Z",
+      "renewalDate": "2026-09-20T20:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "d1337708-5e7c-4206-9274-3e69d0c7b9d6",
-      "userId": "3495821b-7d23-44b9-a7f9-c646ff59529e",
-      "tier": "premium",
-      "price": 99,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching",
-        "Priority matching",
-        "Full analytics dashboard",
-        "Dedicated support"
-      ],
-      "startDate": "2025-08-20T01:44:21.417Z",
-      "renewalDate": "2026-09-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "c2b118c4-c310-4f78-9087-0d3f6e0e28dd",
-      "userId": "da7d1626-da08-47f9-bb32-c25b3273880c",
+      "id": "710f3d91-be4d-4563-ab29-ed9f7d6a8344",
+      "userId": "0419151c-5d88-4512-8097-4531e7609c74",
       "tier": "pro",
       "price": 29,
       "features": [
         "Unlimited offers per month",
         "Advanced matching"
       ],
-      "startDate": "2025-08-20T01:44:21.417Z",
-      "renewalDate": "2026-10-20T01:44:21.430Z",
+      "startDate": "2025-10-20T20:18:43.649Z",
+      "renewalDate": "2026-12-20T21:18:43.660Z",
       "status": "active"
     },
     {
-      "id": "e120d00b-8986-4b7b-ac4c-202065b32d31",
-      "userId": "2182c2ea-1e89-4e0d-a9a5-911b058bf32f",
+      "id": "322504be-6198-4969-8f08-9ee89195942a",
+      "userId": "3fff9245-f2be-42ca-94f8-39f1e59c0599",
+      "tier": "pro",
+      "price": 29,
+      "features": [
+        "Unlimited offers per month",
+        "Advanced matching"
+      ],
+      "startDate": "2025-12-20T21:18:43.649Z",
+      "renewalDate": "2026-12-20T21:18:43.660Z",
+      "status": "active"
+    },
+    {
+      "id": "338c5ad8-3e17-4722-8856-d53fa08a412d",
+      "userId": "000d7ca9-258c-46f9-abc6-c2737c793b0f",
       "tier": "free",
       "price": 0,
       "features": [
@@ -2935,367 +2961,341 @@
         "Basic matching",
         "3 calculators"
       ],
-      "startDate": "2025-10-20T01:44:21.417Z",
+      "startDate": "2025-08-20T20:18:43.649Z",
       "renewalDate": null,
-      "status": "active"
-    },
-    {
-      "id": "5a54b659-46d2-48bb-806c-33296eac5d6f",
-      "userId": "840e46fa-9e1d-408e-a024-e53ef7417b0c",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2024-10-20T01:44:21.417Z",
-      "renewalDate": "2026-08-20T01:44:21.430Z",
-      "status": "active"
-    },
-    {
-      "id": "9dd57b18-a1cd-4886-bcca-69beb4f890c2",
-      "userId": "c8004419-50fb-4ea4-9c6d-9b5d947d4889",
-      "tier": "pro",
-      "price": 29,
-      "features": [
-        "Unlimited offers per month",
-        "Advanced matching"
-      ],
-      "startDate": "2025-10-20T01:44:21.417Z",
-      "renewalDate": "2027-01-20T02:44:21.430Z",
       "status": "active"
     }
   ],
   "notifications": [
     {
-      "id": "7cb506fd-be8d-4519-b644-b63a98faeec6",
-      "userId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
+      "id": "57ce4f40-5399-42ec-bd5f-2f8d6b41fdd3",
+      "userId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
       "type": "offer",
       "title": "New Offer Received",
-      "message": "You received a new offer of $308,000 on your property at 8919 Pine Dr, Houston.",
+      "message": "You received a new offer of $298,000 on your property at 7833 Church Ct, Houston.",
       "read": true,
-      "relatedId": "a55b41e3-a2b5-45dd-b8ef-95d9592d66a6",
+      "relatedId": "19f376b6-e12a-439d-84cc-7c5664ad7e73",
       "relatedType": "deal",
-      "createdAt": "2026-02-04T02:44:21.430Z"
+      "createdAt": "2026-02-14T21:18:43.660Z"
     },
     {
-      "id": "52660cb5-f1ec-4365-8ece-1861d3216b2b",
-      "userId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+      "id": "4b1e8f8b-998e-4818-b854-cafda19ba6ff",
+      "userId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
       "type": "offer",
       "title": "Offer Accepted",
-      "message": "Your offer on 890 Elm St, Dallas has been accepted! Next steps: review the contract.",
+      "message": "Your offer on 3772 Cedar Way, Dallas has been accepted! Next steps: review the contract.",
       "read": true,
-      "relatedId": "f0c3606e-cbfd-4722-884b-7f72cf9e16b2",
+      "relatedId": "541eb919-9b7c-42cf-b305-97bde57bbe07",
       "relatedType": "deal",
-      "createdAt": "2026-01-27T02:44:21.430Z"
+      "createdAt": "2026-02-07T21:18:43.660Z"
     },
     {
-      "id": "e0a75eae-3d38-420a-8454-dfc83bdb8de1",
-      "userId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
+      "id": "8b8167f3-076f-474c-996d-96a98eb3167c",
+      "userId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
       "type": "offer",
       "title": "Offer Rejected",
-      "message": "Unfortunately, your offer on 2468 Spring Pl, San Antonio was not accepted. Keep searching for your next deal!",
+      "message": "Unfortunately, your offer on 9374 Franklin Cir, San Antonio was not accepted. Keep searching for your next deal!",
       "read": true,
-      "relatedId": "158270f8-8a22-48f6-82ff-49a6f01fe244",
+      "relatedId": "b57de39e-19a9-4afb-8dda-e3d83ae2db74",
       "relatedType": "deal",
-      "createdAt": "2026-01-26T02:44:21.430Z"
+      "createdAt": "2026-02-20T21:18:43.660Z"
     },
     {
-      "id": "6ab061de-6438-4db9-b3cb-b6ff121bf41b",
-      "userId": "21dca469-6b83-42df-99e1-e4e946fd90a5",
+      "id": "20300839-c37b-4cbd-a7be-bcdc23d6e72c",
+      "userId": "45da1e0c-8ae1-4433-880a-706ed682c5f3",
       "type": "deal",
       "title": "New Deal Match",
-      "message": "A new deal at 5063 Church St, Jacksonville matches your investment criteria. Check it out!",
+      "message": "A new deal at 9288 Elm Way, Jacksonville matches your investment criteria. Check it out!",
       "read": true,
-      "relatedId": "9ac7d39c-d691-4a51-ba72-8a4cf02cce70",
+      "relatedId": "37b63083-9d0a-4945-9a63-bff1beb0eee9",
       "relatedType": "deal",
-      "createdAt": "2026-02-03T02:44:21.430Z"
+      "createdAt": "2026-01-21T21:18:43.660Z"
     },
     {
-      "id": "f8fbdc60-16d8-439a-a204-50d7d7d04e79",
-      "userId": "c265e91c-b75f-4dd3-bb6a-ca373c8a428e",
+      "id": "23b496b5-3369-4cba-94d0-5b1d53c3df2f",
+      "userId": "66908bef-5ef7-4398-8e82-05bb71ee9ce7",
       "type": "deal",
       "title": "Deal Status Update",
-      "message": "The deal at 2646 Main Cir, Tampa has been updated to active.",
+      "message": "The deal at 6173 Cedar Dr, Tampa has been updated to active.",
       "read": true,
-      "relatedId": "88265a7d-93b1-4ca6-a08f-e6953a24a448",
+      "relatedId": "2b37eda4-5ca8-4347-bddb-9584ce186736",
       "relatedType": "deal",
-      "createdAt": "2026-02-06T02:44:21.430Z"
+      "createdAt": "2026-02-06T21:18:43.660Z"
     },
     {
-      "id": "a1069bae-bb99-48c2-9e68-63d4f63d7d83",
-      "userId": "2dd1b283-235f-47d1-a5a1-4f255426703e",
+      "id": "2e372628-044f-408b-9928-6ef2ef90ca76",
+      "userId": "f69c53da-606c-4394-86c2-62e7a70fdc57",
       "type": "transaction",
       "title": "Transaction Update",
-      "message": "Your transaction for 3144 Cypress Dr, Orlando has moved to active.",
+      "message": "Your transaction for 9111 Lincoln Rd, Orlando has moved to active.",
       "read": true,
-      "relatedId": "46dc4d04-d1f5-4da7-be1c-bbff81e5a6ce",
+      "relatedId": "56d9a201-267d-4665-a445-295b01954c8b",
       "relatedType": "deal",
-      "createdAt": "2026-02-05T02:44:21.430Z"
+      "createdAt": "2026-02-20T21:18:43.660Z"
     },
     {
-      "id": "8038baef-746d-49ad-8a6f-4667cf61a12d",
-      "userId": "988dddbd-af36-4cbd-9f97-ef62c907660f",
+      "id": "a43f3242-9149-44f4-b809-a0c5cb0a6c8a",
+      "userId": "b6230bbb-23e1-454c-94c2-939c6d160f3f",
       "type": "transaction",
       "title": "Closing Scheduled",
-      "message": "Closing for 9419 Chestnut Blvd, Sacramento is scheduled. Please review the contract documents.",
+      "message": "Closing for 3480 Elm Cir, Sacramento is scheduled. Please review the contract documents.",
       "read": true,
-      "relatedId": "129d5495-7b5a-48c4-ac5e-e8d897627121",
+      "relatedId": "816d968b-38e1-4a75-b268-9a8f70e0d346",
       "relatedType": "deal",
-      "createdAt": "2026-01-24T02:44:21.430Z"
+      "createdAt": "2026-02-04T21:18:43.660Z"
     },
     {
-      "id": "e9821636-5cd1-4710-b24a-6db26fd7c2db",
-      "userId": "12db2ab2-a389-41f9-b0a6-068520ca9437",
+      "id": "20903c99-01ff-4fa1-b0a6-d23b0eaebb2a",
+      "userId": "e8ffddad-5186-4274-9677-2ee2f470a573",
       "type": "system",
       "title": "Welcome to DispoHub",
       "message": "Your account has been verified. Start exploring wholesale deals in your area!",
       "read": true,
-      "relatedId": "2bdcc286-25fe-4e1b-85b2-598923e99cb7",
+      "relatedId": "2d7f8a83-ed15-400a-8177-01a7a1fd6163",
       "relatedType": null,
-      "createdAt": "2026-01-27T02:44:21.430Z"
+      "createdAt": "2026-01-24T21:18:43.660Z"
     },
     {
-      "id": "efb542dc-689d-4167-af84-410658182839",
-      "userId": "cb80919f-95e3-4462-98a0-2fc2a5c1f603",
+      "id": "d97e88f7-71a9-43d7-99b3-58b6c6ccaf85",
+      "userId": "725e119b-9ccf-4a29-96bf-765a7b262f02",
       "type": "system",
       "title": "Subscription Renewed",
-      "message": "Your free subscription has been renewed. Thank you for being a member!",
+      "message": "Your pro subscription has been renewed. Thank you for being a member!",
       "read": true,
-      "relatedId": "39690783-3e62-42ac-9245-61d7c90079c7",
+      "relatedId": "e4211b4f-d880-4d6e-8608-a6b7769f382f",
       "relatedType": null,
-      "createdAt": "2026-02-19T02:44:21.430Z"
+      "createdAt": "2026-02-12T21:18:43.660Z"
     },
     {
-      "id": "bdd66846-5f42-4ca1-b236-7784f2e829ae",
-      "userId": "c04a9225-bf51-4f3d-8fd5-7253db673e8c",
+      "id": "beea7d8e-c69d-43c1-8fee-04d53eeaaefc",
+      "userId": "6e69254e-8727-44a8-9440-9a2a994dfe92",
       "type": "rating",
       "title": "New Review",
       "message": "You received a 4-star review from a recent transaction. Check your profile!",
       "read": true,
-      "relatedId": "2985ad36-786e-49d9-9691-06e0f99dccb6",
+      "relatedId": "39bf217e-b979-450d-b8f5-a92cf3d4ecae",
       "relatedType": "deal",
-      "createdAt": "2026-01-29T02:44:21.430Z"
+      "createdAt": "2026-02-19T21:18:43.660Z"
     },
     {
-      "id": "411b1ba7-267c-4b04-b5dd-d1db261abf31",
-      "userId": "23681cdb-77f8-4262-a620-30ddbedd6218",
+      "id": "a9e52281-83b8-4036-b9d1-f725dee82e94",
+      "userId": "bbc12c72-3555-444a-aa5d-9f396137023f",
       "type": "deal",
       "title": "Price Drop Alert",
-      "message": "The asking price on 4816 Chestnut Ct, Cleveland has been reduced. Now listed at $156,000.",
+      "message": "The asking price on 4846 Meadow Way, Cleveland has been reduced. Now listed at $283,000.",
       "read": true,
-      "relatedId": "2f87cd97-cb07-46b8-8820-f3121c4cfea0",
+      "relatedId": "499449a4-5757-4b7a-922b-f1f702df45bc",
       "relatedType": "deal",
-      "createdAt": "2026-02-13T02:44:21.430Z"
+      "createdAt": "2026-02-14T21:18:43.660Z"
     },
     {
-      "id": "12827ddc-9be3-416c-90ca-030f80706c04",
-      "userId": "b3554fed-8e19-4ee6-8a94-2468e90f147f",
+      "id": "32279030-1921-4bd5-a71e-8aaf644d9fff",
+      "userId": "3046a2c5-0b51-44ad-ae35-ef6aeb5f1927",
       "type": "system",
       "title": "Complete Your Profile",
       "message": "Add a profile photo and bio to build trust with other users.",
       "read": true,
-      "relatedId": "9da25738-22eb-4cd4-a1d6-8d2d66433b69",
+      "relatedId": "b510e638-f435-47c9-8aa9-277e2e51d314",
       "relatedType": null,
-      "createdAt": "2026-01-28T02:44:21.430Z"
+      "createdAt": "2026-02-01T21:18:43.660Z"
     },
     {
-      "id": "c41c2768-4c86-46d1-be79-0ba193911429",
-      "userId": "e424efb2-0668-4dc8-b3d0-ceb13ee9744b",
+      "id": "232068b1-3f25-4ad3-835e-64d77fbea2ac",
+      "userId": "a34468e0-2bb5-4963-8525-e0fd36efedcc",
       "type": "offer",
       "title": "New Offer Received",
-      "message": "You received a new offer of $208,000 on your property at 9110 Main Rd, Charlotte.",
+      "message": "You received a new offer of $317,000 on your property at 4936 Oak Cir, Charlotte.",
       "read": true,
-      "relatedId": "d65a6546-017e-4da5-bd5b-b6967b5bb90b",
+      "relatedId": "ceac4d70-96c0-4ad7-8c9f-46b0761bbd2a",
       "relatedType": "deal",
-      "createdAt": "2026-02-07T02:44:21.430Z"
+      "createdAt": "2026-01-24T21:18:43.660Z"
     },
     {
-      "id": "ef44fc91-9a87-484f-89c8-c301e6eb66d5",
-      "userId": "6b6524c2-3cbf-4f57-acca-9c5aaa89af20",
+      "id": "04c3f249-ab2c-451c-9af7-17c4477956c3",
+      "userId": "0385a00b-51cb-4318-9ea2-f36d68927254",
       "type": "offer",
       "title": "Offer Accepted",
-      "message": "Your offer on 4865 Dogwood Ln, Raleigh has been accepted! Next steps: review the contract.",
+      "message": "Your offer on 4173 Elm Pl, Raleigh has been accepted! Next steps: review the contract.",
       "read": true,
-      "relatedId": "bf89198d-1bf8-4b5d-add5-47c1fd71a92f",
+      "relatedId": "276b186e-2eb7-47da-a439-fde70b28549c",
       "relatedType": "deal",
-      "createdAt": "2026-01-24T02:44:21.430Z"
+      "createdAt": "2026-02-07T21:18:43.660Z"
     },
     {
-      "id": "09172fc2-2f9e-46e4-a2a0-7331ed452158",
-      "userId": "3abc0ac6-9ad2-4930-b2b5-9816d7c85919",
+      "id": "08138b98-143c-48a5-a02b-5ef2c54acde5",
+      "userId": "3d34f270-df6e-42b7-963a-ee20438eb338",
       "type": "offer",
       "title": "Offer Rejected",
-      "message": "Unfortunately, your offer on 1155 Oak Blvd, Phoenix was not accepted. Keep searching for your next deal!",
+      "message": "Unfortunately, your offer on 7073 Madison Cir, Phoenix was not accepted. Keep searching for your next deal!",
       "read": true,
-      "relatedId": "2a834a07-8cf7-49d1-9821-20a7768ad41e",
+      "relatedId": "8f6849a6-191f-4cac-a0b6-8b8c18c2f93a",
       "relatedType": "deal",
-      "createdAt": "2026-02-20T02:44:21.430Z"
+      "createdAt": "2026-02-18T21:18:43.660Z"
     },
     {
-      "id": "136ad4a9-5cff-4828-bd50-965f5a2f4034",
-      "userId": "0ef8b3c5-e372-4a3e-81f6-5345312c7ead",
+      "id": "941c35e2-dba3-4962-853b-eb08fb181cb1",
+      "userId": "cb299a6d-f15c-45d4-9362-479f1b418449",
       "type": "deal",
       "title": "New Deal Match",
-      "message": "A new deal at 2458 Pine Ln, Tucson matches your investment criteria. Check it out!",
+      "message": "A new deal at 7220 Jackson Pl, Tucson matches your investment criteria. Check it out!",
       "read": false,
-      "relatedId": "892d26b7-90a0-45f8-90f9-cbf4b83a1c0b",
+      "relatedId": "5a8247af-66a9-4373-bb6f-1babbf86e2cd",
       "relatedType": "deal",
-      "createdAt": "2026-02-04T02:44:21.430Z"
+      "createdAt": "2026-02-10T21:18:43.660Z"
     },
     {
-      "id": "de7512ca-27c0-447b-98f3-d918e53f5119",
-      "userId": "c9d6ca2b-7497-4c5f-bff7-0841bfbf26d7",
+      "id": "593899dc-6e62-4dd2-85ea-9d83c19b9ffd",
+      "userId": "d39d65bf-8177-470b-946d-7986c0404f16",
       "type": "deal",
       "title": "Deal Status Update",
-      "message": "The deal at 8920 Madison Ct, Houston has been updated to pending_review.",
+      "message": "The deal at 8925 Washington Ln, Houston has been updated to pending_review.",
       "read": false,
-      "relatedId": "397498eb-d51c-4b26-b957-e3de72e84302",
+      "relatedId": "1d68844b-195e-4b84-84fb-32517ce7ef57",
       "relatedType": "deal",
-      "createdAt": "2026-02-17T02:44:21.430Z"
+      "createdAt": "2026-02-11T21:18:43.660Z"
     },
     {
-      "id": "cff7452a-fb35-422f-af94-271f05292001",
-      "userId": "3de9992d-234e-44da-855c-8e9e4f5c7f76",
+      "id": "6cda5221-854e-4b3f-851d-ed93398ffa9f",
+      "userId": "f0f9ccd0-d264-420e-b116-397b60878a9b",
       "type": "transaction",
       "title": "Transaction Update",
-      "message": "Your transaction for 5646 Sycamore Ct, Dallas has moved to pending_review.",
+      "message": "Your transaction for 4804 Franklin St, Dallas has moved to pending_review.",
       "read": false,
-      "relatedId": "0544f3fe-2836-4728-a616-1a38776bcf00",
+      "relatedId": "ef7d273d-7b37-4a16-bcd0-cd96b7511cb0",
       "relatedType": "deal",
-      "createdAt": "2026-02-18T02:44:21.430Z"
+      "createdAt": "2026-02-03T21:18:43.660Z"
     },
     {
-      "id": "27ff4124-55c9-4955-ab7e-2ce8cd7eefa1",
-      "userId": "2169cf17-36af-4bab-a800-f218a0d3f94d",
+      "id": "983776a5-744b-4466-b722-a4c4b310570f",
+      "userId": "94aa3e8a-d3fb-4f8a-879c-c994525a8fc7",
       "type": "transaction",
       "title": "Closing Scheduled",
-      "message": "Closing for 5285 Main Blvd, San Antonio is scheduled. Please review the contract documents.",
+      "message": "Closing for 1303 Maple Cir, San Antonio is scheduled. Please review the contract documents.",
       "read": false,
-      "relatedId": "0a6798e2-34b8-48d8-b35e-9fbaf60149bd",
+      "relatedId": "3a7d23d1-a62b-436c-8796-fd90d9da9c90",
       "relatedType": "deal",
-      "createdAt": "2026-02-03T02:44:21.430Z"
+      "createdAt": "2026-01-22T21:18:43.660Z"
     },
     {
-      "id": "9fafb71a-09eb-420a-b90e-9b8d810b5804",
-      "userId": "a90f7b2d-884b-4e98-969b-fb7189429687",
+      "id": "19feb6bf-4c41-41c8-9ae6-91c21a4ff913",
+      "userId": "02b0039d-8e70-4fc7-9699-ce50ec5c31f9",
       "type": "system",
       "title": "Welcome to DispoHub",
       "message": "Your account has been verified. Start exploring wholesale deals in your area!",
       "read": false,
-      "relatedId": "33306113-f5d6-4c60-b918-11c27b520f8b",
+      "relatedId": "09511b24-4e50-4dfa-8893-aa7e04dcb741",
       "relatedType": null,
-      "createdAt": "2026-02-19T02:44:21.430Z"
+      "createdAt": "2026-02-06T21:18:43.660Z"
     },
     {
-      "id": "0bc22aa8-71f7-40c1-a216-6fef932b7fbe",
-      "userId": "7ee04c68-7bcb-4527-8fa8-dbc484cfcd5b",
+      "id": "26ba8dc5-bdb0-4b3d-b4d1-40da5be2c616",
+      "userId": "a69c27d5-1fe1-4bbf-b02d-e663f7735690",
       "type": "system",
       "title": "Subscription Renewed",
-      "message": "Your free subscription has been renewed. Thank you for being a member!",
+      "message": "Your pro subscription has been renewed. Thank you for being a member!",
       "read": false,
-      "relatedId": "f6354b1f-77b6-4180-b481-8207aa85748a",
+      "relatedId": "490bddf3-4031-4fe3-9e69-41c9a053ebf7",
       "relatedType": null,
-      "createdAt": "2026-02-03T02:44:21.430Z"
+      "createdAt": "2026-02-07T21:18:43.660Z"
     },
     {
-      "id": "8eac8b04-e73c-478d-b65c-f32591d37188",
-      "userId": "01d45fc0-9648-48a3-a6a5-f3bfcf9504df",
+      "id": "6eb8f58c-a4dd-41e7-b96c-198589b98cf6",
+      "userId": "7286d113-f51e-48f8-a73e-14679f070896",
       "type": "rating",
       "title": "New Review",
-      "message": "You received a 5-star review from a recent transaction. Check your profile!",
+      "message": "You received a 4-star review from a recent transaction. Check your profile!",
       "read": false,
-      "relatedId": "bdd69d94-75f1-4868-90ed-55b8cda462ed",
+      "relatedId": "ada8e242-1220-485f-9985-b192a172df79",
       "relatedType": "deal",
-      "createdAt": "2026-02-18T02:44:21.430Z"
+      "createdAt": "2026-02-14T21:18:43.660Z"
     },
     {
-      "id": "95d611e7-77d2-4526-858d-5b9b20625f77",
-      "userId": "3495821b-7d23-44b9-a7f9-c646ff59529e",
+      "id": "5ef08553-a02e-4d9b-8073-c3efcc75813d",
+      "userId": "a3251ad6-358a-4302-8ee6-78d06ffd1da7",
       "type": "deal",
       "title": "Price Drop Alert",
-      "message": "The asking price on 474 Cypress Blvd, Sacramento has been reduced. Now listed at $246,000.",
+      "message": "The asking price on 6454 Sunset Blvd, Sacramento has been reduced. Now listed at $445,000.",
       "read": false,
-      "relatedId": "7b3aa4a1-a9de-478e-b193-19816fe49803",
+      "relatedId": "9e1c8e12-9d61-42c7-a596-def72521ebce",
       "relatedType": "deal",
-      "createdAt": "2026-02-15T02:44:21.430Z"
+      "createdAt": "2026-01-24T21:18:43.660Z"
     },
     {
-      "id": "9e9e58ab-ef53-4524-b029-4b5cb4bcc814",
-      "userId": "da7d1626-da08-47f9-bb32-c25b3273880c",
+      "id": "0f48f5ba-34e5-4abb-bea1-399ad53e2d5e",
+      "userId": "710b6b15-eee4-410e-bf18-5195f751c4e3",
       "type": "system",
       "title": "Complete Your Profile",
       "message": "Add a profile photo and bio to build trust with other users.",
       "read": false,
-      "relatedId": "68498653-c8cf-486f-a3cd-80a656dfc678",
+      "relatedId": "6f2683fe-7d60-4335-86d4-f3bc8865f0ad",
       "relatedType": null,
-      "createdAt": "2026-02-18T02:44:21.430Z"
+      "createdAt": "2026-02-17T21:18:43.660Z"
     },
     {
-      "id": "7bbcb7ee-b67b-4238-98e5-4b5bcf2164dc",
-      "userId": "2182c2ea-1e89-4e0d-a9a5-911b058bf32f",
+      "id": "58091a38-01a0-48ee-9373-f4028424a51d",
+      "userId": "0419151c-5d88-4512-8097-4531e7609c74",
       "type": "offer",
       "title": "New Offer Received",
-      "message": "You received a new offer of $114,000 on your property at 5008 Maple Ave, Atlanta.",
+      "message": "You received a new offer of $220,000 on your property at 6868 Peachtree Blvd, Atlanta.",
       "read": false,
-      "relatedId": "37ad589d-2301-48de-b6dd-b6a6ddcc2491",
+      "relatedId": "6b2775c4-b623-44e6-b526-0644206ca6f3",
       "relatedType": "deal",
-      "createdAt": "2026-02-08T02:44:21.430Z"
+      "createdAt": "2026-01-21T21:18:43.660Z"
     },
     {
-      "id": "7684de45-4536-40a4-ae91-81d641604c07",
-      "userId": "840e46fa-9e1d-408e-a024-e53ef7417b0c",
+      "id": "c524ccf0-9502-4c7e-9a14-6b9d56a9f878",
+      "userId": "3fff9245-f2be-42ca-94f8-39f1e59c0599",
       "type": "offer",
       "title": "Offer Accepted",
-      "message": "Your offer on 8919 Pine Dr, Houston has been accepted! Next steps: review the contract.",
+      "message": "Your offer on 7833 Church Ct, Houston has been accepted! Next steps: review the contract.",
       "read": false,
-      "relatedId": "a55b41e3-a2b5-45dd-b8ef-95d9592d66a6",
+      "relatedId": "19f376b6-e12a-439d-84cc-7c5664ad7e73",
       "relatedType": "deal",
-      "createdAt": "2026-02-05T02:44:21.430Z"
+      "createdAt": "2026-01-27T21:18:43.661Z"
     },
     {
-      "id": "4306d13b-9e98-4328-8f42-5f772df7c492",
-      "userId": "c8004419-50fb-4ea4-9c6d-9b5d947d4889",
+      "id": "e5cdf153-e34b-4e55-8be9-051085c129dc",
+      "userId": "000d7ca9-258c-46f9-abc6-c2737c793b0f",
       "type": "offer",
       "title": "Offer Rejected",
-      "message": "Unfortunately, your offer on 890 Elm St, Dallas was not accepted. Keep searching for your next deal!",
+      "message": "Unfortunately, your offer on 3772 Cedar Way, Dallas was not accepted. Keep searching for your next deal!",
       "read": false,
-      "relatedId": "f0c3606e-cbfd-4722-884b-7f72cf9e16b2",
+      "relatedId": "541eb919-9b7c-42cf-b305-97bde57bbe07",
       "relatedType": "deal",
-      "createdAt": "2026-02-12T02:44:21.431Z"
+      "createdAt": "2026-02-13T21:18:43.661Z"
     },
     {
-      "id": "709da192-0fd7-4dd3-8955-b362b7bd96ee",
-      "userId": "dbef11ce-ab09-4f0d-af42-a7bb9dde8aa8",
+      "id": "648f2053-1987-4517-b15d-ff556efabfd7",
+      "userId": "09d6a062-1868-4cff-9a8f-7ba46586c0df",
       "type": "deal",
       "title": "New Deal Match",
-      "message": "A new deal at 2468 Spring Pl, San Antonio matches your investment criteria. Check it out!",
+      "message": "A new deal at 9374 Franklin Cir, San Antonio matches your investment criteria. Check it out!",
       "read": false,
-      "relatedId": "158270f8-8a22-48f6-82ff-49a6f01fe244",
+      "relatedId": "b57de39e-19a9-4afb-8dda-e3d83ae2db74",
       "relatedType": "deal",
-      "createdAt": "2026-02-08T02:44:21.431Z"
+      "createdAt": "2026-02-19T21:18:43.661Z"
     },
     {
-      "id": "c2c82fe6-958b-45e8-962d-5bce59075d04",
-      "userId": "145cd4b1-6a00-41b8-a3c4-7d7f52d8cc13",
+      "id": "58dcaad6-02a0-421c-bd18-4663e0839260",
+      "userId": "30335cb9-3a8c-4ba0-8b85-4aedf0643a27",
       "type": "deal",
       "title": "Deal Status Update",
-      "message": "The deal at 5063 Church St, Jacksonville has been updated to active.",
+      "message": "The deal at 9288 Elm Way, Jacksonville has been updated to active.",
       "read": false,
-      "relatedId": "9ac7d39c-d691-4a51-ba72-8a4cf02cce70",
+      "relatedId": "37b63083-9d0a-4945-9a63-bff1beb0eee9",
       "relatedType": "deal",
-      "createdAt": "2026-02-18T02:44:21.431Z"
+      "createdAt": "2026-02-01T21:18:43.661Z"
     },
     {
-      "id": "09ed718e-0fa0-484d-832a-05793b8907e5",
-      "userId": "2d7955d5-e964-4dc7-9a36-f30ba49a62be",
+      "id": "32907c7f-ae19-4c76-958b-1d185ad375ce",
+      "userId": "4a0bb8cc-9aa5-4788-8604-4dae0a471886",
       "type": "transaction",
       "title": "Transaction Update",
-      "message": "Your transaction for 2646 Main Cir, Tampa has moved to active.",
+      "message": "Your transaction for 6173 Cedar Dr, Tampa has moved to active.",
       "read": false,
-      "relatedId": "88265a7d-93b1-4ca6-a08f-e6953a24a448",
+      "relatedId": "2b37eda4-5ca8-4347-bddb-9584ce186736",
       "relatedType": "deal",
-      "createdAt": "2026-01-23T02:44:21.431Z"
+      "createdAt": "2026-01-31T21:18:43.661Z"
     }
   ],
   "education": []

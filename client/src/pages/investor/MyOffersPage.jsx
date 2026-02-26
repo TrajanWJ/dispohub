@@ -8,10 +8,10 @@ import { useToast } from '../../components/common/index.jsx';
 
 // ─── Constants ────────────────────────────────────────────────────
 const PROPERTY_GRADIENTS = {
-  SFH: 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)',
-  'Multi-Family': 'linear-gradient(135deg, #00d68f 0%, #00b894 100%)',
-  Commercial: 'linear-gradient(135deg, #3498db 0%, #74b9ff 100%)',
-  Land: 'linear-gradient(135deg, #ffaa00 0%, #fdcb6e 100%)',
+  SFH: 'rgba(255, 255, 255, 0.08)',
+  'Multi-Family': 'rgba(255, 255, 255, 0.08)',
+  Commercial: 'rgba(255, 255, 255, 0.08)',
+  Land: 'rgba(255, 255, 255, 0.08)',
   default: 'linear-gradient(135deg, #636e72 0%, #b2bec3 100%)',
 };
 
@@ -140,14 +140,14 @@ const s = {
     marginBottom: '1.25rem',
   },
   offerHighlight: {
-    background: 'rgba(108,92,231,0.08)', border: '1px solid var(--accent-primary)',
+    background: 'rgba(255,255,255,0.08)', border: '1px solid var(--accent-primary)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     marginBottom: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
   },
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -264,10 +264,10 @@ export default function MyOffersPage() {
   };
 
   const statCards = [
-    { label: 'Total Offered', value: fmt(totalOffered), icon: '\u{1F4B0}', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-    { label: 'Pending', value: pendingCount, icon: '\u{23F3}', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)' },
-    { label: 'Accepted', value: acceptedCount, icon: '\u2713', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)' },
-    { label: 'Rejected', value: rejectedCount, icon: '\u2717', bg: 'rgba(255,71,87,0.15)', color: 'var(--accent-danger)' },
+    { label: 'Total Offered', value: fmt(totalOffered), icon: '\u{1F4B0}', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
+    { label: 'Pending', value: pendingCount, icon: '\u{23F3}', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)' },
+    { label: 'Accepted', value: acceptedCount, icon: '\u2713', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)' },
+    { label: 'Rejected', value: rejectedCount, icon: '\u2717', bg: 'rgba(248,113,113,0.15)', color: 'var(--accent-danger)' },
   ];
 
   if (loading) {

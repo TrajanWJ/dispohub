@@ -38,7 +38,7 @@ async function createWindow() {
       contextIsolation: true,
       nodeIntegration: false
     },
-    backgroundColor: '#0f1117',
+    backgroundColor: '#050507',
     title: 'DispoHub'
   });
 

@@ -39,7 +39,7 @@ const styles = {
     minHeight: '40vh',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '0.875rem 1rem',
@@ -68,8 +68,8 @@ const styles = {
     position: 'relative',
   },
   notificationCardUnread: {
-    background: 'rgba(108, 92, 231, 0.04)',
-    borderColor: 'rgba(108, 92, 231, 0.2)',
+    background: 'rgba(255, 255, 255, 0.04)',
+    borderColor: 'rgba(255, 255, 255, 0.2)',
   },
   iconWrap: {
     width: 40,
@@ -120,49 +120,49 @@ const typeConfig = {
   offer_received: {
     icon: '\uD83D\uDCE9',
     color: 'var(--accent-primary)',
-    bg: 'rgba(108, 92, 231, 0.12)',
+    bg: 'rgba(255, 255, 255, 0.12)',
     category: 'offers',
   },
   offer_accepted: {
     icon: '\u2705',
     color: 'var(--accent-success)',
-    bg: 'rgba(0, 214, 143, 0.12)',
+    bg: 'rgba(52, 211, 153, 0.12)',
     category: 'offers',
   },
   offer_rejected: {
     icon: '\u274C',
     color: 'var(--accent-danger)',
-    bg: 'rgba(255, 71, 87, 0.12)',
+    bg: 'rgba(248, 113, 113, 0.12)',
     category: 'offers',
   },
   deal_approved: {
     icon: '\uD83C\uDF89',
     color: 'var(--accent-success)',
-    bg: 'rgba(0, 214, 143, 0.12)',
+    bg: 'rgba(52, 211, 153, 0.12)',
     category: 'transactions',
   },
   deal_rejected: {
     icon: '\uD83D\uDEAB',
     color: 'var(--accent-danger)',
-    bg: 'rgba(255, 71, 87, 0.12)',
+    bg: 'rgba(248, 113, 113, 0.12)',
     category: 'transactions',
   },
   transaction_update: {
     icon: '\uD83D\uDD04',
     color: 'var(--accent-info)',
-    bg: 'rgba(52, 152, 219, 0.12)',
+    bg: 'rgba(96, 165, 250, 0.12)',
     category: 'transactions',
   },
   dispute_resolved: {
     icon: '\u2696\uFE0F',
     color: 'var(--accent-warning)',
-    bg: 'rgba(255, 170, 0, 0.12)',
+    bg: 'rgba(251, 191, 36, 0.12)',
     category: 'transactions',
   },
   verification: {
     icon: '\uD83D\uDEE1\uFE0F',
     color: 'var(--accent-info)',
-    bg: 'rgba(52, 152, 219, 0.12)',
+    bg: 'rgba(96, 165, 250, 0.12)',
     category: 'system',
   },
   system: {
@@ -364,7 +364,7 @@ export default function NotificationsPage() {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.borderColor = isUnread
-                      ? 'rgba(108, 92, 231, 0.2)'
+                      ? 'rgba(255, 255, 255, 0.2)'
                       : 'var(--border-color)';
                     e.currentTarget.style.transform = 'translateY(0)';
                   }}

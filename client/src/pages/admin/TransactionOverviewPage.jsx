@@ -92,7 +92,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -272,23 +272,23 @@ export default function TransactionOverviewPage() {
   const statCards = [
     {
       label: 'Total Volume', value: fmtCompact(stats.totalVolume),
-      icon: '\u{1F4B5}', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)',
+      icon: '\u{1F4B5}', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)',
     },
     {
       label: 'Platform Revenue', value: fmtCompact(stats.platformRevenue),
-      icon: '\u{1F4B0}', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)',
+      icon: '\u{1F4B0}', bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)',
     },
     {
       label: 'Active Transactions', value: String(stats.active),
-      icon: '\u{1F504}', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)',
+      icon: '\u{1F504}', bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)',
     },
     {
       label: 'Completed', value: String(stats.completed),
-      icon: '\u2705', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)',
+      icon: '\u2705', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)',
     },
     {
       label: 'Disputed', value: String(stats.disputed),
-      icon: '\u26A0\uFE0F', bg: 'rgba(255,71,87,0.15)', color: 'var(--accent-danger)',
+      icon: '\u26A0\uFE0F', bg: 'rgba(248,113,113,0.15)', color: 'var(--accent-danger)',
     },
   ];
 

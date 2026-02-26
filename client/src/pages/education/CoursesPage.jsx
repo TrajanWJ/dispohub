@@ -26,7 +26,7 @@ const styles = {
     minHeight: '40vh',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '0.875rem 1rem',
@@ -197,12 +197,12 @@ const categories = [
 ];
 
 const categoryColors = {
-  fundamentals: { bg: 'rgba(108, 92, 231, 0.12)', color: 'var(--accent-primary)', bar: 'var(--accent-primary)' },
-  lead_generation: { bg: 'rgba(0, 214, 143, 0.12)', color: 'var(--accent-success)', bar: 'var(--accent-success)' },
-  deal_analysis: { bg: 'rgba(52, 152, 219, 0.12)', color: 'var(--accent-info)', bar: 'var(--accent-info)' },
-  networking: { bg: 'rgba(255, 170, 0, 0.12)', color: 'var(--accent-warning)', bar: 'var(--accent-warning)' },
-  legal: { bg: 'rgba(255, 71, 87, 0.12)', color: 'var(--accent-danger)', bar: 'var(--accent-danger)' },
-  growth: { bg: 'rgba(0, 184, 148, 0.12)', color: '#00b894', bar: '#00b894' },
+  fundamentals: { bg: 'rgba(255, 255, 255, 0.12)', color: 'var(--accent-primary)', bar: 'var(--accent-primary)' },
+  lead_generation: { bg: 'rgba(52, 211, 153, 0.12)', color: 'var(--accent-success)', bar: 'var(--accent-success)' },
+  deal_analysis: { bg: 'rgba(96, 165, 250, 0.12)', color: 'var(--accent-info)', bar: 'var(--accent-info)' },
+  networking: { bg: 'rgba(251, 191, 36, 0.12)', color: 'var(--accent-warning)', bar: 'var(--accent-warning)' },
+  legal: { bg: 'rgba(248, 113, 113, 0.12)', color: 'var(--accent-danger)', bar: 'var(--accent-danger)' },
+  growth: { bg: 'rgba(0, 184, 148, 0.12)', color: 'rgba(255,255,255,0.3)', bar: 'rgba(255,255,255,0.3)' },
 };
 
 function getCategoryStyle(category) {

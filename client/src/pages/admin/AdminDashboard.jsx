@@ -72,7 +72,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 320 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -148,36 +148,36 @@ export default function AdminDashboard() {
   const statCards = [
     {
       label: 'Total Users', value: fmtCompact(stats?.totalUsers || 0),
-      icon: '\uD83D\uDC65', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)',
+      icon: '\uD83D\uDC65', bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)',
     },
     {
       label: 'Active Deals', value: fmtCompact(stats?.activeDeals || 0),
-      icon: '\uD83C\uDFE0', bg: 'rgba(0,214,143,0.15)', color: 'var(--accent-success)',
+      icon: '\uD83C\uDFE0', bg: 'rgba(52,211,153,0.15)', color: 'var(--accent-success)',
     },
     {
       label: 'Transactions This Month', value: fmtCompact(stats?.completedTransactions || stats?.totalTransactions || 0),
-      icon: '\uD83D\uDCB1', bg: 'rgba(52,152,219,0.15)', color: 'var(--accent-info)',
+      icon: '\uD83D\uDCB1', bg: 'rgba(96,165,250,0.15)', color: 'var(--accent-info)',
     },
     {
       label: 'Revenue This Month', value: fmt(stats?.totalRevenue || 0),
-      icon: '\uD83D\uDCB0', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)',
+      icon: '\uD83D\uDCB0', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)',
     },
   ];
 
   const alerts = [
     {
       label: 'Pending Verifications', count: stats?.pendingVerifications || 0,
-      icon: '\uD83D\uDD0D', bg: 'rgba(255,170,0,0.15)', color: 'var(--accent-warning)',
+      icon: '\uD83D\uDD0D', bg: 'rgba(251,191,36,0.15)', color: 'var(--accent-warning)',
       path: '/admin/users',
     },
     {
       label: 'Pending Deals', count: stats?.pendingDeals || 0,
-      icon: '\uD83D\uDCCB', bg: 'rgba(108,92,231,0.15)', color: 'var(--accent-primary)',
+      icon: '\uD83D\uDCCB', bg: 'rgba(255,255,255,0.15)', color: 'var(--accent-primary)',
       path: '/admin/deals',
     },
     {
       label: 'Open Disputes', count: stats?.openDisputes || 0,
-      icon: '\u26A0\uFE0F', bg: 'rgba(255,71,87,0.15)', color: 'var(--accent-danger)',
+      icon: '\u26A0\uFE0F', bg: 'rgba(248,113,113,0.15)', color: 'var(--accent-danger)',
       path: '/admin/disputes',
     },
   ];
@@ -225,8 +225,8 @@ export default function AdminDashboard() {
               <AreaChart data={revenueData}>
                 <defs>
                   <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#6c5ce7" stopOpacity={0.3} />
-                    <stop offset="95%" stopColor="#6c5ce7" stopOpacity={0} />
+                    <stop offset="5%" stopColor="#ffffff" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#ffffff" stopOpacity={0} />
                   </linearGradient>
                 </defs>
                 <CartesianGrid strokeDasharray="3 3" stroke="var(--border-color)" />
@@ -245,8 +245,8 @@ export default function AdminDashboard() {
                   formatter={(v) => [fmt(v), 'Revenue']}
                 />
                 <Area
-                  type="monotone" dataKey="revenue" stroke="#6c5ce7" strokeWidth={2}
-                  fill="url(#colorRevenue)" dot={false} activeDot={{ r: 5, fill: '#6c5ce7' }}
+                  type="monotone" dataKey="revenue" stroke="#ffffff" strokeWidth={2}
+                  fill="url(#colorRevenue)" dot={false} activeDot={{ r: 5, fill: '#ffffff' }}
                 />
               </AreaChart>
             </ResponsiveContainer>
@@ -278,7 +278,7 @@ export default function AdminDashboard() {
                   labelStyle={customTooltip.labelStyle}
                   formatter={(v) => [v, 'Deals']}
                 />
-                <Bar dataKey="deals" fill="#00d68f" radius={[4, 4, 0, 0]} barSize={36} />
+                <Bar dataKey="deals" fill="#34d399" radius={[4, 4, 0, 0]} barSize={36} />
               </BarChart>
             </ResponsiveContainer>
           )}

@@ -1,6 +1,7 @@
 {
   "name": "dispohub",
   "private": true,
+  "type": "module",
   "workspaces": ["server", "client", "electron"],
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",

@@ -55,9 +55,11 @@ export function AuthProvider({ children }) {
   const logout = () => clearAuth();
 
   const devSwitch = async (roleOrId) => {
-    const body = roleOrId.length > 20
-      ? { userId: roleOrId }
-      : { role: roleOrId };
+    const body = typeof roleOrId === 'object' && roleOrId !== null
+      ? roleOrId
+      : (['wholesaler', 'investor', 'admin'].includes(roleOrId)
+        ? { role: roleOrId }
+        : { userId: roleOrId });
     const res = await api.post('/auth/dev-switch', body);
     setAuth(res.data.token, res.data.user);
     return res.data.user;

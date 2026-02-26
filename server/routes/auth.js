@@ -10,14 +10,14 @@ const router = Router();
 router.post('/register', async (req, res) => {
   try {
     const { email, password, name, role, company, location } = req.body;
-    
+
     if (!email || !password || !name) {
       return res.status(400).json({ error: 'Email, password, and name are required' });
     }
     if (!['wholesaler', 'investor'].includes(role)) {
       return res.status(400).json({ error: 'Role must be wholesaler or investor' });
     }
-    
+
     const existing = await findUserByEmail(email);
     if (existing) return res.status(409).json({ error: 'Email already registered' });
 
@@ -39,7 +39,7 @@ router.post('/register', async (req, res) => {
         status: 'active'
       });
     }
-    
+
     const token = generateToken(user.id);
     const { passwordHash: _, ...safeUser } = user;
     res.status(201).json({ token, user: safeUser });
@@ -55,13 +55,13 @@ router.post('/login', async (req, res) => {
     if (!email || !password) {
       return res.status(400).json({ error: 'Email and password are required' });
     }
-    
+
     const user = await findUserByEmail(email);
     if (!user) return res.status(401).json({ error: 'Invalid credentials' });
-    
+
     const valid = await bcrypt.compare(password, user.passwordHash);
     if (!valid) return res.status(401).json({ error: 'Invalid credentials' });
-    
+
     const token = generateToken(user.id);
     const { passwordHash, ...safeUser } = user;
     res.json({ token, user: safeUser });
@@ -77,27 +77,43 @@ router.get('/me', authenticateToken, (req, res) => {
 
 // POST /api/auth/dev-switch — quick role switch for dev toolbar
 router.post('/dev-switch', async (req, res) => {
-  const { role, userId } = req.body;
+  try {
+    const { role, userId } = req.body;
+    console.log('[DevSwitch] Request received:', { role, userId });
 
-  let user;
-  if (userId) {
-    user = await findUserById(userId);
-  } else if (role) {
-    const users = await findAllUsers({ role });
-    user = users[0];
+    let user;
+    if (userId) {
+      user = await findUserById(userId);
+    } else if (role) {
+      const users = await findAllUsers({ role });
+      user = users[0];
+    }
+
+    if (!user) {
+      console.warn('[DevSwitch] No user found for:', { role, userId });
+      return res.status(404).json({ error: 'No user found for that role/id' });
+    }
+
+    const token = generateToken(user.id);
+    const { passwordHash, ...safeUser } = user;
+
+    console.log('[DevSwitch] Successfully switched to:', safeUser.email);
+    res.json({ token, user: safeUser });
+  } catch (err) {
+    console.error('[DevSwitch] Error:', err);
+    res.status(500).json({ error: 'Dev switch failed: ' + err.message });
   }
-
-  if (!user) return res.status(404).json({ error: 'No user found for that role/id' });
-
-  const token = generateToken(user.id);
-  const { passwordHash, ...safeUser } = user;
-  res.json({ token, user: safeUser });
 });
 
 // GET /api/auth/dev-users — list all users for dev toolbar
 router.get('/dev-users', async (req, res) => {
-  const users = await findAllUsers();
-  res.json(users.map(({ passwordHash, ...u }) => u));
+  try {
+    const users = await findAllUsers();
+    res.json(users.map(({ passwordHash, ...u }) => u));
+  } catch (err) {
+    console.error('[DevUsers] Error fetching users:', err);
+    res.status(500).json({ error: 'Failed to fetch dev users' });
+  }
 });
 
 export default router;

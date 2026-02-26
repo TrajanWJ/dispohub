@@ -45,7 +45,7 @@ const styles = {
     minHeight: '40vh',
   },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)',
+    background: 'rgba(248, 113, 113,0.08)',
     border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)',
     padding: '0.875rem 1rem',
@@ -91,7 +91,7 @@ const styles = {
     fontSize: '0.75rem',
     fontWeight: 600,
     color: 'var(--accent-success)',
-    background: 'rgba(0, 214, 143, 0.12)',
+    background: 'rgba(52, 211, 153, 0.12)',
     padding: '0.1875rem 0.5rem',
     borderRadius: '9999px',
   },

@@ -134,7 +134,7 @@ const s = {
 
   center: { display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 300 },
   errorBox: {
-    background: 'rgba(255,71,87,0.08)', border: '1px solid var(--accent-danger)',
+    background: 'rgba(248,113,113,0.08)', border: '1px solid var(--accent-danger)',
     borderRadius: 'var(--border-radius)', padding: '1rem 1.25rem',
     color: 'var(--accent-danger)', fontSize: '0.9rem', marginBottom: '1.25rem',
   },
@@ -335,10 +335,10 @@ export default function RevenueReportsPage() {
                           ...s.bar,
                           height: `${revHeight}%`,
                           background: isTop
-                            ? 'linear-gradient(180deg, #a78bfa 0%, #6c5ce7 100%)'
-                            : 'linear-gradient(180deg, #8b7bd4 0%, #6c5ce7 100%)',
+                            ? 'linear-gradient(180deg, rgba(255,255,255,0.5) 0%, #ffffff 100%)'
+                            : 'linear-gradient(180deg, rgba(255,255,255,0.4) 0%, #ffffff 100%)',
                           opacity: isHovered ? 1 : 0.85,
-                          boxShadow: isHovered ? '0 0 12px rgba(108,92,231,0.4)' : 'none',
+                          boxShadow: isHovered ? '0 0 12px rgba(255,255,255,0.4)' : 'none',
                         }} />
 
                         {/* Volume bar */}
@@ -346,10 +346,10 @@ export default function RevenueReportsPage() {
                           ...s.bar,
                           height: `${volHeight}%`,
                           background: isTop
-                            ? 'linear-gradient(180deg, #34d399 0%, #00d68f 100%)'
-                            : 'linear-gradient(180deg, #2bc4a0 0%, #00d68f 100%)',
+                            ? 'linear-gradient(180deg, #34d399 0%, #34d399 100%)'
+                            : 'linear-gradient(180deg, rgba(52,211,153,0.7) 0%, #34d399 100%)',
                           opacity: isHovered ? 1 : 0.85,
-                          boxShadow: isHovered ? '0 0 12px rgba(0,214,143,0.4)' : 'none',
+                          boxShadow: isHovered ? '0 0 12px rgba(52,211,153,0.4)' : 'none',
                         }} />
                       </div>
 
@@ -399,7 +399,7 @@ export default function RevenueReportsPage() {
                   return (
                     <tr
                       key={i}
-                      style={{ background: isTop ? 'rgba(108,92,231,0.04)' : 'transparent' }}
+                      style={{ background: isTop ? 'rgba(255,255,255,0.04)' : 'transparent' }}
                     >
                       <td style={s.td}>
                         <span style={{ fontWeight: 500 }}>{item.period || item.month || item.label || '-'}</span>
